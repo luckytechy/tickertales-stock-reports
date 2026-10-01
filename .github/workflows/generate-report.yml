@@ -1,0 +1,89 @@
+name: Generate Stock Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "NSE symbol (e.g. ITC, TATACOMM, COALINDIA)"
+        required: true
+        type: string
+      peer:
+        description: "Optional peer to compare against (e.g. HINDUNILVR)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Normalise ticker
+        id: tk
+        run: |
+          TICKER=$(echo "${{ inputs.ticker }}" | tr '[:lower:]' '[:upper:]' | tr -d ' .' | sed 's/NS$//')
+          echo "ticker=$TICKER" >> "$GITHUB_OUTPUT"
+          echo "Building report for $TICKER"
+
+      - name: Fetch market data and build charts
+        run: |
+          python scripts/fetch_data.py "${{ steps.tk.outputs.ticker }}" \
+            ${{ inputs.peer && format('--peer {0}', inputs.peer) || '' }} \
+            --out build/
+
+      - name: Write analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/write_analysis.py --facts build/facts.json --out build/
+
+      - name: Render page
+        run: |
+          python scripts/build_page.py \
+            --ticker "${{ steps.tk.outputs.ticker }}" \
+            --build build/ --out docs/stocks/
+
+      - name: Rebuild index
+        run: python scripts/build_index.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Report: ${{ steps.tk.outputs.ticker }} ($(date -u +%Y-%m-%d))"
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          T="${{ steps.tk.outputs.ticker }}"
+          echo "### Report ready: $T" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Page will be live in ~1 minute at:" >> $GITHUB_STEP_SUMMARY
+          echo "\`https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stocks/$T.html\`" >> $GITHUB_STEP_SUMMARY
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "> Built in **data-only mode** — no \`ANTHROPIC_API_KEY\` secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
+          fi
