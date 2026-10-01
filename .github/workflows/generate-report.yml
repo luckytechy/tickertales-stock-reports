@@ -36,6 +36,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Prepare logo
+        run: python scripts/prepare_logo.py
+
       - name: Normalise ticker
         id: tk
         run: |
@@ -67,7 +70,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          git add docs/ templates/
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
@@ -85,5 +88,5 @@ jobs:
           echo "\`https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stocks/$T.html\`" >> $GITHUB_STEP_SUMMARY
           if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "> Built in **data-only mode** — no \`ANTHROPIC_API_KEY\` secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
+            echo "> Built in **data-only mode** - no \`ANTHROPIC_API_KEY\` secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
           fi
