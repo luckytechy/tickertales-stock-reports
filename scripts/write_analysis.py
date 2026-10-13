@@ -5,7 +5,8 @@ Write the narrative sections of the report.
 The numbers come from fetch_data.py (deterministic). This step adds the
 judgement: what changed, what the price implies, what to watch.
 
-If ANTHROPIC_API_KEY is set, Claude writes it using live web search.
+If ANTHROPIC_API_KEY (an API key) or CLAUDE_CODE_OAUTH_TOKEN (a Claude Code
+subscription token) is set, Claude writes it using live web search.
 If not, the page still builds - narrative sections say "not generated"
 rather than inventing a story.
 
@@ -88,10 +89,11 @@ Return ONLY valid JSON, no markdown fences, with exactly these keys:
 }"""
 
 
-def fallback(facts):
-    """No API key - build an honest data-only page."""
+def fallback(facts, reason="no Claude key was set"):
+    """No key, or the writing step failed - build an honest data-only page."""
     t = facts["ticker"]
-    na = "Not generated - no ANTHROPIC_API_KEY was set, so no narrative analysis was written for this section. The price data, returns and charts on this page are still fully verified."
+    na = (f"Not generated - {reason}, so no narrative analysis was written for this section. "
+          "The price data, returns and charts on this page are still fully verified.")
     r = facts.get("returns_pct", {})
 
     tags = []
@@ -121,8 +123,8 @@ def fallback(facts):
             + "No narrative analysis was generated."
         ),
         "valuation_read": na, "growth_read": na, "health_read": na, "ownership_read": na,
-        "strengths": ["Not generated - no API key set"],
-        "watchpoints": ["Not generated - no API key set"],
+        "strengths": ["Not generated"],
+        "watchpoints": ["Not generated"],
         "one_thing": na,
         "quality": "Not assessed",
         "quality_why": na,
@@ -132,6 +134,49 @@ def fallback(facts):
     }
 
 
+def parse_json(text):
+    text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        raise ValueError("no JSON object in model response")
+    return json.loads(m.group(0))
+
+
+def via_api(key, prompt):
+    import anthropic
+    client = anthropic.Anthropic(api_key=key)
+    resp = client.messages.create(
+        model=MODEL,
+        max_tokens=8000,
+        system=SYSTEM,
+        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 12}],
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return "".join(b.text for b in resp.content if b.type == "text")
+
+
+def via_claude_code(token, prompt):
+    """Use the Claude Code CLI, signed in with a Claude Code OAuth token
+    (made by `claude setup-token`). This is the supported way to use a
+    Claude subscription inside GitHub Actions."""
+    import subprocess
+    env = dict(os.environ)
+    env.pop("ANTHROPIC_API_KEY", None)          # else the CLI treats it as an API key
+    env["CLAUDE_CODE_OAUTH_TOKEN"] = token
+    cmd = ["claude", "-p", "--output-format", "json",
+           "--append-system-prompt", SYSTEM,
+           "--allowedTools", "WebSearch", "WebFetch",
+           "--max-turns", "40"]
+    r = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
+                       env=env, timeout=1200)
+    if r.returncode != 0:
+        raise RuntimeError(f"claude CLI exit {r.returncode}: {(r.stderr or r.stdout)[-600:]}")
+    out = json.loads(r.stdout)
+    if out.get("is_error"):
+        raise RuntimeError(f"claude CLI error: {str(out.get('result'))[:600]}")
+    return out.get("result", "")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--facts", required=True)
@@ -139,18 +184,16 @@ def main():
     a = ap.parse_args()
 
     facts = json.load(open(a.facts))
-    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     outpath = os.path.join(a.out, "analysis.json")
 
-    if not key:
-        print("No ANTHROPIC_API_KEY - building data-only page.")
-        json.dump(fallback(facts), open(outpath, "w"), indent=2)
-        return
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    token = os.environ.get("CLAUDE_CODE_OAUTH_TOKEN", "").strip()
+    # A Claude Code OAuth token pasted into the ANTHROPIC_API_KEY secret is fine too.
+    if key.startswith("sk-ant-oat"):
+        token, key = token or key, ""
 
-    try:
-        import anthropic
-    except ImportError:
-        print("anthropic package missing - data-only page.", file=sys.stderr)
+    if not key and not token:
+        print("No Claude key or token - building data-only page.")
         json.dump(fallback(facts), open(outpath, "w"), indent=2)
         return
 
@@ -168,29 +211,22 @@ Pay attention to the corporate-action data above before describing any price
 fall. If short_history_mode is true, say clearly that long-horizon evidence
 does not exist yet.
 
-Return only the JSON object."""
+Return only the JSON object, with no other text."""
 
     try:
-        client = anthropic.Anthropic(api_key=key)
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=8000,
-            system=SYSTEM,
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 12}],
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = "".join(b.text for b in resp.content if b.type == "text").strip()
-        text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.M).strip()
-        m = re.search(r"\{.*\}", text, re.S)
-        if not m:
-            raise ValueError("no JSON object in model response")
-        analysis = json.loads(m.group(0))
+        if token:
+            print("Writing analysis with Claude Code (OAuth token).")
+            text = via_claude_code(token, prompt)
+        else:
+            print("Writing analysis with the Anthropic API key.")
+            text = via_api(key, prompt)
+        analysis = parse_json(text)
         json.dump(analysis, open(outpath, "w"), indent=2)
         print(f"Analysis written for {facts['ticker']} "
               f"(quality: {analysis.get('quality')}, confidence: {analysis.get('data_confidence')})")
     except Exception as e:
         print(f"Analysis step failed ({e}) - falling back to data-only page.", file=sys.stderr)
-        json.dump(fallback(facts), open(outpath, "w"), indent=2)
+        json.dump(fallback(facts, "the analysis step failed on this run"), open(outpath, "w"), indent=2)
 
 
 if __name__ == "__main__":

@@ -22,6 +22,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -35,6 +36,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Set up Node (for Claude Code)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
 
       - name: Prepare logo
         run: python scripts/prepare_logo.py
@@ -55,6 +64,7 @@ jobs:
       - name: Write analysis
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python scripts/write_analysis.py --facts build/facts.json --out build/
 
       - name: Render page
@@ -86,7 +96,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Page will be live in ~1 minute at:" >> $GITHUB_STEP_SUMMARY
           echo "\`https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stocks/$T.html\`" >> $GITHUB_STEP_SUMMARY
-          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}" ]; then
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "> Built in **data-only mode** - no \`ANTHROPIC_API_KEY\` secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
+            echo "> Built in **data-only mode** - no Claude key or token secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
           fi
