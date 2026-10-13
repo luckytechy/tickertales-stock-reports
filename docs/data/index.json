@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 7,
-  "updated_at": "2026-10-13T23:31:56+00:00",
+  "count": 8,
+  "updated_at": "2026-10-13T23:40:15+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -55,6 +55,24 @@
       "dividend_yield_pct": 1.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T11:21:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "slug": "bhartiartl",
+      "one_liner": "Bharti Airtel is India's second-largest mobile operator, also running towers, home broadband, enterprise data/cloud services, and a majority-owned pan-African mobile business, Airtel Africa.",
+      "tags": [
+        "P/E ~36-39x",
+        "Net debt/EBITDA 1.17x, down from 1.70x",
+        "ARPU \u20b9264, +5.6% YoY",
+        "Stock near 52-wk low",
+        "Zero promoter pledging"
+      ],
+      "last_close": 1778.7,
+      "return_1y_pct": -7.87,
+      "dividend_yield_pct": 1.35,
+      "data_as_of": "2026-10-12",
+      "generated_at": "2026-10-13T23:40:15+00:00",
       "has_narrative": true
     },
     {
