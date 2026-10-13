@@ -1,3 +1,4 @@
 date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_equiv_usd
 2026-10-13,AXISBANK,claude-haiku-4-5-20251001+claude-sonnet-5,2579,9265,165511,34052,211407,9,134,0.5491273000000001
 2026-10-13,ASIANPAINT,claude-haiku-4-5-20251001+claude-sonnet-5,2712,8783,262153,38142,311790,12,149,0.6681039000000001
+2026-10-13,BAJAJ-AUTO,claude-haiku-4-5-20251001+claude-sonnet-5,2573,9671,53771,21750,87765,2,317,1.5339588
