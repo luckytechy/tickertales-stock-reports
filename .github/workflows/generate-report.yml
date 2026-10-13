@@ -69,7 +69,7 @@ jobs:
         env:
           TICKER: ${{ inputs.ticker }}
         run: |
-          git add docs/data
+          git add docs/data logs
           if git diff --staged --quiet; then
             echo "No changes to publish."
           else

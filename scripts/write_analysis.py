@@ -129,6 +129,25 @@ def fallback(facts, reason="no Claude key was set"):
     }
 
 
+USAGE_PATH = None
+
+
+def record_usage(u):
+    """Save token usage for this report (build/usage.json) and show it in the run summary."""
+    total = sum(u.get(k) or 0 for k in ("input_tokens", "output_tokens",
+                                         "cache_read_input_tokens", "cache_creation_input_tokens"))
+    u["total_tokens"] = total
+    if USAGE_PATH:
+        json.dump(u, open(USAGE_PATH, "w"), indent=2)
+    print("Token usage: " + ", ".join(f"{k}={v}" for k, v in u.items()))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a") as f:
+            f.write("\n### Claude usage\n\n| | |\n|---|---|\n")
+            for k, v in u.items():
+                f.write(f"| {k} | {v} |\n")
+
+
 def parse_json(text):
     text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
     m = re.search(r"\{.*\}", text, re.S)
@@ -147,6 +166,11 @@ def via_api(key, prompt):
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 12}],
         messages=[{"role": "user", "content": prompt}],
     )
+    u = resp.usage
+    record_usage({"via": "api", "model": MODEL,
+                  "input_tokens": u.input_tokens, "output_tokens": u.output_tokens,
+                  "cache_read_input_tokens": getattr(u, "cache_read_input_tokens", 0) or 0,
+                  "cache_creation_input_tokens": getattr(u, "cache_creation_input_tokens", 0) or 0})
     return "".join(b.text for b in resp.content if b.type == "text")
 
 
@@ -167,6 +191,16 @@ def via_claude_code(token, prompt):
     if r.returncode != 0:
         raise RuntimeError(f"claude CLI exit {r.returncode}: {(r.stderr or r.stdout)[-600:]}")
     out = json.loads(r.stdout)
+    u = out.get("usage") or {}
+    record_usage({"via": "claude-code",
+                  "model": ",".join((out.get("modelUsage") or {}).keys()) or None,
+                  "input_tokens": u.get("input_tokens", 0),
+                  "output_tokens": u.get("output_tokens", 0),
+                  "cache_read_input_tokens": u.get("cache_read_input_tokens", 0),
+                  "cache_creation_input_tokens": u.get("cache_creation_input_tokens", 0),
+                  "turns": out.get("num_turns"),
+                  "duration_s": round((out.get("duration_ms") or 0) / 1000),
+                  "api_equivalent_usd": out.get("total_cost_usd")})
     if out.get("is_error"):
         raise RuntimeError(f"claude CLI error: {str(out.get('result'))[:600]}")
     return out.get("result", "")
@@ -180,6 +214,8 @@ def main():
 
     facts = json.load(open(a.facts))
     outpath = os.path.join(a.out, "analysis.json")
+    global USAGE_PATH
+    USAGE_PATH = os.path.join(a.out, "usage.json")
 
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     token = os.environ.get("CLAUDE_CODE_OAUTH_TOKEN", "").strip()

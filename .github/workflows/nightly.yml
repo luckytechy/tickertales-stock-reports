@@ -73,7 +73,7 @@ jobs:
             [ "$PEER" = "-" ] && PEER=""
             echo "::group::$T ($WHY)"
             if bash scripts/run_report.sh "$T" "$PEER"; then
-              git add docs/data
+              git add docs/data logs
               if ! git diff --staged --quiet; then
                 git commit -m "Report: $T - $WHY ($(date -u +%Y-%m-%d))"
                 git pull --rebase origin main
