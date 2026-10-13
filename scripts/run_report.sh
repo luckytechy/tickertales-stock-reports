@@ -18,10 +18,8 @@ fi
 
 python scripts/export_data.py --ticker "$T" --build build/ --out docs/data/
 
-# Keep a running log of Claude usage per report.
-mkdir -p logs
-[ -f logs/usage.csv ] || echo "date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_equiv_usd" > logs/usage.csv
-python - "$T" >> logs/usage.csv <<'PY'
+# This report's usage line; publish.sh appends it to logs/usage.csv.
+python - "$T" > build/usage_line.csv <<'PY'
 import json, os, sys, datetime
 u = json.load(open("build/usage.json")) if os.path.exists("build/usage.json") else {}
 g = lambda k: u.get(k, "")
@@ -29,3 +27,5 @@ print(",".join(str(x) for x in [datetime.date.today(), sys.argv[1], (g("model") 
       g("input_tokens"), g("output_tokens"), g("cache_read_input_tokens"), g("cache_creation_input_tokens"),
       g("total_tokens"), g("turns"), g("duration_s"), g("api_equivalent_usd")]))
 PY
+cp "docs/data/$T.json" build/report.json
+echo "$T" > build/ticker.txt

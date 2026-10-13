@@ -69,14 +69,7 @@ jobs:
         env:
           TICKER: ${{ inputs.ticker }}
         run: |
-          git add docs/data logs
-          if git diff --staged --quiet; then
-            echo "No changes to publish."
-          else
-            git commit -m "Report: $TICKER ($(date -u +%Y-%m-%d))"
-            git pull --rebase origin main
-            git push
-          fi
+          bash scripts/publish.sh "Report: $TICKER ($(date -u +%Y-%m-%d))"
 
       - name: Show it on tickertales.in
         run: bash scripts/notify_site.sh

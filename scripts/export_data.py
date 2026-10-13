@@ -16,12 +16,17 @@ SCHEMA_VERSION = 1
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ticker", required=True)
+    ap.add_argument("--ticker", help="report to export; omit with --index-only")
+    ap.add_argument("--index-only", action="store_true", help="just rebuild index.json from the files present")
     ap.add_argument("--build", default="build")
     ap.add_argument("--out", default="docs/data")
     a = ap.parse_args()
 
     os.makedirs(a.out, exist_ok=True)
+    if a.index_only:
+        n = build_index(a.out)
+        print(f"Index rebuilt ({n} reports)")
+        return
     load = lambda n: json.load(open(os.path.join(a.build, n)))
     facts, analysis = load("facts.json"), load("analysis.json")
     charts = load("charts.json") if os.path.exists(os.path.join(a.build, "charts.json")) else {}
@@ -42,9 +47,13 @@ def main():
         "charts": charts,
     }
     json.dump(report, open(os.path.join(a.out, f"{tk}.json"), "w"), indent=2)
+    n = build_index(a.out)
+    print(f"Exported {tk} ({n} reports in index)")
 
+
+def build_index(out):
     items = []
-    for f in sorted(glob.glob(os.path.join(a.out, "*.json"))):
+    for f in sorted(glob.glob(os.path.join(out, "*.json"))):
         if os.path.basename(f) == "index.json":
             continue
         r = json.load(open(f))
@@ -65,8 +74,8 @@ def main():
         })
     json.dump({"schema_version": SCHEMA_VERSION, "count": len(items),
                "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-               "reports": items}, open(os.path.join(a.out, "index.json"), "w"), indent=2)
-    print(f"Exported {tk} ({len(items)} reports in index)")
+               "reports": items}, open(os.path.join(out, "index.json"), "w"), indent=2)
+    return len(items)
 
 
 if __name__ == "__main__":

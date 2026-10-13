@@ -72,15 +72,9 @@ jobs:
             [ -z "$T" ] && continue
             [ "$PEER" = "-" ] && PEER=""
             echo "::group::$T ($WHY)"
-            if bash scripts/run_report.sh "$T" "$PEER"; then
-              git add docs/data logs
-              if ! git diff --staged --quiet; then
-                git commit -m "Report: $T - $WHY ($(date -u +%Y-%m-%d))"
-                git pull --rebase origin main
-                git push
-                built=1
-                echo "- $T published ($WHY)" >> "$GITHUB_STEP_SUMMARY"
-              fi
+            if bash scripts/run_report.sh "$T" "$PEER" && bash scripts/publish.sh "Report: $T - $WHY ($(date -u +%Y-%m-%d))"; then
+              built=1
+              echo "- $T published ($WHY)" >> "$GITHUB_STEP_SUMMARY"
             else
               echo "::warning::$T failed tonight - it will be picked up again tomorrow."
               echo "- $T FAILED ($WHY)" >> "$GITHUB_STEP_SUMMARY"
