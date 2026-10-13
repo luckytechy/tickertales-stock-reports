@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "count": 1,
+  "updated_at": "2026-10-13T06:33:24+00:00",
+  "reports": [
+    {
+      "ticker": "WIPRO",
+      "slug": "wipro",
+      "one_liner": "Wipro is a Bengaluru-based IT services and consulting company that writes software, runs client IT systems and offers engineering/BPO services, mostly billed to large overseas clients in dollars.",
+      "tags": [
+        "P/E ~12x",
+        "Div yield ~4.8%",
+        "Down 49% from FY22 peak",
+        "Margin at 15-qtr low",
+        "Results due Oct 15"
+      ],
+      "quality": "Moderate",
+      "last_close": 167.25,
+      "return_1y_pct": -29.21,
+      "dividend_yield_pct": 4.78,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-13T06:33:24+00:00",
+      "has_narrative": true
+    }
+  ]
+}

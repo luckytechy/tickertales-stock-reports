@@ -1,9 +1,9 @@
 {
   "ticker": "WIPRO",
-  "one_liner": "Wipro is an India-based global IT services and consulting company providing technology, engineering and business-process outsourcing to large corporates worldwide.",
+  "one_liner": "Wipro is a Bengaluru-based IT services and consulting company that writes software, runs client IT systems and offers engineering/BPO services, mostly billed to large overseas clients in dollars.",
   "quality": "Moderate",
-  "last_close": 166.4,
+  "last_close": 167.25,
   "last_date": "2026-10-13",
-  "return_1y": -29.57,
+  "return_1y": -29.21,
   "generated": "2026-10-13"
 }
