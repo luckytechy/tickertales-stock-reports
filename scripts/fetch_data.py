@@ -247,6 +247,15 @@ def main():
         }
 
     json.dump(facts, open(os.path.join(a.out, "facts.json"), "w"), indent=2)
+
+    # ---- raw chart points, so a website can draw its own charts ----
+    def pts(ser):
+        return [[str(i.date()), round(float(v), 2)] for i, v in ser.items()]
+    charts = {"timeframes": {}, "compare": {k: pts(v) for k, v in series.items()}}
+    for lbl, d in use.items():
+        win = s if d > 90000 else s[s.index >= end - pd.Timedelta(days=d)]
+        charts["timeframes"][lbl] = pts(anchor_weekly(win) if d > 200 else win)
+    json.dump(charts, open(os.path.join(a.out, "charts.json"), "w"))
     print(json.dumps(facts, indent=2))
     print(f"\nWrote data + charts to {a.out}/")
     if short_history:

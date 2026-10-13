@@ -73,6 +73,9 @@ jobs:
             --ticker "${{ steps.tk.outputs.ticker }}" \
             --build build/ --out docs/stocks/
 
+      - name: Export data for the website
+        run: python scripts/export_data.py --ticker "${{ steps.tk.outputs.ticker }}" --build build/ --out docs/data/
+
       - name: Rebuild index
         run: python scripts/build_index.py
 
