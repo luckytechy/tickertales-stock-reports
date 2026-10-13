@@ -26,6 +26,9 @@ def main():
     facts, analysis = load("facts.json"), load("analysis.json")
     charts = load("charts.json") if os.path.exists(os.path.join(a.build, "charts.json")) else {}
     tk = a.ticker.upper()
+    # No quality rating on StockSense.
+    analysis.pop("quality", None)
+    analysis.pop("quality_why", None)
 
     report = {
         "schema_version": SCHEMA_VERSION,
@@ -46,12 +49,13 @@ def main():
             continue
         r = json.load(open(f))
         fx, an = r.get("facts", {}), r.get("analysis", {})
+        if an.pop("quality", None) is not None or an.pop("quality_why", None) is not None:
+            json.dump(r, open(f, "w"), indent=2)  # strip ratings from older reports
         items.append({
             "ticker": r["ticker"],
             "slug": r["slug"],
             "one_liner": an.get("one_liner"),
             "tags": an.get("tags", []),
-            "quality": an.get("quality"),
             "last_close": fx.get("last_close"),
             "return_1y_pct": (fx.get("returns_pct", {}).get("1Y") or {}).get("stock"),
             "dividend_yield_pct": fx.get("dividend_yield_pct"),

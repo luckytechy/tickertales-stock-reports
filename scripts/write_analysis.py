@@ -81,9 +81,6 @@ Return ONLY valid JSON, no markdown fences, with exactly these keys:
  "strengths": ["3-4 items, each tied to a specific number"],
  "watchpoints": ["3-4 items, specific"],
  "one_thing": "the single metric or event that resolves the central question",
- "quality": "Strong | Moderate | Weak",
- "quality_why": "2-3 sentences. If quality and shareholder outcome diverge,
-    hold both facts together.",
  "data_confidence": "High | Moderate | Low",
  "data_notes": "what was cross-checked, what could not be verified"
 }"""
@@ -126,8 +123,6 @@ def fallback(facts, reason="no Claude key was set"):
         "strengths": ["Not generated"],
         "watchpoints": ["Not generated"],
         "one_thing": na,
-        "quality": "Not assessed",
-        "quality_why": na,
         "data_confidence": "Moderate",
         "data_notes": ("Price history, returns, dividends and corporate actions were fetched live "
                        "and are verified. No fundamental or news analysis was performed."),
@@ -221,9 +216,12 @@ Return only the JSON object, with no other text."""
             print("Writing analysis with the Anthropic API key.")
             text = via_api(key, prompt)
         analysis = parse_json(text)
+        # StockSense does not publish a quality rating - drop it if the model adds one.
+        analysis.pop("quality", None)
+        analysis.pop("quality_why", None)
         json.dump(analysis, open(outpath, "w"), indent=2)
         print(f"Analysis written for {facts['ticker']} "
-              f"(quality: {analysis.get('quality')}, confidence: {analysis.get('data_confidence')})")
+              f"(confidence: {analysis.get('data_confidence')})")
     except Exception as e:
         print(f"Analysis step failed ({e}) - falling back to data-only page.", file=sys.stderr)
         json.dump(fallback(facts, "the analysis step failed on this run"), open(outpath, "w"), indent=2)
