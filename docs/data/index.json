@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 5,
-  "updated_at": "2026-10-13T11:21:15+00:00",
+  "count": 6,
+  "updated_at": "2026-10-13T23:29:29+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -73,6 +73,24 @@
       "dividend_yield_pct": 5.59,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T08:40:29+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "RELIANCE",
+      "slug": "reliance",
+      "one_liner": "Reliance Industries is India's largest company by revenue, a conglomerate spanning oil refining and petrochemicals (O2C), telecom (Jio), retail, and new energy.",
+      "tags": [
+        "P/E ~21-22x",
+        "At 52-week low",
+        "3Y/5Y price return negative",
+        "Jio IPO opening ~Oct 21",
+        "Zero promoter pledge"
+      ],
+      "last_close": 1158.9,
+      "return_1y_pct": -15.33,
+      "dividend_yield_pct": 0.52,
+      "data_as_of": "2026-10-12",
+      "generated_at": "2026-10-13T23:29:28+00:00",
       "has_narrative": true
     },
     {
