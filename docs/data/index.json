@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 6,
-  "updated_at": "2026-10-13T23:29:29+00:00",
+  "count": 7,
+  "updated_at": "2026-10-13T23:31:56+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -55,6 +55,24 @@
       "dividend_yield_pct": 1.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T11:21:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HDFCBANK",
+      "slug": "hdfcbank",
+      "one_liner": "HDFC Bank is India's largest private-sector lender, taking deposits and lending across retail, corporate and (since absorbing parent HDFC Ltd in 2023) home loans.",
+      "tags": [
+        "P/E ~14x",
+        "ROE 13.6% (merger-diluted)",
+        "1Y return -27% vs peer -2%",
+        "New CEO 27 Oct",
+        "US securities lawsuits pending"
+      ],
+      "last_close": 704.9,
+      "return_1y_pct": -26.66,
+      "dividend_yield_pct": 1.84,
+      "data_as_of": "2026-10-12",
+      "generated_at": "2026-10-13T23:31:56+00:00",
       "has_narrative": true
     },
     {
