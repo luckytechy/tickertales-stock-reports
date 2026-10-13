@@ -34,6 +34,10 @@ def anchor_weekly(s):
     """
     import pandas as pd
     w = s.resample("W").last().dropna()
+    # Weekly buckets are labelled with the week's Sunday, so the last point
+    # could carry a future date. Relabel it with the real last trading day.
+    if len(w):
+        w = w.rename(index={w.index[-1]: s.index[-1]})
     first = pd.Series([s.iloc[0]], index=[s.index[0]])
     w = pd.concat([first, w])
     return w[~w.index.duplicated(keep="first")].sort_index()
@@ -207,7 +211,7 @@ def main():
     # ---- corporate actions: ALWAYS check before calling a fall a "crash" ----
     split_list = []
     if splits is not None and len(splits):
-        split_list = [{"date": str(k.date()), "ratio": float(v)} for k, v in splits.items()]
+        split_list = [{"date": str(k.date()), "ratio": round(float(v), 2)} for k, v in splits.items()]
 
     y1 = s[s.index >= end - pd.Timedelta(days=365)]
     facts = {

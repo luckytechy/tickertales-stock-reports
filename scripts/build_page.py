@@ -139,7 +139,7 @@ def main():
                    f'{facts["years_listed"]} years of data exist, so 3-year and 5-year views are '
                    f'not shown. Treat conclusions as provisional.</p>')
     if facts.get("has_corporate_action"):
-        sp = ", ".join(f'{s["date"]} ({s["ratio"]}x)' for s in facts["splits"])
+        sp = ", ".join(f'{s["date"]} ({float(s["ratio"]):.2f}x)' for s in facts["splits"])
         alerts += (f'<p><b>Corporate actions on record:</b> {esc(sp)}. Price falls around these dates '
                    f'may be adjustments rather than declines.</p>')
     if facts.get("peer_dropped_from_chart"):
