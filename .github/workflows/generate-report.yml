@@ -1,5 +1,8 @@
 name: Generate Stock Report
 
+# Build one StockSense report on demand. The nightly run does this
+# automatically; use this to add or refresh a specific stock right now.
+
 on:
   workflow_dispatch:
     inputs:
@@ -8,7 +11,7 @@ on:
         required: true
         type: string
       peer:
-        description: "Optional peer to compare against (e.g. HINDUNILVR)"
+        description: "Optional peer to compare against (blank = the one in queue/nifty100.json)"
         required: false
         type: string
 
@@ -22,7 +25,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -45,61 +48,35 @@ jobs:
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Prepare logo
-        run: python scripts/prepare_logo.py
-
-      - name: Normalise ticker
-        id: tk
-        run: |
-          TICKER=$(echo "${{ inputs.ticker }}" | tr '[:lower:]' '[:upper:]' | tr -d ' .' | sed 's/NS$//')
-          echo "ticker=$TICKER" >> "$GITHUB_OUTPUT"
-          echo "Building report for $TICKER"
-
-      - name: Fetch market data and build charts
-        run: |
-          python scripts/fetch_data.py "${{ steps.tk.outputs.ticker }}" \
-            ${{ inputs.peer && format('--peer {0}', inputs.peer) || '' }} \
-            --out build/
-
-      - name: Write analysis
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: python scripts/write_analysis.py --facts build/facts.json --out build/
-
-      - name: Render page
-        run: |
-          python scripts/build_page.py \
-            --ticker "${{ steps.tk.outputs.ticker }}" \
-            --build build/ --out docs/stocks/
-
-      - name: Export data for the website
-        run: python scripts/export_data.py --ticker "${{ steps.tk.outputs.ticker }}" --build build/ --out docs/data/
-
-      - name: Rebuild index
-        run: python scripts/build_index.py
-
-      - name: Commit and push
+      - name: Git identity
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ templates/
+
+      - name: Build report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TICKER: ${{ inputs.ticker }}
+          PEER: ${{ inputs.peer }}
+        run: |
+          if [ -z "$PEER" ]; then
+            PEER=$(python -c "import json,sys; t=sys.argv[1].upper().strip(); print(next((c.get('peer','') for c in json.load(open('queue/nifty100.json'))['companies'] if c['ticker']==t), ''))" "$TICKER")
+          fi
+          bash scripts/run_report.sh "$TICKER" "$PEER"
+
+      - name: Publish
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: |
+          git add docs/data logs
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No changes to publish."
           else
-            git commit -m "Report: ${{ steps.tk.outputs.ticker }} ($(date -u +%Y-%m-%d))"
-            git pull --rebase --autostash origin ${{ github.ref_name }}
+            git commit -m "Report: $TICKER ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
             git push
           fi
 
-      - name: Summary
-        run: |
-          T="${{ steps.tk.outputs.ticker }}"
-          echo "### Report ready: $T" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Page will be live in ~1 minute at:" >> $GITHUB_STEP_SUMMARY
-          echo "\`https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stocks/$T.html\`" >> $GITHUB_STEP_SUMMARY
-          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}" ]; then
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "> Built in **data-only mode** - no Claude key or token secret is set, so the narrative sections are empty. Charts and returns are complete." >> $GITHUB_STEP_SUMMARY
-          fi
+      - name: Show it on tickertales.in
+        run: bash scripts/notify_site.sh

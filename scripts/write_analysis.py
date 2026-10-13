@@ -81,9 +81,6 @@ Return ONLY valid JSON, no markdown fences, with exactly these keys:
  "strengths": ["3-4 items, each tied to a specific number"],
  "watchpoints": ["3-4 items, specific"],
  "one_thing": "the single metric or event that resolves the central question",
- "quality": "Strong | Moderate | Weak",
- "quality_why": "2-3 sentences. If quality and shareholder outcome diverge,
-    hold both facts together.",
  "data_confidence": "High | Moderate | Low",
  "data_notes": "what was cross-checked, what could not be verified"
 }"""
@@ -126,12 +123,29 @@ def fallback(facts, reason="no Claude key was set"):
         "strengths": ["Not generated"],
         "watchpoints": ["Not generated"],
         "one_thing": na,
-        "quality": "Not assessed",
-        "quality_why": na,
         "data_confidence": "Moderate",
         "data_notes": ("Price history, returns, dividends and corporate actions were fetched live "
                        "and are verified. No fundamental or news analysis was performed."),
     }
+
+
+USAGE_PATH = None
+
+
+def record_usage(u):
+    """Save token usage for this report (build/usage.json) and show it in the run summary."""
+    total = sum(u.get(k) or 0 for k in ("input_tokens", "output_tokens",
+                                         "cache_read_input_tokens", "cache_creation_input_tokens"))
+    u["total_tokens"] = total
+    if USAGE_PATH:
+        json.dump(u, open(USAGE_PATH, "w"), indent=2)
+    print("Token usage: " + ", ".join(f"{k}={v}" for k, v in u.items()))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a") as f:
+            f.write("\n### Claude usage\n\n| | |\n|---|---|\n")
+            for k, v in u.items():
+                f.write(f"| {k} | {v} |\n")
 
 
 def parse_json(text):
@@ -152,6 +166,11 @@ def via_api(key, prompt):
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 12}],
         messages=[{"role": "user", "content": prompt}],
     )
+    u = resp.usage
+    record_usage({"via": "api", "model": MODEL,
+                  "input_tokens": u.input_tokens, "output_tokens": u.output_tokens,
+                  "cache_read_input_tokens": getattr(u, "cache_read_input_tokens", 0) or 0,
+                  "cache_creation_input_tokens": getattr(u, "cache_creation_input_tokens", 0) or 0})
     return "".join(b.text for b in resp.content if b.type == "text")
 
 
@@ -172,6 +191,16 @@ def via_claude_code(token, prompt):
     if r.returncode != 0:
         raise RuntimeError(f"claude CLI exit {r.returncode}: {(r.stderr or r.stdout)[-600:]}")
     out = json.loads(r.stdout)
+    u = out.get("usage") or {}
+    record_usage({"via": "claude-code",
+                  "model": ",".join((out.get("modelUsage") or {}).keys()) or None,
+                  "input_tokens": u.get("input_tokens", 0),
+                  "output_tokens": u.get("output_tokens", 0),
+                  "cache_read_input_tokens": u.get("cache_read_input_tokens", 0),
+                  "cache_creation_input_tokens": u.get("cache_creation_input_tokens", 0),
+                  "turns": out.get("num_turns"),
+                  "duration_s": round((out.get("duration_ms") or 0) / 1000),
+                  "api_equivalent_usd": out.get("total_cost_usd")})
     if out.get("is_error"):
         raise RuntimeError(f"claude CLI error: {str(out.get('result'))[:600]}")
     return out.get("result", "")
@@ -185,6 +214,8 @@ def main():
 
     facts = json.load(open(a.facts))
     outpath = os.path.join(a.out, "analysis.json")
+    global USAGE_PATH
+    USAGE_PATH = os.path.join(a.out, "usage.json")
 
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     token = os.environ.get("CLAUDE_CODE_OAUTH_TOKEN", "").strip()
@@ -221,9 +252,12 @@ Return only the JSON object, with no other text."""
             print("Writing analysis with the Anthropic API key.")
             text = via_api(key, prompt)
         analysis = parse_json(text)
+        # StockSense does not publish a quality rating - drop it if the model adds one.
+        analysis.pop("quality", None)
+        analysis.pop("quality_why", None)
         json.dump(analysis, open(outpath, "w"), indent=2)
         print(f"Analysis written for {facts['ticker']} "
-              f"(quality: {analysis.get('quality')}, confidence: {analysis.get('data_confidence')})")
+              f"(confidence: {analysis.get('data_confidence')})")
     except Exception as e:
         print(f"Analysis step failed ({e}) - falling back to data-only page.", file=sys.stderr)
         json.dump(fallback(facts, "the analysis step failed on this run"), open(outpath, "w"), indent=2)
