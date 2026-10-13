@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "count": 3,
-  "updated_at": "2026-10-13T10:03:13+00:00",
+  "count": 4,
+  "updated_at": "2026-10-13T11:02:27+00:00",
   "reports": [
+    {
+      "ticker": "ASIANPAINT",
+      "slug": "asianpaint",
+      "one_liner": "Asian Paints makes and sells decorative and industrial paints, coatings and related home-improvement products, and is India's largest paint company by sales.",
+      "tags": [
+        "P/E ~46x",
+        "Down 31% from 2023 peak",
+        "Market share 59%\u219252%",
+        "CCI probe ongoing",
+        "ROCE ~26%, near-zero debt"
+      ],
+      "last_close": 2376.0,
+      "return_1y_pct": 2.47,
+      "dividend_yield_pct": 1.16,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-13T11:02:27+00:00",
+      "has_narrative": true
+    },
     {
       "ticker": "AXISBANK",
       "slug": "axisbank",
