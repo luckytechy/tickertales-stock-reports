@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 13,
-  "updated_at": "2026-10-14T19:53:45+00:00",
+  "count": 14,
+  "updated_at": "2026-10-14T19:55:48+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -127,6 +127,24 @@
       "dividend_yield_pct": 1.84,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:31:56+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "slug": "hindunilvr",
+      "one_liner": "HUL makes and sells everyday consumer products in India \u2014 soaps, detergents, shampoos, skincare, tea/coffee and packaged foods \u2014 and is majority owned by Unilever plc.",
+      "tags": [
+        "Promoter stake 61.9%, zero pledge",
+        "1Y return -23% vs Nifty -10%",
+        "P/E ~29-36x (sources vary)",
+        "Ice-cream biz demerged Dec 2025",
+        "Q2 FY27 results Oct 28"
+      ],
+      "last_close": 1875.5,
+      "return_1y_pct": -23.4,
+      "dividend_yield_pct": 2.19,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-14T19:55:47+00:00",
       "has_narrative": true
     },
     {
