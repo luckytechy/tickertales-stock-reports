@@ -174,10 +174,21 @@ def via_api(key, prompt):
     return "".join(b.text for b in resp.content if b.type == "text")
 
 
+MAX_REPORT_USD = float(os.environ.get("MAX_REPORT_USD") or "1.00")
+
+
+class OverBudget(RuntimeError):
+    pass
+
+
 def via_claude_code(token, prompt):
     """Use the Claude Code CLI, signed in with a Claude Code OAuth token
     (made by `claude setup-token`). This is the supported way to use a
-    Claude subscription inside GitHub Actions."""
+    Claude subscription inside GitHub Actions.
+
+    Hard spend cap: --max-budget-usd stops the run once it reaches
+    MAX_REPORT_USD (API-equivalent). An over-budget stock is not published;
+    the nightly run sets it aside and tries again a week later."""
     import subprocess
     env = dict(os.environ)
     env.pop("ANTHROPIC_API_KEY", None)          # else the CLI treats it as an API key
@@ -185,24 +196,35 @@ def via_claude_code(token, prompt):
     cmd = ["claude", "-p", "--output-format", "json",
            "--append-system-prompt", SYSTEM,
            "--allowedTools", "WebSearch", "WebFetch",
-           "--max-turns", "40"]
+           "--max-turns", "40",
+           "--max-budget-usd", f"{MAX_REPORT_USD:.2f}"]
     r = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
                        env=env, timeout=1200)
-    if r.returncode != 0:
+    try:
+        out = json.loads(r.stdout)
+    except Exception:
         raise RuntimeError(f"claude CLI exit {r.returncode}: {(r.stderr or r.stdout)[-600:]}")
-    out = json.loads(r.stdout)
+
+    # Count every model the run used (main model + helpers), not just the last step.
+    mu = out.get("modelUsage") or {}
+    tot = lambda k: sum((m or {}).get(k) or 0 for m in mu.values())
     u = out.get("usage") or {}
     record_usage({"via": "claude-code",
-                  "model": ",".join((out.get("modelUsage") or {}).keys()) or None,
-                  "input_tokens": u.get("input_tokens", 0),
-                  "output_tokens": u.get("output_tokens", 0),
-                  "cache_read_input_tokens": u.get("cache_read_input_tokens", 0),
-                  "cache_creation_input_tokens": u.get("cache_creation_input_tokens", 0),
+                  "model": ",".join(mu.keys()) or None,
+                  "input_tokens": tot("inputTokens") or u.get("input_tokens", 0),
+                  "output_tokens": tot("outputTokens") or u.get("output_tokens", 0),
+                  "cache_read_input_tokens": tot("cacheReadInputTokens") or u.get("cache_read_input_tokens", 0),
+                  "cache_creation_input_tokens": tot("cacheCreationInputTokens") or u.get("cache_creation_input_tokens", 0),
+                  "web_searches": tot("webSearchRequests"),
                   "turns": out.get("num_turns"),
                   "duration_s": round((out.get("duration_ms") or 0) / 1000),
                   "api_equivalent_usd": out.get("total_cost_usd")})
-    if out.get("is_error"):
-        raise RuntimeError(f"claude CLI error: {str(out.get('result'))[:600]}")
+
+    cost = out.get("total_cost_usd") or 0
+    if "budget" in str(out.get("subtype", "")).lower() or (out.get("is_error") and cost >= MAX_REPORT_USD * 0.95):
+        raise OverBudget(f"stopped at ${cost:.2f} - over the ${MAX_REPORT_USD:.2f} cap")
+    if out.get("is_error") or r.returncode != 0:
+        raise RuntimeError(f"claude CLI error: {str(out.get('result') or r.stderr)[:600]}")
     return out.get("result", "")
 
 
@@ -258,6 +280,10 @@ Return only the JSON object, with no other text."""
         json.dump(analysis, open(outpath, "w"), indent=2)
         print(f"Analysis written for {facts['ticker']} "
               f"(confidence: {analysis.get('data_confidence')})")
+    except OverBudget as e:
+        print(f"::warning::{facts['ticker']}: {e}. Not publishing - it will be retried later.", file=sys.stderr)
+        open(os.path.join(a.out, "over_budget.txt"), "w").write(str(e))
+        json.dump(fallback(facts, "the analysis hit its spending cap"), open(outpath, "w"), indent=2)
     except Exception as e:
         print(f"Analysis step failed ({e}) - falling back to data-only page.", file=sys.stderr)
         json.dump(fallback(facts, "the analysis step failed on this run"), open(outpath, "w"), indent=2)

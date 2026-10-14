@@ -11,13 +11,6 @@ rm -rf build && mkdir -p build
 python scripts/fetch_data.py "$T" ${PEER:+--peer "$PEER"} --out build/
 python scripts/write_analysis.py --facts build/facts.json --out build/
 
-if python -c "import json,sys; a=json.load(open('build/analysis.json')); sys.exit(0 if str(a.get('whats_happening','')).startswith('Not generated') else 1)"; then
-  echo "::error::No written analysis for $T (Claude step failed). Not publishing."
-  exit 1
-fi
-
-python scripts/export_data.py --ticker "$T" --build build/ --out docs/data/
-
 # This report's usage line; publish.sh appends it to logs/usage.csv.
 python - "$T" > build/usage_line.csv <<'PY'
 import json, os, sys, datetime
@@ -27,5 +20,16 @@ print(",".join(str(x) for x in [datetime.date.today(), sys.argv[1], (g("model") 
       g("input_tokens"), g("output_tokens"), g("cache_read_input_tokens"), g("cache_creation_input_tokens"),
       g("total_tokens"), g("turns"), g("duration_s"), g("api_equivalent_usd")]))
 PY
+if [ -f build/over_budget.txt ]; then
+  echo "::error::$T: $(cat build/over_budget.txt). Not publishing."
+  exit 3
+fi
+if python -c "import json,sys; a=json.load(open('build/analysis.json')); sys.exit(0 if str(a.get('whats_happening','')).startswith('Not generated') else 1)"; then
+  echo "::error::No written analysis for $T (Claude step failed). Not publishing."
+  exit 1
+fi
+
+python scripts/export_data.py --ticker "$T" --build build/ --out docs/data/
+
 cp "docs/data/$T.json" build/report.json
 echo "$T" > build/ticker.txt

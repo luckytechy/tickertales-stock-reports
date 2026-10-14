@@ -17,6 +17,14 @@ for attempt in 1 2 3 4 5; do
   mkdir -p logs
   [ -f logs/usage.csv ] || echo "$HEADER" > logs/usage.csv
   if [ -s build/usage_line.csv ]; then cat build/usage_line.csv >> logs/usage.csv; fi
+  python - "$T" <<'PY'
+import json, os, sys
+f = "logs/deferred.json"
+if os.path.exists(f):
+    d = json.load(open(f))
+    if d.pop(sys.argv[1], None) is not None:
+        json.dump(d, open(f, "w"), indent=2)
+PY
   git add docs/data logs
   if git diff --staged --quiet; then echo "Nothing new to publish."; exit 0; fi
   git commit -q -m "$MSG"

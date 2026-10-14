@@ -16,6 +16,8 @@ RESULTS_LAG_DAYS = 3
 STALE_DAYS = 100
 DATA = "docs/data"
 QUEUE = "queue/nifty100.json"
+DEFERRED = "logs/deferred.json"
+DEFER_DAYS = 7
 
 
 def parse_dt(s):
@@ -48,6 +50,16 @@ def main():
     now = datetime.now(timezone.utc)
 
     queue = json.load(open(QUEUE))["companies"]
+
+    # Stocks that hit the spending cap sit out for DEFER_DAYS, then get another go.
+    deferred = json.load(open(DEFERRED)) if os.path.exists(DEFERRED) else {}
+    def resting(t):
+        e = deferred.get(t)
+        if not e:
+            return False
+        last = parse_dt(e.get("last"))
+        return bool(last) and now - last < timedelta(days=DEFER_DAYS)
+
     peers = {c["ticker"]: c.get("peer") or "" for c in queue}
 
     published = {}
@@ -59,6 +71,9 @@ def main():
 
     due = []
     for t, made in published.items():
+        if resting(t):
+            print(f"  {t}: over the spending cap recently - skipped until {DEFER_DAYS} days pass", file=sys.stderr)
+            continue
         rd = last_results_date(t, now)
         if rd and made and made < rd and now >= rd + timedelta(days=RESULTS_LAG_DAYS):
             due.append((rd, t, f"refresh-after-results-{rd.date()}"))
@@ -72,7 +87,7 @@ def main():
     for c in queue:
         if len(plan) >= a.max:
             break
-        if c["ticker"] not in published and c["ticker"] not in dict(plan):
+        if c["ticker"] not in published and c["ticker"] not in dict(plan) and not resting(c["ticker"]):
             plan.append((c["ticker"], "new"))
     plan = plan[: a.max]
 

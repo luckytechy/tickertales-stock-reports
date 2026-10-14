@@ -64,6 +64,7 @@ jobs:
       - name: Build and publish each
         id: build
         env:
+          MAX_REPORT_USD: ${{ vars.MAX_REPORT_USD || '1.00' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -72,9 +73,15 @@ jobs:
             [ -z "$T" ] && continue
             [ "$PEER" = "-" ] && PEER=""
             echo "::group::$T ($WHY)"
-            if bash scripts/run_report.sh "$T" "$PEER" && bash scripts/publish.sh "Report: $T - $WHY ($(date -u +%Y-%m-%d))"; then
+            set +e
+            bash scripts/run_report.sh "$T" "$PEER"; rc=$?
+            set -e
+            if [ $rc -eq 0 ] && bash scripts/publish.sh "Report: $T - $WHY ($(date -u +%Y-%m-%d))"; then
               built=1
               echo "- $T published ($WHY)" >> "$GITHUB_STEP_SUMMARY"
+            elif [ $rc -eq 3 ]; then
+              bash scripts/defer.sh "$T" || true
+              echo "- $T hit the \$${MAX_REPORT_USD} cap - set aside, retried in 7 days" >> "$GITHUB_STEP_SUMMARY"
             else
               echo "::warning::$T failed tonight - it will be picked up again tomorrow."
               echo "- $T FAILED ($WHY)" >> "$GITHUB_STEP_SUMMARY"
