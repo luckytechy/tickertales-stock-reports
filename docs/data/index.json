@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 10,
-  "updated_at": "2026-10-14T19:34:48+00:00",
+  "count": 11,
+  "updated_at": "2026-10-14T19:43:46+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -163,6 +163,24 @@
       "dividend_yield_pct": 0.52,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:29:28+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TCS",
+      "slug": "tcs",
+      "one_liner": "TCS is India's largest IT services company, running outsourced software development, IT infrastructure and AI-led digital transformation projects for large global clients.",
+      "tags": [
+        "P/E ~16x (vs 10yr median ~27x)",
+        "Stock down 46% from 2024 peak",
+        "Dividend yield 5.45%",
+        "Headcount shrinking, margin under 24%",
+        "Debt-free, ROE 61%"
+      ],
+      "last_close": 2257.3,
+      "return_1y_pct": -21.41,
+      "dividend_yield_pct": 5.45,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-14T19:43:45+00:00",
       "has_narrative": true
     },
     {
