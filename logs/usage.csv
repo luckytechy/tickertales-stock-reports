@@ -5,3 +5,4 @@ date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_eq
 2026-10-13,RELIANCE,claude-haiku-4-5-20251001+claude-sonnet-5,2712,12331,268682,38531,322256,15,171,0.8108666
 2026-10-13,HDFCBANK,claude-haiku-4-5-20251001+claude-sonnet-5,2717,10298,218074,40536,271625,12,142,0.6806912
 2026-10-13,BHARTIARTL,claude-haiku-4-5-20251001+claude-sonnet-5,2582,8585,93850,21370,126387,3,494,4.365377250000001
+2026-10-14,DLF,claude-haiku-4-5-20251001+claude-sonnet-5,2710,11913,210135,31137,255895,11,154,0.6386805

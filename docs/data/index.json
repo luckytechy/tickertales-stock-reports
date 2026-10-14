@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 8,
-  "updated_at": "2026-10-13T23:40:15+00:00",
+  "count": 9,
+  "updated_at": "2026-10-14T02:55:43+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -73,6 +73,24 @@
       "dividend_yield_pct": 1.35,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:40:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "DLF",
+      "slug": "dlf",
+      "one_liner": "DLF is India's largest listed real estate developer, building and selling homes (mainly premium, NCR-centric) while earning steady rental income from offices and malls through its DCCDL joint venture with GIC.",
+      "tags": [
+        "P/E ~38x (premium to peers)",
+        "Net cash, debt almost nil",
+        "Bookings fell 94% in Q1 FY27",
+        "Still 34% below Jan-2008 peak",
+        "Promoter 74%, zero pledge"
+      ],
+      "last_close": 664.8,
+      "return_1y_pct": -9.18,
+      "dividend_yield_pct": 1.2,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-14T02:55:43+00:00",
       "has_narrative": true
     },
     {
