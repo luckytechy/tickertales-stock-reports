@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 14,
-  "updated_at": "2026-10-14T19:55:48+00:00",
+  "count": 15,
+  "updated_at": "2026-10-14T19:57:54+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -199,6 +199,24 @@
       "dividend_yield_pct": 1.03,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:34:48+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "MARUTI",
+      "slug": "maruti",
+      "one_liner": "Maruti Suzuki is India's largest passenger car maker, majority owned by Japan's Suzuki Motor Corporation, making small cars, SUVs and CNG vehicles for the domestic market and export.",
+      "tags": [
+        "P/E ~25x",
+        "Stock at 52-wk low",
+        "Margin ~8% vs ~12%",
+        "Debt-free, net cash",
+        "No promoter pledge"
+      ],
+      "last_close": 11245.0,
+      "return_1y_pct": -30.42,
+      "dividend_yield_pct": 1.24,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-14T19:57:54+00:00",
       "has_narrative": true
     },
     {
