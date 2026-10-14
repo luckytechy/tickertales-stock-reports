@@ -11,3 +11,4 @@ date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_eq
 2026-10-14,ICICIBANK,claude-haiku-4-5-20251001+claude-sonnet-5,86037,10154,161000,30363,287554,9,101,0.511695
 2026-10-14,SBIN (over cap),claude-haiku-4-5-20251001+claude-sonnet-5,343484,13715,203486,68596,629281,1,106,1.0109833000000001
 2026-10-14,INFY (over cap),claude-haiku-4-5-20251001+claude-sonnet-5,240282,23240,286926,53959,604407,2,217,1.0355912999999997
+2026-10-14,BAJFINANCE,claude-haiku-4-5-20251001+claude-sonnet-5,112584,15039,266274,41166,435063,12,154,0.7152472

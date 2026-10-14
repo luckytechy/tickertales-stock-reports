@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 12,
-  "updated_at": "2026-10-14T19:45:32+00:00",
+  "count": 13,
+  "updated_at": "2026-10-14T19:53:45+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -55,6 +55,24 @@
       "dividend_yield_pct": 1.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T11:21:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "slug": "bajfinance",
+      "one_liner": "Bajaj Finance is India's largest diversified NBFC, lending across consumer durables, personal loans, SME, mortgages, gold loans and rural/urban retail finance through a huge digital and branch network.",
+      "tags": [
+        "P/E ~29-30x",
+        "Results due 19 Oct 2026",
+        "\u20b917,500cr capital raise",
+        "Promoter 54.7%, no pledge",
+        "Down 15% from Aug peak"
+      ],
+      "last_close": 982.75,
+      "return_1y_pct": -4.63,
+      "dividend_yield_pct": 0.61,
+      "data_as_of": "2026-10-13",
+      "generated_at": "2026-10-14T19:53:44+00:00",
       "has_narrative": true
     },
     {
