@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 28,
-  "updated_at": "2026-10-15T14:45:56+00:00",
+  "count": 29,
+  "updated_at": "2026-10-15T14:49:49+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -379,6 +379,24 @@
       "dividend_yield_pct": 5.92,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:35:42+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "POWERGRID",
+      "slug": "powergrid",
+      "one_liner": "Power Grid Corporation is the Indian government-owned monopoly that builds and operates most of India's inter-state electricity transmission network, earning regulated tariffs on its asset base.",
+      "tags": [
+        "P/E ~14.6-16x",
+        "Govt-owned, zero pledge",
+        "ROE/ROCE falling 3 yrs",
+        "Div yield 3.6%",
+        "27% off Sep-24 peak"
+      ],
+      "last_close": 249.85,
+      "return_1y_pct": -11.29,
+      "dividend_yield_pct": 3.6,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T14:49:49+00:00",
       "has_narrative": true
     },
     {
