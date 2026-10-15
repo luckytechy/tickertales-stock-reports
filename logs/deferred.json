@@ -1,17 +1,1 @@
-{
-  "INFY": {
-    "last": "2026-10-14",
-    "reason": "stopped at $1.04 - over the $1.00 cap",
-    "times": 1
-  },
-  "SBIN": {
-    "last": "2026-10-14",
-    "reason": "stopped at $1.01 - over the $1.00 cap",
-    "times": 1
-  },
-  "SUNPHARMA": {
-    "last": "2026-10-14",
-    "reason": "stopped at $1.61 - over the $1.00 cap",
-    "times": 1
-  }
-}
+{}
