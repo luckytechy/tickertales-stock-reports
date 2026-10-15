@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 17,
-  "updated_at": "2026-10-14T22:43:38+00:00",
+  "count": 18,
+  "updated_at": "2026-10-15T04:16:29+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -221,7 +221,7 @@
     },
     {
       "ticker": "M&M",
-      "slug": "m&m",
+      "slug": "m-and-m",
       "one_liner": "Mahindra & Mahindra manufactures utility vehicles (Thar, XUV700, Scorpio, and newer electric SUVs) and is the world's largest tractor maker by volume, with sizeable stakes in financial services (Mahindra Finance) and IT services (Tech Mahindra) alongside the core auto and farm business.",
       "tags": [
         "P/E ~19-22x (sources vary)",
@@ -271,6 +271,24 @@
       "dividend_yield_pct": 0.52,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:29:28+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "SBIN",
+      "slug": "sbin",
+      "one_liner": "SBI is India's largest bank by assets, a majority government-owned lender offering retail and corporate banking, deposits and credit, alongside subsidiaries in life insurance, cards and asset management.",
+      "tags": [
+        "P/E ~10.2x",
+        "P/B ~1.4x",
+        "Down 21% from Feb 2026 peak",
+        "ROE ~16-17%",
+        "Gross NPA at multi-year low ~1.47%"
+      ],
+      "last_close": 949.0,
+      "return_1y_pct": 9.03,
+      "dividend_yield_pct": 1.83,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:16:28+00:00",
       "has_narrative": true
     },
     {
