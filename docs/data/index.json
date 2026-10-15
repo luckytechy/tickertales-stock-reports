@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 27,
-  "updated_at": "2026-10-15T04:38:13+00:00",
+  "count": 28,
+  "updated_at": "2026-10-15T14:45:56+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -91,6 +91,24 @@
       "dividend_yield_pct": 0.61,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:53:44+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BEL",
+      "slug": "bel",
+      "one_liner": "Bharat Electronics is a Government of India-owned defence electronics company that builds radar, communication, avionics, weapon-control and cybersecurity systems mainly for India's armed forces.",
+      "tags": [
+        "P/E ~45x",
+        "Debt-free, ROCE 36%",
+        "Govt promoter, no pledge",
+        "Down 19% from peak",
+        "Q1 FY27 margin dipped"
+      ],
+      "last_close": 380.4,
+      "return_1y_pct": -6.26,
+      "dividend_yield_pct": 0.66,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T14:45:56+00:00",
       "has_narrative": true
     },
     {
