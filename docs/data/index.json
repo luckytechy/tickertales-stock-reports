@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 19,
-  "updated_at": "2026-10-15T04:18:37+00:00",
+  "count": 20,
+  "updated_at": "2026-10-15T04:20:40+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -307,6 +307,24 @@
       "dividend_yield_pct": 1.83,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:16:28+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "slug": "sunpharma",
+      "one_liner": "Sun Pharma is India's largest pharmaceutical company, selling generic drugs alongside a growing specialty/innovative portfolio (dermatology, oncology, ophthalmology) in India, the US and over 100 other countries.",
+      "tags": [
+        "P/E ~33-37x",
+        "US generics shrinking",
+        "$11.75B Organon deal pending",
+        "Down 12% from July peak",
+        "Debt/equity ~0.05 (pre-deal)"
+      ],
+      "last_close": 1752.1,
+      "return_1y_pct": 6.83,
+      "dividend_yield_pct": 0.91,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:20:39+00:00",
       "has_narrative": true
     },
     {
