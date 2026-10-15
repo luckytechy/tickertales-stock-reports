@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 25,
-  "updated_at": "2026-10-15T04:32:52+00:00",
+  "count": 26,
+  "updated_at": "2026-10-15T04:35:43+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -325,6 +325,24 @@
       "dividend_yield_pct": 2.87,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:27:56+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ONGC",
+      "slug": "ongc",
+      "one_liner": "ONGC is India's largest oil and gas exploration and production company, a government-controlled PSU that extracts crude oil and natural gas domestically and holds stakes in refining/petrochemical arms like MRPL, HPCL and OPaL.",
+      "tags": [
+        "P/E ~6.4x",
+        "Div yield ~5.9%",
+        "At 52-week low",
+        "Govt holds ~59%",
+        "Q1 profit +112% YoY"
+      ],
+      "last_close": 223.94,
+      "return_1y_pct": -4.8,
+      "dividend_yield_pct": 5.92,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:35:42+00:00",
       "has_narrative": true
     },
     {
