@@ -20,3 +20,4 @@ date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_eq
 2026-10-15,SBIN,claude-haiku-4-5-20251001+claude-sonnet-5,87848,13330,199333,30913,331424,9,133,0.5750619
 2026-10-15,INFY,claude-haiku-4-5-20251001+claude-sonnet-5,112639,13351,211003,36715,373708,12,124,0.6450209
 2026-10-15,SUNPHARMA,claude-haiku-4-5-20251001+claude-sonnet-5,98904,11278,202549,31953,344684,10,118,0.5717307
+2026-10-15,HCLTECH,claude-haiku-4-5-20251001+claude-sonnet-5,112786,11628,212338,33807,370559,11,124,0.5976494

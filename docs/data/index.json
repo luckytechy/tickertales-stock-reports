@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 20,
-  "updated_at": "2026-10-15T04:20:40+00:00",
+  "count": 21,
+  "updated_at": "2026-10-15T04:22:49+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -109,6 +109,24 @@
       "dividend_yield_pct": 1.2,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T02:55:43+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HCLTECH",
+      "slug": "hcltech",
+      "one_liner": "HCL Technologies is an IT services, engineering and digital transformation company that builds and runs software and technology systems for large corporate clients worldwide.",
+      "tags": [
+        "P/E ~19x",
+        "Record date 16 Oct 2026",
+        "Div yield 4.4%",
+        "26.7% below Jan-2025 peak",
+        "Debt-free"
+      ],
+      "last_close": 1358.1,
+      "return_1y_pct": -5.09,
+      "dividend_yield_pct": 4.42,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:22:49+00:00",
       "has_narrative": true
     },
     {
