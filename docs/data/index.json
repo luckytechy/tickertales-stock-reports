@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 34,
-  "updated_at": "2026-10-15T21:53:12+00:00",
+  "count": 35,
+  "updated_at": "2026-10-15T21:55:44+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -577,6 +577,24 @@
       "dividend_yield_pct": 0.34,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:32:52+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TRENT",
+      "slug": "trent",
+      "one_liner": "Trent runs Tata Group's fashion and retail chains in India - the budget-fashion chain Zudio, the mid-premium Westside, and grocery/beauty formats like Star Bazaar and Zudio-adjacent Samoh/Misbu.",
+      "tags": [
+        "Down 64% from Oct'24 peak",
+        "P/E ~86x",
+        "Revenue +20%+ YoY",
+        "No promoter pledge",
+        "LFL sales declining"
+      ],
+      "last_close": 2971.0,
+      "return_1y_pct": -35.56,
+      "dividend_yield_pct": 0.13,
+      "data_as_of": "2026-10-14",
+      "generated_at": "2026-10-15T21:55:44+00:00",
       "has_narrative": true
     },
     {
