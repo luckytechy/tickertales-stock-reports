@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 23,
-  "updated_at": "2026-10-15T04:27:57+00:00",
+  "count": 24,
+  "updated_at": "2026-10-15T04:30:35+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -55,6 +55,24 @@
       "dividend_yield_pct": 1.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T11:21:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BAJAJFINSV",
+      "slug": "bajajfinsv",
+      "one_liner": "Bajaj Finserv is the Bajaj Group's financial-services holding company, whose value comes mainly from its ~52% stake in Bajaj Finance (consumer lending) plus now-wholly-owned general and life insurance arms.",
+      "tags": [
+        "P/E ~28-31x",
+        "1Y return -17.6%",
+        "Lending PAT +27-28%",
+        "Life insurance hit by GST",
+        "Now 100% owns insurance JVs"
+      ],
+      "last_close": 1716.3,
+      "return_1y_pct": -17.58,
+      "dividend_yield_pct": 0.09,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:30:34+00:00",
       "has_narrative": true
     },
     {
