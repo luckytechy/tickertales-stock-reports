@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 24,
-  "updated_at": "2026-10-15T04:30:35+00:00",
+  "count": 25,
+  "updated_at": "2026-10-15T04:32:52+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -397,6 +397,24 @@
       "dividend_yield_pct": 5.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:43:45+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TITAN",
+      "slug": "titan",
+      "one_liner": "Titan Company, part of the Tata Group, sells jewellery (Tanishq, CaratLane, Mia, Zoya), watches and eyewear through India's largest organised retail network for these categories.",
+      "tags": [
+        "P/E ~75-80x",
+        "Gold at record highs",
+        "Q1 FY27 PAT +63%",
+        "CaratLane outgrowing Tanishq",
+        "14% off Aug peak"
+      ],
+      "last_close": 4426.5,
+      "return_1y_pct": 25.13,
+      "dividend_yield_pct": 0.34,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:32:52+00:00",
       "has_narrative": true
     },
     {
