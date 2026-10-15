@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 18,
-  "updated_at": "2026-10-15T04:16:29+00:00",
+  "count": 19,
+  "updated_at": "2026-10-15T04:18:37+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -163,6 +163,24 @@
       "dividend_yield_pct": 0.88,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:45:31+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "INFY",
+      "slug": "infy",
+      "one_liner": "Infosys is an Indian IT services and consulting company that runs technology operations, software development and maintenance for global clients, and is now pushing AI-driven automation into that work.",
+      "tags": [
+        "P/E ~14x",
+        "Stock -41% from 2024 peak",
+        "Div yield 4.3%",
+        "Results Oct 22-23",
+        "CEO exits Apr 2027"
+      ],
+      "last_close": 1116.05,
+      "return_1y_pct": -21.48,
+      "dividend_yield_pct": 4.3,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:18:37+00:00",
       "has_narrative": true
     },
     {
