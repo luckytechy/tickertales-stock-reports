@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 32,
-  "updated_at": "2026-10-15T21:42:28+00:00",
+  "count": 33,
+  "updated_at": "2026-10-15T21:51:07+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -145,6 +145,24 @@
       "dividend_yield_pct": 1.35,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:40:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "COALINDIA",
+      "slug": "coalindia",
+      "one_liner": "Coal India is the world's largest coal miner, a government-controlled company that digs and sells thermal coal mostly to Indian power plants.",
+      "tags": [
+        "P/E ~8.3x",
+        "Div yield 6.35%",
+        "Near debt-free",
+        "ROE ~28% / ROCE ~35%",
+        "Govt stake ~61%"
+      ],
+      "last_close": 417.0,
+      "return_1y_pct": 16.9,
+      "dividend_yield_pct": 6.35,
+      "data_as_of": "2026-10-14",
+      "generated_at": "2026-10-15T21:51:06+00:00",
       "has_narrative": true
     },
     {
