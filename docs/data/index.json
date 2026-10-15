@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 21,
-  "updated_at": "2026-10-15T04:22:49+00:00",
+  "count": 22,
+  "updated_at": "2026-10-15T04:24:37+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -361,6 +361,24 @@
       "dividend_yield_pct": 5.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:43:45+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ULTRACEMCO",
+      "slug": "ultracemco",
+      "one_liner": "UltraTech Cement is India's largest cement maker (part of the Aditya Birla Group), producing cement, ready-mix concrete and construction chemicals from a capacity base that has swelled past 190 MTPA after recent acquisitions.",
+      "tags": [
+        "P/E ~37-41x",
+        "ROE ~10%",
+        "Promoter 59%, no pledge",
+        "Record \u20b97,072 Cr special dividend",
+        "Q2 results Oct 19, 2026"
+      ],
+      "last_close": 10778.0,
+      "return_1y_pct": -10.67,
+      "dividend_yield_pct": 2.23,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:24:37+00:00",
       "has_narrative": true
     },
     {
