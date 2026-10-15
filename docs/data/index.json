@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 22,
-  "updated_at": "2026-10-15T04:24:37+00:00",
+  "count": 23,
+  "updated_at": "2026-10-15T04:27:57+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -289,6 +289,24 @@
       "dividend_yield_pct": 1.24,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:57:54+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "NTPC",
+      "slug": "ntpc",
+      "one_liner": "NTPC is India's largest power generator, a government-owned utility running coal-fired thermal plants plus a fast-growing renewable arm (NTPC Green Energy), selling power to state distribution companies under regulated, cost-plus tariffs.",
+      "tags": [
+        "P/E ~11x",
+        "ROCE ~8.9%",
+        "Govt owns 51.1%, zero pledge",
+        "Near 52-wk low",
+        "Div yield 2.9%"
+      ],
+      "last_close": 313.35,
+      "return_1y_pct": -5.13,
+      "dividend_yield_pct": 2.87,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:27:56+00:00",
       "has_narrative": true
     },
     {
