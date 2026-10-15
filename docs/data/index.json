@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 29,
-  "updated_at": "2026-10-15T14:49:49+00:00",
+  "count": 30,
+  "updated_at": "2026-10-15T14:51:46+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -271,6 +271,24 @@
       "dividend_yield_pct": 5.59,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T08:40:29+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "JSWSTEEL",
+      "slug": "jswsteel",
+      "one_liner": "JSW Steel is one of India's largest integrated steel makers, producing flat and long steel products from plants in Karnataka, Maharashtra, Odisha and overseas (US, with JV capacity in India too).",
+      "tags": [
+        "P/E ~12x vs sector ~20x",
+        "Net debt/EBITDA 1.81x",
+        "Results due 23 Oct 2026",
+        "Q4 FY26 profit inflated by one-off",
+        "Promoter pledge 11.6%"
+      ],
+      "last_close": 1200.4,
+      "return_1y_pct": 4.01,
+      "dividend_yield_pct": 0.59,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T14:51:46+00:00",
       "has_narrative": true
     },
     {
