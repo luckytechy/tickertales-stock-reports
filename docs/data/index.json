@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 33,
-  "updated_at": "2026-10-15T21:51:07+00:00",
+  "count": 34,
+  "updated_at": "2026-10-15T21:53:12+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -397,6 +397,24 @@
       "dividend_yield_pct": 1.24,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:57:54+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "NESTLEIND",
+      "slug": "nestleind",
+      "one_liner": "Nestle India makes and sells packaged foods and beverages - Maggi noodles, Nescafe, KitKat, baby food and dairy products - and is majority owned by Swiss parent Nestle S.A.",
+      "tags": [
+        "P/E ~75x",
+        "ROE ~68-76%",
+        "Promoter 62.76%, zero pledge",
+        "Stock fell ~9% on Q2 print",
+        "5Y return +51% vs Nifty +23%"
+      ],
+      "last_close": 1383.2,
+      "return_1y_pct": 18.87,
+      "dividend_yield_pct": 1.01,
+      "data_as_of": "2026-10-14",
+      "generated_at": "2026-10-15T21:53:12+00:00",
       "has_narrative": true
     },
     {
