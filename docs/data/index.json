@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "count": 31,
-  "updated_at": "2026-10-15T14:53:57+00:00",
+  "count": 32,
+  "updated_at": "2026-10-15T21:42:28+00:00",
   "reports": [
+    {
+      "ticker": "ADANIENT",
+      "slug": "adanient",
+      "one_liner": "Adani Enterprises is the Adani Group's incubator company - it builds new businesses (airports, roads, green/new energy, data centres, mining services) and spins them off once they mature.",
+      "tags": [
+        "EBITDA +49% YoY",
+        "Q1FY27 net loss (OFAC charge)",
+        "Debt/EBITDA ~7.6x",
+        "GQG stake nearly exited",
+        "34% below Dec'22 peak"
+      ],
+      "last_close": 2722.6,
+      "return_1y_pct": 8.22,
+      "dividend_yield_pct": 0.05,
+      "data_as_of": "2026-10-14",
+      "generated_at": "2026-10-15T21:42:28+00:00",
+      "has_narrative": true
+    },
     {
       "ticker": "ASIANPAINT",
       "slug": "asianpaint",
