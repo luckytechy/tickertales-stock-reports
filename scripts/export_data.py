@@ -14,6 +14,13 @@ from datetime import datetime, timezone
 SCHEMA_VERSION = 1
 
 
+def slugify(ticker):
+    """Same rule as the website's slugify: M&M -> m-and-m, BAJAJ-AUTO -> bajaj-auto."""
+    import re
+    s = ticker.lower().replace("&", " and ")
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ticker", help="report to export; omit with --index-only")
@@ -38,7 +45,7 @@ def main():
     report = {
         "schema_version": SCHEMA_VERSION,
         "ticker": tk,
-        "slug": tk.lower(),
+        "slug": slugify(tk),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "data_as_of": facts.get("last_date"),
         "has_narrative": not str(analysis.get("whats_happening", "")).startswith("Not generated"),
@@ -62,7 +69,7 @@ def build_index(out):
             json.dump(r, open(f, "w"), indent=2)  # strip ratings from older reports
         items.append({
             "ticker": r["ticker"],
-            "slug": r["slug"],
+            "slug": slugify(r["ticker"]),
             "one_liner": an.get("one_liner"),
             "tags": an.get("tags", []),
             "last_close": fx.get("last_close"),
