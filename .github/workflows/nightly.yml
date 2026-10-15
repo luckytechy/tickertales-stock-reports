@@ -1,12 +1,12 @@
 name: Nightly StockSense
 
-# Every night, off-peak: refresh any report whose company announced results
+# Every 6 hours: refresh any report whose company announced results
 # 3+ days ago, then add the next companies from queue/nifty100.json.
-# How many per night: repo variable STOCKS_PER_NIGHT (default 3).
+# How many per run: repo variable STOCKS_PER_NIGHT (default 3).
 
 on:
   schedule:
-    - cron: "41 19 * * *"   # 01:11 IST every night
+    - cron: "30 0,6,12,18 * * *"   # 06:00, 12:00, 18:00, 00:00 IST
   workflow_dispatch:
     inputs:
       max:
