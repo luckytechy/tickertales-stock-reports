@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 26,
-  "updated_at": "2026-10-15T04:35:43+00:00",
+  "count": 27,
+  "updated_at": "2026-10-15T04:38:13+00:00",
   "reports": [
     {
       "ticker": "ASIANPAINT",
@@ -127,6 +127,24 @@
       "dividend_yield_pct": 1.2,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T02:55:43+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ETERNAL",
+      "slug": "eternal",
+      "one_liner": "Eternal Limited (renamed from Zomato) runs online food delivery (Zomato), quick-commerce grocery delivery (Blinkit), a going-out/bookings app (District) and a B2B food-supply business (Hyperpure) under one listed entity.",
+      "tags": [
+        "P/E in the hundreds",
+        "ROE ~1.2%",
+        "Blinkit now 77% of revenue",
+        "Zero promoter holding",
+        "Results due Oct 21"
+      ],
+      "last_close": 317.35,
+      "return_1y_pct": -10.44,
+      "dividend_yield_pct": null,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-15T04:38:12+00:00",
       "has_narrative": true
     },
     {
