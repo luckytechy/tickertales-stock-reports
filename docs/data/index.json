@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 44,
-  "updated_at": "2026-10-16T17:01:09+00:00",
+  "count": 45,
+  "updated_at": "2026-10-16T17:04:32+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -739,6 +739,24 @@
       "dividend_yield_pct": 0.34,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:32:52+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TMPV",
+      "slug": "tmpv",
+      "one_liner": "Makes and sells Tata-brand cars, EVs and CNG vehicles in India and owns Jaguar Land Rover in the UK, after demerging its commercial-vehicle business into a separately listed company in October 2025.",
+      "tags": [
+        "P/B ~0.9-1x",
+        "FY26 'profit' is a one-off gain",
+        "Dividend halved to Rs 3",
+        "JLR margin guided <4%",
+        "Promoter 42.5%, zero pledge"
+      ],
+      "last_close": 286.85,
+      "return_1y_pct": -27.11,
+      "dividend_yield_pct": 1.05,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T17:04:31+00:00",
       "has_narrative": true
     },
     {
