@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 46,
-  "updated_at": "2026-10-16T17:07:50+00:00",
+  "count": 47,
+  "updated_at": "2026-10-16T21:38:26+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -505,6 +505,24 @@
       "dividend_yield_pct": 1.24,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:57:54+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "MAXHEALTH",
+      "slug": "maxhealth",
+      "one_liner": "Max Healthcare Institute runs a network of multi-specialty hospitals concentrated in Delhi-NCR and North India, offering tertiary and quaternary care in areas like oncology, cardiac sciences and transplants.",
+      "tags": [
+        "P/E ~55x",
+        "At 52-week low",
+        "Cancer-drug margin-cap risk",
+        "ROE/ROCE ~15%",
+        "No promoter pledge"
+      ],
+      "last_close": 858.0,
+      "return_1y_pct": -25.63,
+      "dividend_yield_pct": 0.23,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-16T21:38:25+00:00",
       "has_narrative": true
     },
     {
