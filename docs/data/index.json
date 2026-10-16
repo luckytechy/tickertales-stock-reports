@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 35,
-  "updated_at": "2026-10-15T21:55:44+00:00",
+  "count": 36,
+  "updated_at": "2026-10-16T10:17:52+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -307,6 +307,24 @@
       "dividend_yield_pct": 5.59,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T08:40:29+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "JIOFIN",
+      "slug": "jiofin",
+      "one_liner": "Jio Financial Services is the Reliance-promoted financial holding company housing an NBFC (Jio Credit), a payments bank, insurance distribution/JV stakes, and asset and wealth management joint ventures with BlackRock.",
+      "tags": [
+        "P/E ~70x vs sector ~20x",
+        "ROE ~1.2%",
+        "Down 44% from 2024 peak",
+        "Zero promoter pledge",
+        "Loan AUM +154% YoY"
+      ],
+      "last_close": 216.25,
+      "return_1y_pct": -30.55,
+      "dividend_yield_pct": 0.28,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T10:17:51+00:00",
       "has_narrative": true
     },
     {
