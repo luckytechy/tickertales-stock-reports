@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 45,
-  "updated_at": "2026-10-16T17:04:32+00:00",
+  "count": 46,
+  "updated_at": "2026-10-16T17:07:50+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -667,6 +667,24 @@
       "dividend_yield_pct": 0.91,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:20:39+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TATACONSUM",
+      "slug": "tataconsum",
+      "one_liner": "Tata Consumer Products sells packaged tea, coffee and salt (Tata Tea, Tetley, Tata Salt) plus a growing foods basket - Sampann, Ching's Secret, Soulfull, Organic India - in India and abroad, and holds a 50:50 stake in Tata Starbucks cafes.",
+      "tags": [
+        "P/E ~59x",
+        "ROE ~7.4%",
+        "Net cash, D/E ~0.12",
+        "Down 22% from May peak",
+        "Promoter 33.8%, no pledge"
+      ],
+      "last_close": 978.9,
+      "return_1y_pct": -14.11,
+      "dividend_yield_pct": 1.02,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T17:07:49+00:00",
       "has_narrative": true
     },
     {
