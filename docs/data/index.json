@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 43,
-  "updated_at": "2026-10-16T16:59:02+00:00",
+  "count": 44,
+  "updated_at": "2026-10-16T17:01:09+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -163,6 +163,24 @@
       "dividend_yield_pct": 0.3,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-16T16:59:01+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "CIPLA",
+      "slug": "cipla",
+      "one_liner": "Cipla is an Indian pharmaceutical company making generic medicines, branded formulations and APIs, with a sizeable respiratory and peptide pipeline sold across India, the US, South Africa and other emerging markets.",
+      "tags": [
+        "P/E ~31x",
+        "Zero debt",
+        "Down ~20% from 52-wk high",
+        "Q2 results Oct 27",
+        "Pithampur FDA flag"
+      ],
+      "last_close": 1325.1,
+      "return_1y_pct": -14.77,
+      "dividend_yield_pct": 0.98,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T17:01:09+00:00",
       "has_narrative": true
     },
     {
