@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 41,
-  "updated_at": "2026-10-16T12:10:19+00:00",
+  "count": 42,
+  "updated_at": "2026-10-16T16:55:58+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -307,6 +307,24 @@
       "dividend_yield_pct": 0.88,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:45:31+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "INDIGO",
+      "slug": "indigo",
+      "one_liner": "IndiGo (InterGlobe Aviation) is India's largest airline by passengers carried, running a low-cost domestic and international flight network.",
+      "tags": [
+        "P/E not meaningful (loss-making)",
+        "P/B ~29x",
+        "FY26 net loss \u20b92,393 cr",
+        "Stock -24% from Aug'25 peak",
+        "Zero promoter pledge"
+      ],
+      "last_close": 4686.9,
+      "return_1y_pct": -20.3,
+      "dividend_yield_pct": null,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T16:55:58+00:00",
       "has_narrative": true
     },
     {
