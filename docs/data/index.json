@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 38,
-  "updated_at": "2026-10-16T11:55:08+00:00",
+  "count": 39,
+  "updated_at": "2026-10-16T11:59:34+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -253,6 +253,24 @@
       "dividend_yield_pct": 1.84,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:31:56+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HDFCLIFE",
+      "slug": "hdfclife",
+      "one_liner": "HDFC Life sells life insurance policies - term, savings/endowment, ULIP, pension and group products - distributed mainly through HDFC Bank branches and other bancassurance and agency channels.",
+      "tags": [
+        "P/E ~59-62x",
+        "Down 32% from peak",
+        "VNB margin 24.7%",
+        "Solvency 180%",
+        "No pledging"
+      ],
+      "last_close": 553.0,
+      "return_1y_pct": -25.29,
+      "dividend_yield_pct": 0.38,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T11:59:33+00:00",
       "has_narrative": true
     },
     {
