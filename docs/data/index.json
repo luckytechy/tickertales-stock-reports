@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 36,
-  "updated_at": "2026-10-16T10:17:52+00:00",
+  "count": 37,
+  "updated_at": "2026-10-16T10:23:42+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -505,6 +505,24 @@
       "dividend_yield_pct": 0.52,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:29:28+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "SBILIFE",
+      "slug": "sbilife",
+      "one_liner": "SBI Life Insurance sells life insurance, savings, protection, pension and group policies across India, distributing mainly through SBI's bank branches and its own agency force.",
+      "tags": [
+        "P/E ~66x",
+        "P/B ~8.5x",
+        "At 52-week low",
+        "VNB margin 26-28% (slipping)",
+        "Zero promoter pledge"
+      ],
+      "last_close": 1656.8,
+      "return_1y_pct": -9.62,
+      "dividend_yield_pct": 0.16,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T10:23:41+00:00",
       "has_narrative": true
     },
     {
