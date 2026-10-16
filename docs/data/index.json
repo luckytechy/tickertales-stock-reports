@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 39,
-  "updated_at": "2026-10-16T11:59:34+00:00",
+  "count": 40,
+  "updated_at": "2026-10-16T12:01:47+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -631,6 +631,24 @@
       "dividend_yield_pct": 5.45,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:43:45+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TECHM",
+      "slug": "techm",
+      "one_liner": "Tech Mahindra is a Mahindra Group IT services and BPO company that runs telecom, manufacturing, BFSI and other enterprise clients' technology and network operations.",
+      "tags": [
+        "P/E ~27-31x",
+        "At 52-week/all-time high",
+        "12 straight qtrs margin gains",
+        "Zero promoter pledge",
+        "1:1 bonus declared"
+      ],
+      "last_close": 1790.0,
+      "return_1y_pct": 26.78,
+      "dividend_yield_pct": 2.85,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T12:01:46+00:00",
       "has_narrative": true
     },
     {
