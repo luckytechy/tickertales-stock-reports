@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 47,
-  "updated_at": "2026-10-16T21:38:26+00:00",
+  "count": 48,
+  "updated_at": "2026-10-16T21:41:38+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -217,6 +217,24 @@
       "dividend_yield_pct": 1.2,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T02:55:43+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "DRREDDY",
+      "slug": "drreddy",
+      "one_liner": "Dr. Reddy's Laboratories is an Indian pharmaceutical company making generic drugs, active pharma ingredients and biosimilars, sold mainly in the US, India, Russia/CIS and other emerging markets.",
+      "tags": [
+        "P/E ~31x",
+        "PAT -69% YoY (Q1 FY27)",
+        "Net cash, zero pledge",
+        "Results due 23 Oct 2026",
+        "5Y return trails peer"
+      ],
+      "last_close": 1218.8,
+      "return_1y_pct": -0.48,
+      "dividend_yield_pct": 0.66,
+      "data_as_of": "2026-10-15",
+      "generated_at": "2026-10-16T21:41:38+00:00",
       "has_narrative": true
     },
     {
