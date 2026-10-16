@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 37,
-  "updated_at": "2026-10-16T10:23:42+00:00",
+  "count": 38,
+  "updated_at": "2026-10-16T11:55:08+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -199,6 +199,24 @@
       "dividend_yield_pct": null,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:38:12+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "GRASIM",
+      "slug": "grasim",
+      "one_liner": "Grasim is an Aditya Birla Group conglomerate whose own business is viscose fibre and chemicals, but most of its market value sits in its controlling stakes in UltraTech Cement and Aditya Birla Capital, plus newer paints and B2B e-commerce ventures.",
+      "tags": [
+        "P/E ~34-38x",
+        "ROE only ~5%",
+        "Promoter 43.7%, zero pledge",
+        "1Y +2.4% vs Nifty -9.5%",
+        "Paints still loss-making"
+      ],
+      "last_close": 2920.0,
+      "return_1y_pct": 2.42,
+      "dividend_yield_pct": 0.34,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-16T11:55:08+00:00",
       "has_narrative": true
     },
     {
