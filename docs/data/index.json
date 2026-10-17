@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 53,
-  "updated_at": "2026-10-17T05:01:58+00:00",
+  "count": 54,
+  "updated_at": "2026-10-17T05:03:37+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -217,6 +217,24 @@
       "dividend_yield_pct": 6.35,
       "data_as_of": "2026-10-14",
       "generated_at": "2026-10-15T21:51:06+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "DIVISLAB",
+      "slug": "divislab",
+      "one_liner": "Divi's Laboratories makes active pharmaceutical ingredients, custom-synthesis (CDMO) intermediates for global pharma and agrochemical companies, and nutraceuticals, selling mostly to customers outside India.",
+      "tags": [
+        "P/E ~67-84x (sources differ)",
+        "Debt-free, ROCE ~22%",
+        "5% off all-time high",
+        "Promoter stake ~52%, no pledge",
+        "Custom synthesis now 60% of mix"
+      ],
+      "last_close": 9144.5,
+      "return_1y_pct": 39.11,
+      "dividend_yield_pct": 0.33,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T05:03:37+00:00",
       "has_narrative": true
     },
     {
