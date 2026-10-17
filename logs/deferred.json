@@ -23,5 +23,10 @@
     "last": "2026-10-16",
     "reason": "stopped at $3.66 - over the $3.00 cap",
     "times": 1
+  },
+  "HYUNDAI": {
+    "last": "2026-10-17",
+    "reason": "stopped at $5.03 - over the $3.00 cap",
+    "times": 1
   }
 }
