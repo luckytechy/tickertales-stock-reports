@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 56,
-  "updated_at": "2026-10-17T11:11:25+00:00",
+  "count": 57,
+  "updated_at": "2026-10-17T11:13:21+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -703,6 +703,24 @@
       "dividend_yield_pct": 5.92,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:35:42+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "PFC",
+      "slug": "pfc",
+      "one_liner": "PFC is a government-owned (Navratna) NBFC that provides long-term project finance to power generation, transmission and distribution companies across India, and now also owns and consolidates REC Limited as its subsidiary.",
+      "tags": [
+        "P/E ~4.3x",
+        "Div yield 5.6%",
+        "Down 36% from 2024 peak",
+        "PFC-REC merger pending",
+        "Net NPA ~0.15%"
+      ],
+      "last_close": 333.25,
+      "return_1y_pct": -12.93,
+      "dividend_yield_pct": 5.63,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T11:13:21+00:00",
       "has_narrative": true
     },
     {
