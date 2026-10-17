@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 63,
-  "updated_at": "2026-10-17T16:04:01+00:00",
+  "count": 64,
+  "updated_at": "2026-10-17T20:54:07+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -235,6 +235,24 @@
       "dividend_yield_pct": 0.3,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-16T16:59:01+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "CANBK",
+      "slug": "canbk",
+      "one_liner": "Canara Bank is a large government-owned (public sector) bank offering deposits, loans and retail/corporate/agri banking across India.",
+      "tags": [
+        "P/E ~5-6x, P/B ~0.9x",
+        "At 52-week low",
+        "GNPA down to 1.33%",
+        "Govt owns ~63%",
+        "Div yield 3.55%"
+      ],
+      "last_close": 118.29,
+      "return_1y_pct": -4.07,
+      "dividend_yield_pct": 3.55,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T20:54:07+00:00",
       "has_narrative": true
     },
     {
