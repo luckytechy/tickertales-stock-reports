@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 57,
-  "updated_at": "2026-10-17T11:13:21+00:00",
+  "count": 58,
+  "updated_at": "2026-10-17T11:15:26+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -145,6 +145,24 @@
       "dividend_yield_pct": 0.61,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:53:44+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BANKBARODA",
+      "slug": "bankbaroda",
+      "one_liner": "Bank of Baroda is a government-owned (PSU) commercial bank that takes deposits and lends to retail, agriculture, MSME and corporate customers across India and roughly 17 other countries.",
+      "tags": [
+        "P/E ~6.5x",
+        "P/B ~0.73x",
+        "At 52-week low",
+        "Yield ~3.7%",
+        "$15bn lawsuit pending"
+      ],
+      "last_close": 230.4,
+      "return_1y_pct": -10.63,
+      "dividend_yield_pct": 3.69,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T11:15:26+00:00",
       "has_narrative": true
     },
     {
