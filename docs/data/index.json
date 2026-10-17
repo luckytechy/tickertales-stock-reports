@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 59,
-  "updated_at": "2026-10-17T11:17:50+00:00",
+  "count": 60,
+  "updated_at": "2026-10-17T15:53:06+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -991,6 +991,24 @@
       "dividend_yield_pct": 0.13,
       "data_as_of": "2026-10-14",
       "generated_at": "2026-10-15T21:55:44+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TVSMOTOR",
+      "slug": "tvsmotor",
+      "one_liner": "TVS Motor makes and sells two-wheelers, three-wheelers and electric two-wheelers in India and over 80 export markets, with an in-house NBFC (TVS Credit) that finances a large chunk of its retail sales.",
+      "tags": [
+        "P/E ~54x",
+        "ROE ~34%, ROCE ~18%",
+        "EV 2W sales +133% YoY",
+        "Promoter 50.3%, zero pledge",
+        "Consol. D/E 3.4x (NBFC-skewed)"
+      ],
+      "last_close": 4095.1,
+      "return_1y_pct": 14.9,
+      "dividend_yield_pct": 0.29,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T15:53:06+00:00",
       "has_narrative": true
     },
     {
