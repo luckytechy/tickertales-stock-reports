@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 62,
-  "updated_at": "2026-10-17T16:00:46+00:00",
+  "count": 63,
+  "updated_at": "2026-10-17T16:04:01+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -883,6 +883,24 @@
       "dividend_yield_pct": 1.15,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-16T12:10:19+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "SIEMENS",
+      "slug": "siemens",
+      "one_liner": "Siemens Ltd makes industrial automation, digital-industries and smart-infrastructure (building/electrical) equipment and rail mobility systems in India, after spinning off its power/energy equipment business as a separately listed Siemens Energy India in April 2025.",
+      "tags": [
+        "P/E ~86x on core profit",
+        "EBITDA margin fell to ~9%",
+        "Pledge cut to 0%",
+        "Order book \u20b946,670 cr, +9.6%",
+        "Raw -22% drawdown is a demerger illusion"
+      ],
+      "last_close": 3624.0,
+      "return_1y_pct": 16.76,
+      "dividend_yield_pct": 0.5,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T16:04:00+00:00",
       "has_narrative": true
     },
     {
