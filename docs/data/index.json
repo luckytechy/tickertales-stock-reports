@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 64,
-  "updated_at": "2026-10-17T20:54:07+00:00",
+  "count": 65,
+  "updated_at": "2026-10-17T21:06:57+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -559,6 +559,24 @@
       "dividend_yield_pct": 6.33,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T05:01:58+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "IRFC",
+      "slug": "irfc",
+      "one_liner": "IRFC raises money from the markets and leases railway rolling stock (and increasingly, other infrastructure assets) back to Indian Railways and other public-sector borrowers, earning a thin, regulated margin on a very large loan book.",
+      "tags": [
+        "P/E ~14x",
+        "Down 62% from Jul'24 peak",
+        "1Y return -34% vs Nifty -9%",
+        "Govt-owned 82.9%, zero pledge",
+        "NIM only ~1.5%"
+      ],
+      "last_close": 80.25,
+      "return_1y_pct": -34.42,
+      "dividend_yield_pct": 2.62,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T21:06:56+00:00",
       "has_narrative": true
     },
     {
