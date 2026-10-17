@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 58,
-  "updated_at": "2026-10-17T11:15:26+00:00",
+  "count": 59,
+  "updated_at": "2026-10-17T11:17:50+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -613,6 +613,24 @@
       "dividend_yield_pct": 1.03,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:34:48+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "LTM",
+      "slug": "ltm",
+      "one_liner": "LTM Limited (formerly LTIMindtree, renamed March 2026) is an IT and digital/AI consulting services company formed from the L&T Infotech-Mindtree merger, majority-owned by Larsen & Toubro.",
+      "tags": [
+        "P/E ~26x",
+        "Down 38% from 2022 peak",
+        "Lagged peer badly over 3-5 yrs",
+        "Debt-free, ROCE ~31%",
+        "Deal bookings fell ~25% QoQ"
+      ],
+      "last_close": 4390.0,
+      "return_1y_pct": -20.56,
+      "dividend_yield_pct": 1.71,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T11:17:50+00:00",
       "has_narrative": true
     },
     {
