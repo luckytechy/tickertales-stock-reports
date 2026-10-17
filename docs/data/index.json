@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 55,
-  "updated_at": "2026-10-17T11:08:14+00:00",
+  "count": 56,
+  "updated_at": "2026-10-17T11:11:25+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -955,6 +955,24 @@
       "dividend_yield_pct": 2.23,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:24:37+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "VBL",
+      "slug": "vbl",
+      "one_liner": "Varun Beverages is PepsiCo's largest bottling franchisee outside the US, manufacturing and distributing packaged drinks (and increasingly snacks) across India and a fast-growing set of international markets including South Africa, Zimbabwe, Kenya and Central Asia.",
+      "tags": [
+        "P/E ~44x",
+        "Down 36% from 2024 peak",
+        "EBITDA margin -76bps YoY",
+        "Promoter holding 59%, pledge ~nil",
+        "5 stock splits since 2016 listing"
+      ],
+      "last_close": 430.5,
+      "return_1y_pct": -6.37,
+      "dividend_yield_pct": 0.35,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T11:11:25+00:00",
       "has_narrative": true
     },
     {
