@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 61,
-  "updated_at": "2026-10-17T15:55:49+00:00",
+  "count": 62,
+  "updated_at": "2026-10-17T16:00:46+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -775,6 +775,24 @@
       "dividend_yield_pct": 5.63,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T11:13:21+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "PNB",
+      "slug": "pnb",
+      "one_liner": "Punjab National Bank is India's second-largest government-owned bank, taking deposits and lending to retail, agriculture, MSME and corporate borrowers across the country.",
+      "tags": [
+        "P/E ~5.9x",
+        "P/B ~0.9x",
+        "GNPA down to 2.55%",
+        "Still 47% below 2010 peak",
+        "Govt stake 70%"
+      ],
+      "last_close": 116.3,
+      "return_1y_pct": 3.08,
+      "dividend_yield_pct": 2.58,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T16:00:46+00:00",
       "has_narrative": true
     },
     {
