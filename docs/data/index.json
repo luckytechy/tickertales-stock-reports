@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 60,
-  "updated_at": "2026-10-17T15:53:06+00:00",
+  "count": 61,
+  "updated_at": "2026-10-17T15:55:49+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -199,6 +199,24 @@
       "dividend_yield_pct": 1.35,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:40:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BPCL",
+      "slug": "bpcl",
+      "one_liner": "BPCL is a government-controlled company that imports and refines crude oil and sells petrol, diesel and LPG through its retail network across India.",
+      "tags": [
+        "P/E ~8.2x",
+        "Div yield ~6%",
+        "Govt holds ~53%",
+        "Q1 FY27 net loss",
+        "Down 24% from Feb peak"
+      ],
+      "last_close": 293.5,
+      "return_1y_pct": -8.29,
+      "dividend_yield_pct": 5.96,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T15:55:49+00:00",
       "has_narrative": true
     },
     {
