@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 49,
-  "updated_at": "2026-10-16T21:51:22+00:00",
+  "count": 50,
+  "updated_at": "2026-10-17T04:55:46+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -865,6 +865,24 @@
       "dividend_yield_pct": 2.23,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:24:37+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "VEDL",
+      "slug": "vedl",
+      "one_liner": "Vedanta Ltd is now the 'residual' post-demerger entity centred on a ~63% stake in Hindustan Zinc plus its own zinc-international, copper and ferro-chrome operations, after its aluminium, power, oil & gas, and iron & steel businesses were spun off into four separately listed companies in 2026.",
+      "tags": [
+        "Just demerged (May 2026)",
+        "Near 52-wk low",
+        "Promoter stake ~fully pledged",
+        "Net debt/EBITDA 0.3x",
+        "Div yield 6.5%"
+      ],
+      "last_close": 246.1,
+      "return_1y_pct": -46.74,
+      "dividend_yield_pct": 6.5,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T04:55:45+00:00",
       "has_narrative": true
     },
     {
