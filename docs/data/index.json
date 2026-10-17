@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 54,
-  "updated_at": "2026-10-17T05:03:37+00:00",
+  "count": 55,
+  "updated_at": "2026-10-17T11:08:14+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -109,6 +109,24 @@
       "dividend_yield_pct": 0.09,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:30:34+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BAJAJHLDNG",
+      "slug": "bajajhldng",
+      "one_liner": "Bajaj Holdings & Investment is the Bajaj Group's holding company - it owns roughly a third of Bajaj Auto and around 38% of Bajaj Finserv, plus a bond/equity investment portfolio and a small windmill power business, and earns its income mainly from dividends, its share of those two companies' profits, and gains on its portfolio.",
+      "tags": [
+        "Pure holding co, no ops",
+        "P/E ~13-14x, P/B ~1.6x",
+        "Promoter 51.5%, 0% pledged",
+        "~45-48% discount to portfolio value",
+        "Div yield ~1.7%"
+      ],
+      "last_close": 11198.0,
+      "return_1y_pct": -8.78,
+      "dividend_yield_pct": 1.74,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T11:08:14+00:00",
       "has_narrative": true
     },
     {
