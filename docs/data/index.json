@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 51,
-  "updated_at": "2026-10-17T04:57:59+00:00",
+  "count": 52,
+  "updated_at": "2026-10-17T04:59:39+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -235,6 +235,24 @@
       "dividend_yield_pct": 1.2,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T02:55:43+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "DMART",
+      "slug": "dmart",
+      "one_liner": "DMart (Avenue Supermarts) runs a chain of value-format supermarkets and hypermarkets selling groceries, FMCG, general merchandise and apparel, mostly out of stores it owns rather than leases.",
+      "tags": [
+        "P/E ~70x",
+        "At 52-week low",
+        "Margin lagging sales growth",
+        "Zero dividend",
+        "No promoter pledge"
+      ],
+      "last_close": 3342.0,
+      "return_1y_pct": -22.57,
+      "dividend_yield_pct": null,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T04:59:39+00:00",
       "has_narrative": true
     },
     {
