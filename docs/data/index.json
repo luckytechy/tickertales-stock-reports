@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 50,
-  "updated_at": "2026-10-17T04:55:46+00:00",
+  "count": 51,
+  "updated_at": "2026-10-17T04:57:59+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -361,6 +361,24 @@
       "dividend_yield_pct": 2.19,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-14T19:55:47+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HINDZINC",
+      "slug": "hindzinc",
+      "one_liner": "Hindustan Zinc, majority-owned by Vedanta, is India's largest integrated zinc-lead-silver miner and refiner, running mines and smelters mainly in Rajasthan plus a wind power business.",
+      "tags": [
+        "P/E ~13-14x",
+        "ROE ~61%, ROCE ~69%",
+        "Results due Oct 19, 2026",
+        "Profit growth mostly price-led",
+        "60.7% held by Vedanta (partly encumbered)"
+      ],
+      "last_close": 540.0,
+      "return_1y_pct": 8.52,
+      "dividend_yield_pct": 2.04,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-17T04:57:59+00:00",
       "has_narrative": true
     },
     {
