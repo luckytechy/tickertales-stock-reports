@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 65,
-  "updated_at": "2026-10-17T21:06:57+00:00",
+  "count": 66,
+  "updated_at": "2026-10-18T05:02:08+00:00",
   "reports": [
     {
       "ticker": "ADANIENT",
@@ -973,6 +973,24 @@
       "dividend_yield_pct": 1.02,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-16T17:07:49+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TATAPOWER",
+      "slug": "tatapower",
+      "one_liner": "Tata Power is an integrated power company that generates (coal, hydro, renewables), transmits and distributes electricity, and is now expanding into EV charging and grid infrastructure for data centres.",
+      "tags": [
+        "P/E ~30x",
+        "Net debt \u20b956,122cr",
+        "No promoter pledge",
+        "26% off Sep'24 peak",
+        "Mundra on govt directive"
+      ],
+      "last_close": 353.85,
+      "return_1y_pct": -10.77,
+      "dividend_yield_pct": 0.71,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T05:02:08+00:00",
       "has_narrative": true
     },
     {
