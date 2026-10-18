@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 77,
-  "updated_at": "2026-10-18T16:22:27+00:00",
+  "count": 78,
+  "updated_at": "2026-10-18T21:02:49+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1225,6 +1225,24 @@
       "dividend_yield_pct": 0.34,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:32:52+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TMCV",
+      "slug": "tmcv",
+      "one_liner": "Tata Motors Limited (formerly TML Commercial Vehicles Ltd) makes trucks, buses, pickups and other commercial vehicles \u2014 it is the standalone CV business that was demerged from the erstwhile Tata Motors in November 2025, leaving passenger cars and JLR in a separate entity (TMPV).",
+      "tags": [
+        "P/E ~21x (screener)",
+        "Promoter 42.6%, zero pledge",
+        "Listed Nov 2025 (demerger)",
+        "Down 15.7% from Feb peak",
+        "CV market share 36.8%"
+      ],
+      "last_close": 421.05,
+      "return_1y_pct": 29.25,
+      "dividend_yield_pct": 0.95,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T21:02:49+00:00",
       "has_narrative": true
     },
     {
