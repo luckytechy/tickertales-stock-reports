@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 72,
-  "updated_at": "2026-10-18T11:49:47+00:00",
+  "count": 73,
+  "updated_at": "2026-10-18T16:07:29+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -829,6 +829,24 @@
       "dividend_yield_pct": 0.23,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-16T21:38:25+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "slug": "muthootfin",
+      "one_liner": "Muthoot Finance is India's largest gold-loan NBFC, lending against pledged household gold jewellery, with microfinance, housing and vehicle-loan units alongside the core gold business.",
+      "tags": [
+        "P/E ~9x",
+        "ROE ~31%",
+        "Down 36% from peak",
+        "NIM compressing",
+        "Zero promoter pledge"
+      ],
+      "last_close": 2598.3,
+      "return_1y_pct": -19.83,
+      "dividend_yield_pct": 1.15,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T16:07:29+00:00",
       "has_narrative": true
     },
     {
