@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 67,
-  "updated_at": "2026-10-18T05:04:43+00:00",
+  "count": 68,
+  "updated_at": "2026-10-18T05:09:37+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -271,6 +271,24 @@
       "dividend_yield_pct": 3.55,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T20:54:07+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "CHOLAFIN",
+      "slug": "cholafin",
+      "one_liner": "Cholamandalam Investment and Finance (Murugappa Group) is a diversified NBFC that lends against vehicles, homes/property and small businesses, and also runs a general insurance joint venture.",
+      "tags": [
+        "P/B ~4.4x",
+        "Stock -19% from Aug peak",
+        "AUM +23% YoY",
+        "GNPA ticking up",
+        "Promoter stake drifting down"
+      ],
+      "last_close": 1574.4,
+      "return_1y_pct": -5.51,
+      "dividend_yield_pct": 0.13,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T05:09:37+00:00",
       "has_narrative": true
     },
     {
