@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 79,
-  "updated_at": "2026-10-18T21:04:31+00:00",
+  "count": 80,
+  "updated_at": "2026-10-18T21:06:11+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1117,6 +1117,24 @@
       "dividend_yield_pct": 0.5,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T16:04:00+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "SOLARINDS",
+      "slug": "solarinds",
+      "one_liner": "Solar Industries India makes industrial explosives and detonators for mining and infrastructure, and has rapidly scaled into defence ordnance, missile systems and ammunition for Indian and export customers.",
+      "tags": [
+        "P/E ~90-97x",
+        "Defence revenue +123% YoY",
+        "Promoter holding ~73%",
+        "Low debt (D/E 0.2)",
+        "11% off Sept 2026 peak"
+      ],
+      "last_close": 20011.0,
+      "return_1y_pct": 42.66,
+      "dividend_yield_pct": 0.05,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T21:06:11+00:00",
       "has_narrative": true
     },
     {
