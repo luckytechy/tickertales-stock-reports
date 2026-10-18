@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 70,
-  "updated_at": "2026-10-18T11:43:08+00:00",
+  "count": 71,
+  "updated_at": "2026-10-18T11:47:13+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -73,6 +73,24 @@
       "dividend_yield_pct": null,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-16T21:51:22+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "AMBUJACEM",
+      "slug": "ambujacem",
+      "one_liner": "Ambuja Cements manufactures and sells cement and clinker across India, and is the Adani Group's consolidation platform for its cement business (now absorbing Sanghi, Penna, and in the process of merging with ACC and Orient Cement).",
+      "tags": [
+        "P/E ~20.6x, 30% peer discount",
+        "1Y return -36.5% vs Nifty -9.5%",
+        "Net cash down to ~\u20b9430cr",
+        "Q2 FY27 results due Oct 29",
+        "CCI penalty risk ~\u20b9550cr pending"
+      ],
+      "last_close": 360.0,
+      "return_1y_pct": -36.5,
+      "dividend_yield_pct": 0.56,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T11:47:12+00:00",
       "has_narrative": true
     },
     {
