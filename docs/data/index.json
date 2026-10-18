@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 76,
-  "updated_at": "2026-10-18T16:20:11+00:00",
+  "count": 77,
+  "updated_at": "2026-10-18T16:22:27+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -541,6 +541,24 @@
       "dividend_yield_pct": 4.42,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:22:49+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HDFCAMC",
+      "slug": "hdfcamc",
+      "one_liner": "HDFC AMC runs HDFC Mutual Fund, earning fees as a percentage of the money it manages across equity, debt and other schemes.",
+      "tags": [
+        "P/E ~34x (TTM)",
+        "P/B ~10x",
+        "ROE ~36%, zero debt",
+        "1:1 bonus Nov 2025",
+        "1Y stock -15.5% vs peer +22.6%"
+      ],
+      "last_close": 2398.6,
+      "return_1y_pct": -15.53,
+      "dividend_yield_pct": 2.25,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T16:22:27+00:00",
       "has_narrative": true
     },
     {
