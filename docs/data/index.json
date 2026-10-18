@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 78,
-  "updated_at": "2026-10-18T21:02:49+00:00",
+  "count": 79,
+  "updated_at": "2026-10-18T21:04:31+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -883,6 +883,24 @@
       "dividend_yield_pct": 0.23,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-16T21:38:25+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "MAZDOCK",
+      "slug": "mazdock",
+      "one_liner": "Mazagon Dock Shipbuilders is a Mumbai-based, government-owned shipyard that builds warships and submarines for the Indian Navy under long-term defence contracts.",
+      "tags": [
+        "P/E ~29x",
+        "Debt-free",
+        "ROCE ~36%",
+        "Down 44% from May 2025 peak",
+        "Promoter (Govt) 81%"
+      ],
+      "last_close": 2092.0,
+      "return_1y_pct": -25.6,
+      "dividend_yield_pct": 0.87,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T21:04:30+00:00",
       "has_narrative": true
     },
     {
