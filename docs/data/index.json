@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 68,
-  "updated_at": "2026-10-18T11:38:16+00:00",
+  "count": 69,
+  "updated_at": "2026-10-18T11:41:19+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -37,6 +37,24 @@
       "dividend_yield_pct": 0.05,
       "data_as_of": "2026-10-14",
       "generated_at": "2026-10-15T21:42:28+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ADANIGREEN",
+      "slug": "adanigreen",
+      "one_liner": "Adani Green Energy develops and operates large-scale solar, wind and hybrid power plants across India, selling electricity to state utilities and corporates under long-term contracts.",
+      "tags": [
+        "P/E ~111x",
+        "Down 56% from 2022 peak",
+        "0% promoter pledge",
+        "Capacity +24% YoY",
+        "Results due Oct 21"
+      ],
+      "last_close": 1302.0,
+      "return_1y_pct": 22.8,
+      "dividend_yield_pct": null,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T11:41:19+00:00",
       "has_narrative": true
     },
     {
