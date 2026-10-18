@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 68,
-  "updated_at": "2026-10-18T05:09:37+00:00",
+  "updated_at": "2026-10-18T11:38:16+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1212,19 +1212,19 @@
     {
       "ticker": "WIPRO",
       "slug": "wipro",
-      "one_liner": "Wipro is a Bengaluru-based IT services and consulting company that writes software, runs client IT systems and offers engineering/BPO services, mostly billed to large overseas clients in dollars.",
+      "one_liner": "Wipro is an Indian IT services and consulting company that builds, runs and modernises technology systems for large global corporations across banking, healthcare, manufacturing and other sectors.",
       "tags": [
-        "P/E ~12x",
-        "Div yield ~4.8%",
-        "Down 49% from FY22 peak",
-        "Margin at 15-qtr low",
-        "Results due Oct 15"
+        "P/E ~12.7x",
+        "Div yield ~4.3%",
+        "-44% from Jan'22 peak",
+        "IT revenue flat ex-FX",
+        "Zero promoter pledge"
       ],
-      "last_close": 167.25,
-      "return_1y_pct": -29.21,
-      "dividend_yield_pct": 4.78,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-13T06:33:24+00:00",
+      "last_close": 184.4,
+      "return_1y_pct": -24.62,
+      "dividend_yield_pct": 4.34,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T11:38:16+00:00",
       "has_narrative": true
     }
   ]
