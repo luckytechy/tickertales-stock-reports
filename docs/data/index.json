@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 69,
-  "updated_at": "2026-10-18T11:41:19+00:00",
+  "count": 70,
+  "updated_at": "2026-10-18T11:43:08+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -433,6 +433,24 @@
       "dividend_yield_pct": null,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:38:12+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "GODREJCP",
+      "slug": "godrejcp",
+      "one_liner": "Godrej Consumer Products makes household and personal-care staples - soaps, hair colour, air fresheners, insecticides - sold mainly in India, Indonesia, Africa and Latin America.",
+      "tags": [
+        "P/E ~46-55x",
+        "Near 52-wk low",
+        "Down 41% from 2024 peak",
+        "Results due Oct 29",
+        "No promoter pledge"
+      ],
+      "last_close": 855.0,
+      "return_1y_pct": -22.19,
+      "dividend_yield_pct": 2.34,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-18T11:43:08+00:00",
       "has_narrative": true
     },
     {
