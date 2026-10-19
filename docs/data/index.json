@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 80,
-  "updated_at": "2026-10-19T05:09:20+00:00",
+  "count": 81,
+  "updated_at": "2026-10-19T05:13:10+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -253,6 +253,24 @@
       "dividend_yield_pct": 1.35,
       "data_as_of": "2026-10-12",
       "generated_at": "2026-10-13T23:40:15+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BOSCHLTD",
+      "slug": "boschltd",
+      "one_liner": "Bosch Limited is the Indian listed arm of Germany's Bosch Group, making fuel-injection, powertrain and other mobility components for cars, two-wheelers and commercial vehicles, plus an auto-parts aftermarket business.",
+      "tags": [
+        "P/E ~54x, rich",
+        "Debt-free, large net cash",
+        "Promoter 70.5%, no pledge",
+        "Q2 results due Nov 6",
+        "Dividend cut 512\u2192270"
+      ],
+      "last_close": 45460.0,
+      "return_1y_pct": 16.69,
+      "dividend_yield_pct": 0.59,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T05:13:10+00:00",
       "has_narrative": true
     },
     {
