@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 86,
-  "updated_at": "2026-10-19T13:56:44+00:00",
+  "count": 87,
+  "updated_at": "2026-10-19T14:01:31+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -793,6 +793,24 @@
       "dividend_yield_pct": 5.59,
       "data_as_of": "2026-10-13",
       "generated_at": "2026-10-13T08:40:29+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "JINDALSTEL",
+      "slug": "jindalstel",
+      "one_liner": "Jindal Steel Limited (formerly Jindal Steel & Power) makes steel in Chhattisgarh and Odisha, selling plates, rails, structural steel and other long/flat products, and is mid-way through a large capacity expansion at its Angul plant.",
+      "tags": [
+        "P/E ~34.6x",
+        "ROE only 8.2%",
+        "Promoter pledge ~9.9%",
+        "Capex-heavy expansion cycle",
+        "Q2 results Oct 23, 2026"
+      ],
+      "last_close": 1041.8,
+      "return_1y_pct": 3.79,
+      "dividend_yield_pct": 0.19,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T14:01:31+00:00",
       "has_narrative": true
     },
     {
