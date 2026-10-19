@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 89,
-  "updated_at": "2026-10-19T22:37:05+00:00",
+  "count": 90,
+  "updated_at": "2026-10-19T22:43:54+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1531,6 +1531,24 @@
       "dividend_yield_pct": 2.91,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-18T11:49:46+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "VAML",
+      "slug": "vaml",
+      "one_liner": "Vedanta Aluminium Metal Limited (VAML) runs India's largest integrated aluminium business - the Lanjigarh alumina refinery, the giant Jharsuguda smelter, and a 51% stake in BALCO - after being demerged out of Vedanta Ltd and listed separately in June 2026.",
+      "tags": [
+        "P/E ~9x",
+        "99.99% of promoter shares pledged",
+        "Down 24% since June listing",
+        "Div. yield 2.15%",
+        "World's largest single-site Al smelter"
+      ],
+      "last_close": 371.85,
+      "return_1y_pct": -23.71,
+      "dividend_yield_pct": 2.15,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-19T22:43:54+00:00",
       "has_narrative": true
     },
     {

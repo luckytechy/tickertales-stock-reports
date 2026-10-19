@@ -99,3 +99,4 @@ date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_eq
 2026-10-19,JINDALSTEL,claude-haiku-4-5-20251001+claude-sonnet-5,275940,34071,391521,75225,776757,2,283,1.3337688
 2026-10-19,TATACAP,claude-haiku-4-5-20251001+claude-sonnet-5,119726,13804,208760,36342,378632,13,146,0.6691
 2026-10-19,MOTHERSON,claude-haiku-4-5-20251001+claude-sonnet-5,111208,10688,165400,33329,320625,11,94,0.576788
+2026-10-19,VAML,claude-haiku-4-5-20251001+claude-sonnet-5,127178,16101,202450,31123,376852,2,168,0.63126975
