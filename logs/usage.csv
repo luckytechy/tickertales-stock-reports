@@ -89,3 +89,4 @@ date,ticker,model,input,output,cache_read,cache_write,total,turns,seconds,api_eq
 2026-10-18,TMCV,claude-haiku-4-5-20251001+claude-sonnet-5,68276,11655,172454,13952,266337,8,115,0.4049572
 2026-10-18,MAZDOCK,claude-haiku-4-5-20251001+claude-sonnet-5,99445,9558,257425,34599,401027,11,98,0.5796924999999999
 2026-10-18,SOLARINDS,claude-haiku-4-5-20251001+claude-sonnet-5,73993,9108,159688,28904,271693,8,97,0.4729894
+2026-10-19,DLF,claude-haiku-4-5-20251001+claude-sonnet-5,76403,10157,121459,28791,236810,8,89,0.4729697

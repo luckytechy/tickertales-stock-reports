@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 80,
-  "updated_at": "2026-10-18T21:06:11+00:00",
+  "updated_at": "2026-10-19T05:09:20+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -402,19 +402,19 @@
     {
       "ticker": "DLF",
       "slug": "dlf",
-      "one_liner": "DLF is India's largest listed real estate developer, building and selling homes (mainly premium, NCR-centric) while earning steady rental income from offices and malls through its DCCDL joint venture with GIC.",
+      "one_liner": "DLF is India's largest listed real-estate developer, building and selling homes (mostly luxury, concentrated around Gurugram) while also earning steady rental income from offices and malls through its DCCDL joint venture.",
       "tags": [
-        "P/E ~38x (premium to peers)",
-        "Net cash, debt almost nil",
-        "Bookings fell 94% in Q1 FY27",
-        "Still 34% below Jan-2008 peak",
-        "Promoter 74%, zero pledge"
+        "P/E ~35x",
+        "ROE ~9.7%",
+        "Near-zero standalone debt",
+        "Promoters 74%, zero pledge",
+        "5Y return +70% vs Nifty +25%"
       ],
-      "last_close": 664.8,
-      "return_1y_pct": -9.18,
-      "dividend_yield_pct": 1.2,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T02:55:43+00:00",
+      "last_close": 675.15,
+      "return_1y_pct": -11.67,
+      "dividend_yield_pct": 1.18,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T05:09:19+00:00",
       "has_narrative": true
     },
     {
