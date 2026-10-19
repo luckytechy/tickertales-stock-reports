@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 87,
-  "updated_at": "2026-10-19T14:01:31+00:00",
+  "count": 88,
+  "updated_at": "2026-10-19T14:04:01+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1261,6 +1261,24 @@
       "dividend_yield_pct": 0.91,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T04:20:39+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "TATACAP",
+      "slug": "tatacap",
+      "one_liner": "Tata Capital is the Tata Group's diversified non-bank lender, financing retail, SME, corporate, housing and vehicle loans, and now entering gold loans.",
+      "tags": [
+        "P/E ~25x",
+        "ROE 10.6%",
+        "Promoter 85%",
+        "Listed <1yr",
+        "Results due Oct 27"
+      ],
+      "last_close": 314.25,
+      "return_1y_pct": -3.25,
+      "dividend_yield_pct": 0.18,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T14:04:01+00:00",
       "has_narrative": true
     },
     {
