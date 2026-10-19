@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 84,
-  "updated_at": "2026-10-19T05:22:02+00:00",
+  "count": 85,
+  "updated_at": "2026-10-19T13:53:05+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -19,6 +19,24 @@
       "dividend_yield_pct": 1.76,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-18T05:04:42+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ADANIENSOL",
+      "slug": "adaniensol",
+      "one_liner": "Adani Energy Solutions runs India's largest private power transmission network, the Mumbai electricity distribution business (AEML), a fast-growing smart-metering arm, and a newer EPC-style \"Energy Solutions Platform\".",
+      "tags": [
+        "Q2 FY27 results Oct 22",
+        "P/E ~57x",
+        "Net debt/EBITDA 4.5x",
+        "Promoter pledge 0%",
+        "5Y stock -22% vs peer +115%"
+      ],
+      "last_close": 1364.9,
+      "return_1y_pct": 45.66,
+      "dividend_yield_pct": null,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T13:53:05+00:00",
       "has_narrative": true
     },
     {
