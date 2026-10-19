@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 88,
-  "updated_at": "2026-10-19T14:04:01+00:00",
+  "count": 89,
+  "updated_at": "2026-10-19T22:37:05+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -973,6 +973,24 @@
       "dividend_yield_pct": 0.87,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-18T21:04:30+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "MOTHERSON",
+      "slug": "motherson",
+      "one_liner": "Samvardhana Motherson makes auto parts for carmakers worldwide - wiring harnesses, mirrors, plastic modules - and is now pushing into aerospace and consumer electronics through acquisitions.",
+      "tags": [
+        "P/E ~37-40x",
+        "Q1 FY26 profit fell 45% on tariff lag",
+        "Net leverage 0.8x, record low",
+        "Promoter pledge 2.34%",
+        "9 stock splits since 2005"
+      ],
+      "last_close": 160.0,
+      "return_1y_pct": 49.88,
+      "dividend_yield_pct": 0.38,
+      "data_as_of": "2026-10-16",
+      "generated_at": "2026-10-19T22:37:05+00:00",
       "has_narrative": true
     },
     {
