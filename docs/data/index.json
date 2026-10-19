@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 85,
-  "updated_at": "2026-10-19T13:53:05+00:00",
+  "count": 86,
+  "updated_at": "2026-10-19T13:56:44+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1531,6 +1531,24 @@
       "dividend_yield_pct": 4.34,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-18T11:38:16+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ZYDUSLIFE",
+      "slug": "zyduslife",
+      "one_liner": "Zydus Lifesciences makes generic and branded medicines for the US and Indian markets, plus consumer wellness products and specialty/biosimilar drugs.",
+      "tags": [
+        "P/E ~23x TTM",
+        "Q1 FY27 PAT -35% YoY",
+        "Promoter 75%, unpledged",
+        "Results due ~early Nov 2026",
+        "ROE ~21%"
+      ],
+      "last_close": 1113.9,
+      "return_1y_pct": 11.23,
+      "dividend_yield_pct": 0.09,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T13:56:44+00:00",
       "has_narrative": true
     }
   ]
