@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 81,
-  "updated_at": "2026-10-19T05:13:10+00:00",
+  "count": 82,
+  "updated_at": "2026-10-19T05:16:05+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1045,6 +1045,24 @@
       "dividend_yield_pct": 3.6,
       "data_as_of": "2026-10-15",
       "generated_at": "2026-10-15T14:49:49+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "POWERINDIA",
+      "slug": "powerindia",
+      "one_liner": "Hitachi Energy India (formerly ABB Power Products and Systems India) makes power transmission and distribution equipment \u2014 transformers, switchgear, HVDC systems and grid automation \u2014 for utilities, industry, data centres and renewable energy projects in India.",
+      "tags": [
+        "P/E ~110-120x",
+        "25% below May'26 peak",
+        "Record backlog \u20b932,222cr",
+        "Margin: 8%\u219216% YoY",
+        "Near debt-free"
+      ],
+      "last_close": 28780.0,
+      "return_1y_pct": 64.95,
+      "dividend_yield_pct": 0.03,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T05:16:04+00:00",
       "has_narrative": true
     },
     {
