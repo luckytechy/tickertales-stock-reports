@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 83,
-  "updated_at": "2026-10-19T05:18:09+00:00",
+  "count": 84,
+  "updated_at": "2026-10-19T05:22:02+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1045,6 +1045,24 @@
       "dividend_yield_pct": 2.58,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T16:00:46+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "POLYCAB",
+      "slug": "polycab",
+      "one_liner": "Polycab is India's largest wires-and-cables manufacturer, with a growing side business in fans, switches and appliances (FMEG) and a smaller EPC/EHV cable-projects arm.",
+      "tags": [
+        "P/E ~39x",
+        "Net cash, zero pledge",
+        "Down 20.5% from June 2026 peak",
+        "Tax dispute ongoing",
+        "FMEG margin turned positive"
+      ],
+      "last_close": 8011.0,
+      "return_1y_pct": 4.89,
+      "dividend_yield_pct": 0.59,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-19T05:22:02+00:00",
       "has_narrative": true
     },
     {
