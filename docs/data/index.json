@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 92,
-  "updated_at": "2026-10-20T12:02:47+00:00",
+  "updated_at": "2026-10-20T12:04:28+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -708,19 +708,19 @@
     {
       "ticker": "ICICIBANK",
       "slug": "icicibank",
-      "one_liner": "ICICI Bank is India's second-largest private sector bank, taking deposits and lending across retail, SME, corporate and rural segments, with insurance and asset-management subsidiaries alongside.",
+      "one_liner": "ICICI Bank is India's second-largest private-sector bank, lending to retail and corporate customers and taking deposits, with insurance and asset-management arms held through subsidiaries.",
       "tags": [
-        "P/E ~17x",
-        "Loan growth ~20% YoY",
-        "GNPA 1.38%",
-        "No promoter/pledge",
-        "Q2 FY27 results Oct 17"
+        "P/E ~17-20x",
+        "P/B ~2.6x",
+        "ROE ~16.4%",
+        "GNPA 1.20%",
+        "No promoter stake"
       ],
-      "last_close": 1360.2,
-      "return_1y_pct": -0.56,
-      "dividend_yield_pct": 0.88,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T19:45:31+00:00",
+      "last_close": 1381.0,
+      "return_1y_pct": 0.17,
+      "dividend_yield_pct": 0.87,
+      "data_as_of": "2026-10-19",
+      "generated_at": "2026-10-20T12:04:28+00:00",
       "has_narrative": true
     },
     {
