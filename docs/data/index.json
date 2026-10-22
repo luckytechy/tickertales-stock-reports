@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 92,
-  "updated_at": "2026-10-20T12:04:28+00:00",
+  "updated_at": "2026-10-22T05:17:50+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1554,19 +1554,19 @@
     {
       "ticker": "UNIONBANK",
       "slug": "unionbank",
-      "one_liner": "Union Bank of India is a government-owned public sector bank that takes deposits and lends to corporates, retail borrowers, agriculture and MSMEs across India.",
+      "one_liner": "Union Bank of India is a public-sector bank offering deposits, retail and corporate loans, and treasury services across India, majority owned by the Government of India.",
       "tags": [
-        "P/E ~6.5-7x",
-        "P/B ~1x",
-        "Govt owns 74.76%",
-        "GNPA down to 2.65%",
-        "Q2 results due 19 Oct"
+        "P/E ~6.3x",
+        "P/B ~1.0x",
+        "GNPA down to 2.42%",
+        "Govt owns 74.76%, no pledging",
+        "Profit +30% YoY"
       ],
-      "last_close": 171.68,
-      "return_1y_pct": 27.33,
-      "dividend_yield_pct": 2.91,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T11:49:46+00:00",
+      "last_close": 183.16,
+      "return_1y_pct": 32.0,
+      "dividend_yield_pct": 2.73,
+      "data_as_of": "2026-10-22",
+      "generated_at": "2026-10-22T05:17:49+00:00",
       "has_narrative": true
     },
     {
