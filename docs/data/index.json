@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 92,
-  "updated_at": "2026-10-22T05:17:50+00:00",
+  "count": 93,
+  "updated_at": "2026-10-22T05:19:46+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -73,6 +73,24 @@
       "dividend_yield_pct": null,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-18T11:41:19+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "ADANIPORTS",
+      "slug": "adaniports",
+      "one_liner": "Adani Ports & SEZ builds and operates a network of ports, terminals, logistics parks and a Special Economic Zone across India and select overseas sites (Colombo, Haifa, Tanzania and others), earning fees from cargo and container handling.",
+      "tags": [
+        "P/E ~31x",
+        "ROE ~16% / ROCE ~12.5%",
+        "Pledge: Nil (FY26)",
+        "Results due 28 Oct 2026",
+        "H1 FY27 cargo +15% YoY"
+      ],
+      "last_close": 1734.4,
+      "return_1y_pct": 19.86,
+      "dividend_yield_pct": 0.43,
+      "data_as_of": "2026-10-22",
+      "generated_at": "2026-10-22T05:19:46+00:00",
       "has_narrative": true
     },
     {
