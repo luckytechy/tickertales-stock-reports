@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 93,
-  "updated_at": "2026-10-22T12:21:25+00:00",
+  "updated_at": "2026-10-22T12:23:11+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -222,19 +222,19 @@
     {
       "ticker": "BAJFINANCE",
       "slug": "bajfinance",
-      "one_liner": "Bajaj Finance is India's largest diversified NBFC, lending across consumer durables, personal loans, SME, mortgages, gold loans and rural/urban retail finance through a huge digital and branch network.",
+      "one_liner": "Bajaj Finance is a large diversified NBFC that lends to consumers and small businesses across personal loans, consumer durables, SME/business loans, mortgages and gold loans, majority-owned by parent Bajaj Finserv.",
       "tags": [
-        "P/E ~29-30x",
-        "Results due 19 Oct 2026",
-        "\u20b917,500cr capital raise",
-        "Promoter 54.7%, no pledge",
-        "Down 15% from Aug peak"
+        "P/E ~27-30x",
+        "ROE 20.6% (Q2, annualised)",
+        "\u20b917,500cr QIP/warrants dilutive",
+        "Gold-loan stress emerging",
+        "5Y return \u2248 Nifty, far behind peer"
       ],
-      "last_close": 982.75,
-      "return_1y_pct": -4.63,
-      "dividend_yield_pct": 0.61,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T19:53:44+00:00",
+      "last_close": 942.1,
+      "return_1y_pct": -13.37,
+      "dividend_yield_pct": 0.64,
+      "data_as_of": "2026-10-22",
+      "generated_at": "2026-10-22T12:23:11+00:00",
       "has_narrative": true
     },
     {
