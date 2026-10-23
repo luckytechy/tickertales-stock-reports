@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 93,
-  "updated_at": "2026-10-22T12:23:11+00:00",
+  "count": 94,
+  "updated_at": "2026-10-23T05:15:53+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -685,6 +685,24 @@
       "dividend_yield_pct": 0.38,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-16T11:59:33+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "HINDALCO",
+      "slug": "hindalco",
+      "one_liner": "Hindalco is the Aditya Birla Group's aluminium and copper producer, and also owns Novelis, the world's largest recycler and roller of aluminium sheet for cars and drink cans.",
+      "tags": [
+        "P/E ~13x, below peer average",
+        "Zero promoter pledge",
+        "5Y stock +87% vs Nifty +24%",
+        "Novelis fire cost ~$600mn net",
+        "Q2 FY27 results due Nov 6"
+      ],
+      "last_close": 856.6,
+      "return_1y_pct": 8.67,
+      "dividend_yield_pct": 0.58,
+      "data_as_of": "2026-10-23",
+      "generated_at": "2026-10-23T05:15:53+00:00",
       "has_narrative": true
     },
     {
