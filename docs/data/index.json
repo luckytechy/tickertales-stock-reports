@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 98,
-  "updated_at": "2026-10-24T11:30:41+00:00",
+  "count": 99,
+  "updated_at": "2026-10-25T05:10:55+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1225,6 +1225,24 @@
       "dividend_yield_pct": 5.63,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T11:13:21+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "PIDILITIND",
+      "slug": "pidilitind",
+      "one_liner": "Pidilite Industries makes adhesives, sealants and construction/craft chemicals \u2014 brands like Fevicol, Dr. Fixit and M-seal \u2014 sold to households, carpenters and masons, plus industrial customers.",
+      "tags": [
+        "P/E ~57x",
+        "Near debt-free (D/E ~0.04)",
+        "ROCE ~31%",
+        "Results due 28 Oct 2026",
+        "0% promoter pledge"
+      ],
+      "last_close": 1487.7,
+      "return_1y_pct": -1.23,
+      "dividend_yield_pct": 0.77,
+      "data_as_of": "2026-10-23",
+      "generated_at": "2026-10-25T05:10:55+00:00",
       "has_narrative": true
     },
     {
