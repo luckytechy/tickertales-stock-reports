@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 99,
-  "updated_at": "2026-10-25T05:10:55+00:00",
+  "count": 100,
+  "updated_at": "2026-10-25T05:13:05+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -343,6 +343,24 @@
       "dividend_yield_pct": 5.96,
       "data_as_of": "2026-10-16",
       "generated_at": "2026-10-17T15:55:49+00:00",
+      "has_narrative": true
+    },
+    {
+      "ticker": "BRITANNIA",
+      "slug": "britannia",
+      "one_liner": "Britannia Industries makes and sells packaged biscuits, cakes, rusk, bread and dairy products across India under brands like Britannia, Tiger, Good Day and Milk Bikis.",
+      "tags": [
+        "At 52-week low",
+        "P/E ~42x",
+        "ROCE ~56%",
+        "Zero promoter pledge",
+        "1Y return -24%"
+      ],
+      "last_close": 4537.9,
+      "return_1y_pct": -23.97,
+      "dividend_yield_pct": 1.99,
+      "data_as_of": "2026-10-23",
+      "generated_at": "2026-10-25T05:13:04+00:00",
       "has_narrative": true
     },
     {
