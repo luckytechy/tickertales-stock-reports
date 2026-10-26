@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-26T13:35:30+00:00",
+  "updated_at": "2026-10-26T22:53:43+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1392,19 +1392,19 @@
     {
       "ticker": "SHRIRAMFIN",
       "slug": "shriramfin",
-      "one_liner": "Shriram Finance is India's largest non-bank lender (NBFC), built on financing used and new commercial vehicles, with gold loans, MSME and personal loans as newer additions.",
+      "one_liner": "Shriram Finance is India's largest retail NBFC, lending against used commercial vehicles, two-wheelers, gold and small business/personal needs to borrowers banks often skip.",
       "tags": [
-        "P/E ~19.5x",
-        "P/B ~2.7x",
-        "AUM +15% YoY",
-        "GNPA ticked up to 4.64%",
-        "MUFG now owns 20%"
+        "P/E ~21x",
+        "MUFG owns ~20%",
+        "AUM +16% YoY",
+        "24% off Aug peak",
+        "AAA rated"
       ],
-      "last_close": 939.95,
-      "return_1y_pct": 41.42,
-      "dividend_yield_pct": 1.15,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T12:10:19+00:00",
+      "last_close": 865.0,
+      "return_1y_pct": 23.33,
+      "dividend_yield_pct": 1.25,
+      "data_as_of": "2026-10-23",
+      "generated_at": "2026-10-26T22:53:42+00:00",
       "has_narrative": true
     },
     {
