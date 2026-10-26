@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-25T12:03:08+00:00",
+  "updated_at": "2026-10-26T05:13:24+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -402,19 +402,19 @@
     {
       "ticker": "CGPOWER",
       "slug": "cgpower",
-      "one_liner": "CG Power makes power transmission and distribution equipment (transformers, switchgear) and industrial products (motors, drives, railway systems), and is now building a new semiconductor packaging (OSAT) business under Murugappa Group ownership.",
+      "one_liner": "CG Power makes transformers, switchgear and motors for power transmission and industry, and is now also betting on semiconductor assembly through a joint venture (CG Semi/Axiro).",
       "tags": [
-        "P/E ~110-113x",
-        "Debt-free, ROCE ~28%",
-        "Promoter pledge 0%",
-        "Q2 results due Oct 23, 2026",
-        "Order book +45% YoY"
+        "P/E ~113x",
+        "Debt-free (D/E 0.01)",
+        "ROCE ~28%",
+        "Promoter pledge: 0%",
+        "Order book +61% YoY"
       ],
-      "last_close": 852.65,
-      "return_1y_pct": 15.45,
-      "dividend_yield_pct": 0.15,
-      "data_as_of": "2026-10-19",
-      "generated_at": "2026-10-19T05:18:08+00:00",
+      "last_close": 827.0,
+      "return_1y_pct": 13.79,
+      "dividend_yield_pct": 0.16,
+      "data_as_of": "2026-10-26",
+      "generated_at": "2026-10-26T05:13:23+00:00",
       "has_narrative": true
     },
     {
