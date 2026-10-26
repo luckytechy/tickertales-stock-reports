@@ -2,47 +2,47 @@
   "schema_version": 1,
   "ticker": "TMCV",
   "slug": "tmcv",
-  "generated_at": "2026-10-18T21:02:49+00:00",
-  "data_as_of": "2026-10-16",
+  "generated_at": "2026-10-26T22:56:08+00:00",
+  "data_as_of": "2026-10-23",
   "has_narrative": true,
   "facts": {
     "ticker": "TMCV",
-    "last_close": 421.05,
-    "last_date": "2026-10-16",
+    "last_close": 396.0,
+    "last_date": "2026-10-23",
     "listed_from": "2025-11-12",
-    "years_listed": 0.93,
+    "years_listed": 0.94,
     "short_history_mode": true,
     "peak": 499.66,
     "peak_date": "2026-02-27",
-    "drawdown_from_peak_pct": -15.7,
+    "drawdown_from_peak_pct": -20.7,
     "low_52w": 314.05,
     "high_52w": 499.66,
     "at_52w_low": false,
     "at_52w_high": false,
     "returns_pct": {
       "3M": {
-        "stock": 1.54,
-        "nifty": -4.88,
-        "peer": -4.07
+        "stock": -2.5,
+        "nifty": -4.91,
+        "peer": -4.05
       },
       "6M": {
-        "stock": -3.03,
-        "nifty": -4.96,
-        "peer": -13.35
+        "stock": -5.67,
+        "nifty": -5.43,
+        "peer": -13.23
       },
       "1Y": {
-        "stock": 29.25,
-        "nifty": -9.53,
-        "peer": 11.1
+        "stock": 21.56,
+        "nifty": -12.71,
+        "peer": 7.67
       },
       "ALL": {
-        "stock": 29.25,
-        "nifty": -10.55,
-        "peer": 6.98
+        "stock": 21.56,
+        "nifty": -12.66,
+        "peer": 4.13
       }
     },
     "dividend_ttm": 4.0,
-    "dividend_yield_pct": 0.95,
+    "dividend_yield_pct": 1.01,
     "recent_dividends": [
       {
         "date": "2026-06-12",
@@ -54,67 +54,47 @@
     "peer": "ASHOKLEY",
     "peer_dropped_from_chart": false,
     "rebased_end_values": {
-      "Stock": 129.2,
-      "Nifty": 89.5,
-      "Peer": 107.0
+      "Stock": 121.6,
+      "Nifty": 87.3,
+      "Peer": 104.1
     }
   },
   "analysis": {
-    "one_liner": "Tata Motors Limited (formerly TML Commercial Vehicles Ltd) makes trucks, buses, pickups and other commercial vehicles \u2014 it is the standalone CV business that was demerged from the erstwhile Tata Motors in November 2025, leaving passenger cars and JLR in a separate entity (TMPV).",
+    "one_liner": "Tata Motors' commercial-vehicle business (trucks, buses, pickups) - demerged from the parent in November 2025 and now also owner of Italy's Iveco Group after a 2026 takeover.",
     "tags": [
-      "P/E ~21x (screener)",
-      "Promoter 42.6%, zero pledge",
-      "Listed Nov 2025 (demerger)",
-      "Down 15.7% from Feb peak",
-      "CV market share 36.8%"
+      "P/E ~36x (loss-quarter skewed)",
+      "Listed <1 yr - no long history",
+      "Down 21% from Feb peak",
+      "Iveco deal closing now",
+      "Zero promoter pledge"
     ],
-    "whats_happening": "Q2 FY27 results are due on 23 October 2026 \u2014 just days away. Separately, on 16 October 2026 Iveco Group's shareholders approved a takeover by Tata Motors' subsidiary TML CV Holdings, after Tata raised its offer to \u20ac14.40/share (deal size roughly \u20ac3.9 billion) \u2014 a large cross-border acquisition for the CV business. The company also raised commercial-vehicle prices by up to 1% from 1 October 2026 to offset input costs.",
-    "plain_terms": "This stock is the \"trucks and buses\" half of the old Tata Motors \u2014 the passenger-car and Jaguar Land Rover business now trades separately as TMPV. Because it only started trading in November 2025, there is under a year of price history, so treat any \"long-term\" read with caution. The bigger wrinkle: this company also holds a stake in Tata Capital, and swings in that stake's market value have been swinging reported profit up and down by thousands of crores each quarter \u2014 that is not the trucks business performing well or badly, it is a stock holding being marked to market.",
-    "quarters": "Q1 FY27 (Jun 2026): revenue \u20b920,667 cr, operating profit \u20b93,272 cr, PAT \u20b92,556 cr, up 83% YoY \u2014 but management flagged roughly \u20b91,135 cr of that profit as a non-cash mark-to-market gain on the Tata Capital stake, so the underlying jump is far smaller than the headline. Q3 FY26 (Dec 2025): revenue \u20b921,847 cr, operating profit \u20b92,587 cr, PAT only \u20b9705 cr. Q2 FY26 (Sep 2025, first quarter as the separately listed entity): revenue \u20b918,400 cr (+6.6% YoY), EBITDA margin 12.2%, EBIT margin 9.8% (+200 bps YoY), but a reported net LOSS of \u20b9867 cr \u2014 entirely because of a roughly \u20b92,000 cr non-cash MTM loss on the same Tata Capital stake. On the operating side, wholesale CV volumes grew 26% YoY in Q1 FY27 to 108,700 units, with exports up 35%. Bottom line: ignore quarter-to-quarter PAT swings; EBITDA margin and volume growth are the real trend, and both have been improving.",
-    "performance_read": "Only 0.93 years of trading history exists (listed 12 Nov 2025), so there is no long-run drawdown or cycle evidence yet \u2014 the \"1Y\" and \"ALL\" return figures are identical (29.25%) because the stock simply hasn't traded that long. Since listing, the stock rose to a peak of \u20b9499.66 on 27 Feb 2026 and has since fallen 15.7% to \u20b9421.05, inside a 52-week range of \u20b9314.05\u2013499.66. This pullback is an ordinary price correction, not a corporate-action distortion \u2014 no splits or demerger adjustments apply to this post-listing price series. Over 1 year the stock is up 29.25% against Nifty -9.53% and peer Ashok Leyland +11.1%, but over the last 6 months it is down 3.03%, roughly in line with the Nifty's -4.96% and better than the peer's -13.35%.",
-    "valuation_read": "Screener's consolidated numbers show P/E ~20.9x, P/B ~12.2x, ROE 34% and ROCE 35.9% \u2014 but other trackers quote materially higher P/E (35\u201351x) likely because they strip out or annualise differently around the Tata Capital MTM swings in reported PAT; that is the outlier to set aside rather than average in. Whether 21x is \"cheap\" depends entirely on which earnings base you trust \u2014 headline PAT is currently flattered by one-off MTM gains, so the true multiple on core CV operating earnings is probably higher than 20.9x. The high P/B partly reflects that the demerger allocated relatively little book equity to this entity versus its market cap, not necessarily rich pricing of operations.",
-    "growth_read": "Both volume and margin are moving in the right direction, not just one: CV wholesale volumes grew 26% YoY in Q1 FY27 to 108,700 units with domestic market share up 100 bps to 36.8% (HCV share 56.3%), while EBIT margin improved 200 bps YoY to 9.8% in Q2 FY26 on better realisations and mix. That combination \u2014 share gains plus margin expansion \u2014 is a healthier signal than margin expansion on flat volumes alone.",
-    "health_read": "The core CV business looks financially comfortable: borrowings fell from \u20b99,925 cr (Mar 2025) to \u20b95,615 cr (Mar 2026), and free cash flow has been strong (\u20b92,200 cr in Q2 FY26, a record \u20b94,170 cr for H1 FY26). The real caution is that reported PAT is not a clean read of cash generation right now \u2014 it is being swung by thousands of crores each quarter by non-cash, non-operating mark-to-market moves in the Tata Capital stake. Judge cash conversion off EBITDA and free cash flow, not headline PAT. The dominant risk here is business-cycle risk (freight demand, infrastructure capex, vehicle financing costs), not balance-sheet risk.",
-    "ownership_read": "Promoter is Tata Sons and the wider Tata group, holding 42.56% as of June 2026, unchanged since the demerger, with zero pledging reported. FIIs hold 18.58%, DIIs 18.19%, public 20.34%. No specific marquee individual investor stands out in the disclosed pattern \u2014 not verified beyond the institutional buckets above.",
+    "whats_happening": "Two things landed almost together: Q2 FY27 (July-Sept 2026) results came out on 23 October 2026 showing consolidated profit of \u20b91,257 crore versus a loss a year ago, but the stock still fell on results day because revenue missed estimates as average selling price was hurt by a large, lower-margin export order to Indonesia. Separately, Tata Motors' all-cash tender offer for Italy's Iveco Group has crossed the 80% acceptance threshold, reaching about 87.8%, with completion expected around 26 October 2026 - this is the single biggest structural event for the company right now.",
+    "plain_terms": "This company is the truck-and-bus half of the old Tata Motors, split out into its own listing less than a year ago. The headline numbers look good - profit swung from a loss to a gain, and volumes are growing fast - but last year's loss was mostly a paper loss on an investment (Tata Capital shares), not the truck business itself. The tension to hold onto: volumes are booming (up 43% year-on-year) but margins are quietly slipping as costs rise and more trucks go out as lower-priced exports, and the company is simultaneously digesting a large, debt-funded European acquisition (Iveco).",
+    "quarters": "Sept 2025 quarter (first as a standalone company): consolidated net LOSS of \u20b9867 crore, but this was almost entirely a ~\u20b92,000 crore mark-to-market loss on the Tata Capital shareholding - the core CV business itself did fine, with segment revenue of \u20b918.4K crore (+6.6%) and EBITDA margin of 12.2%. June 2026 quarter: standalone revenue \u20b919,329 crore (+23%), EBITDA margin eased to 11.7% from 12.3%, standalone PAT \u20b91,528 crore, volumes +26%. Sept 2026 quarter (latest): consolidated revenue \u20b925.3K crore (+36%), EBITDA margin down further to 10.9%, consolidated PAT \u20b91,257 crore (versus the loss a year ago - not a clean like-for-like comparison because of the investment swing), standalone PAT roughly \u20b92,100 crore, wholesale volumes up 43% to 135,114 units with export volumes up 177% on a large Indonesia order. Management flagged commodity cost inflation as the main margin headwind and expects a stronger H2 FY26-27 on festive demand, GST-reform-driven consumption, and infrastructure/mining activity.",
+    "performance_read": "The stock is up 21.6% since it began trading on 12 November 2025, versus Nifty down 12.7% and peer Ashok Leyland up 7.7% over the same window - the '1Y' and 'ALL' figures are identical because the company simply hasn't existed that long. It is down 20.7% from its 27 February 2026 peak of \u20b9499.66. There is no multi-year track record for this entity - short_history_mode applies, and any comparison beyond the last ~11 months should be treated as not yet available, not as evidence of a trend.",
+    "valuation_read": "Trailing P/E is about 36.4x and P/B is about 12x, both rich for a commercial-vehicle manufacturer. Separate the 'why' from the 'whether': the P/E is inflated mechanically because the trailing-twelve-month earnings window still includes the Sept 2025 quarter's ~\u20b92,000 crore mark-to-market investment loss, which depresses the earnings denominator without reflecting the actual truck business. Whether the stock is genuinely expensive on a normalised, recurring-earnings basis is Not verified - check on Screener for an EPS figure that excludes the one-off. The high P/B is consistent with a strong ROE (23.8%) and ROCE (25.5%), but also reflects the market pricing in Iveco-driven scale ambitions that haven't yet shown up in reported numbers.",
+    "growth_read": "Volume-led, not margin-led. Wholesale volumes grew 26% in Q1 FY27 and 43% in Q2 FY27 year-on-year, with export volumes up 177% on one large Indonesia order. Over the same stretch, EBITDA margin has drifted down - 12.2% to 11.7% to 10.9% - as commodity costs rose and the export mix (typically lower realisation per unit) grew. Strong top-line growth with softening margin is the less durable combination the Hard Rules flag for commodity-exposed businesses.",
+    "health_read": "Profits are largely converting to cash at the operating level: free cash flow turned positive (\u20b91,114 crore in Q1 FY27, reversing a negative \u20b91,796 crore a year earlier), standalone debt is low (total debt ~\u20b92,929 crore, debt-to-equity ~0.2), and the company reports a net cash position of \u20b915,900 crore as of September 2026 (up from \u20b913,700 crore in March). The real risk here is business risk, not financial/solvency risk: input-cost inflation and export-mix pressure on margins, plus integration risk from the Iveco deal, matter more than balance-sheet leverage.",
+    "ownership_read": "Promoter holding (Tata Sons and related Tata entities) is about 42.5%, with 0% pledged - no pledging red flag. FIIs hold roughly 19%, DIIs about 18.7%, and public shareholders about 19.8%. No specific marquee individual investor was identified on the register in available data - Not verified, check on Screener for the latest shareholder list if that matters to you.",
     "strengths": [
-      "Domestic CV market share at 36.8% in Q1 FY27, up 100 bps sequentially, with a dominant 56.3% share in heavy trucks (HCV)",
-      "Wholesale volumes up 26% YoY in Q1 FY27 to 108,700 units, exports up 35% YoY",
-      "Deleveraging balance sheet: borrowings down from \u20b99,925 cr to \u20b95,615 cr over FY26, with free cash flow of \u20b94,170 cr in H1 FY26",
-      "EBIT margin up 200 bps YoY to 9.8% in Q2 FY26, showing margin gains alongside volume growth rather than instead of it"
+      "Wholesale volumes up 43% year-on-year in Q2 FY27 (135,114 units), with domestic CV market share around 37% and heavy-CV share around 49%",
+      "Zero pledge against a 42.5% promoter stake",
+      "Net cash position of \u20b915,900 crore (Sept 2026) versus \u20b913,700 crore in March 2026, with standalone debt-to-equity of just 0.2",
+      "Consolidated profit swung to \u20b91,257 crore from a \u20b9867 crore loss a year earlier, with core-business EBITDA up 31% year-on-year"
     ],
     "watchpoints": [
-      "Reported PAT is being swung by thousands of crores a quarter by non-cash mark-to-market moves on the Tata Capital stake (-\u20b92,000 cr hit in Q2 FY26, +\u20b91,135 cr gain in Q1 FY27) \u2014 don't read headline profit growth as operating performance",
-      "Pending ~\u20ac3.9 billion Iveco acquisition via subsidiary TML CV Holdings (offer raised to \u20ac14.40/share, shareholders approved 16 Oct 2026) \u2014 a large cross-border commitment whose funding and integration terms are not yet verified",
-      "Stock is down 15.7% from its 27 Feb 2026 peak, and with under one year of trading history there is no evidence yet of how it behaves through a full commercial-vehicle demand downturn",
-      "CV demand is inherently cyclical, tied to freight activity, infrastructure spend and financing costs \u2014 a business-cycle exposure rather than something management can fully offset"
+      "EBITDA margin has slipped from 12.2% to 10.9% over the last four reported quarters on commodity cost inflation",
+      "Shares fell on the latest results day because revenue missed estimates - average selling price was hurt by a large, lower-margin export order",
+      "Trailing P/E of ~36x is distorted upward by last year's one-off investment mark-to-market loss; the underlying recurring multiple is not independently verified",
+      "The Iveco Group acquisition (tender acceptance ~87.8%, expected to close around 26 October 2026) brings a large European integration to manage just as domestic margins are under pressure"
     ],
-    "one_thing": "The 23 October 2026 Q2 FY27 results \u2014 specifically whether EBITDA margin and volume growth continue excluding the Tata Capital MTM noise, and whether management gives clarity on how the Iveco acquisition will be funded.",
+    "one_thing": "Whether standalone EBITDA margin stabilises above 11% over the next one to two quarters as commodity costs and export mix evolve, and how cleanly the Iveco integration proceeds post-completion - both will show in the next couple of quarterly results.",
     "data_confidence": "Moderate",
-    "data_notes": "Cross-checked: promoter holding, zero pledge status, debt trend, and Q1 FY27/Q2 FY26 volume and revenue figures across screener.in and multiple news sources. Not verified / outlier set aside: P/E estimates diverged sharply (20.9x per screener vs 35-51x per other trackers) likely due to different treatment of the Tata Capital MTM gains/losses in trailing EPS \u2014 used screener's consolidated figure as primary. Iveco deal's balance-sheet and funding impact on TMCV is not yet independently verified."
+    "data_notes": "Quarterly results (Sept 2025, June 2026, Sept 2026) cross-checked across Business Today, Kotak Neo, Upstox and company press releases and are consistent. Iveco tender-acceptance figure (87.8%) sourced from TradingView/Reuters coverage. Valuation metrics (P/E, P/B, ROE, ROCE, debt) and shareholding percentages came from a single aggregator-style source each (not independently cross-verified against the company's own filings) - treat the exact P/E/P/B figures as indicative rather than exact. Could not verify a normalised (ex-MTM) EPS or P/E, or confirm any upcoming record date/AGM beyond the already-paid June 2026 dividend - flagged as not verified above rather than estimated."
   },
   "charts": {
     "timeframes": {
       "3M": [
-        [
-          "2026-07-17",
-          414.65
-        ],
-        [
-          "2026-07-20",
-          409.35
-        ],
-        [
-          "2026-07-21",
-          411.75
-        ],
-        [
-          "2026-07-22",
-          405.45
-        ],
-        [
-          "2026-07-23",
-          407.9
-        ],
         [
           "2026-07-24",
           406.15
@@ -350,29 +330,25 @@
         [
           "2026-10-16",
           421.05
+        ],
+        [
+          "2026-10-19",
+          418.75
+        ],
+        [
+          "2026-10-21",
+          417.5
+        ],
+        [
+          "2026-10-22",
+          414.25
+        ],
+        [
+          "2026-10-23",
+          396.0
         ]
       ],
       "6M": [
-        [
-          "2026-04-17",
-          434.2
-        ],
-        [
-          "2026-04-20",
-          433.51
-        ],
-        [
-          "2026-04-21",
-          437.61
-        ],
-        [
-          "2026-04-22",
-          442.8
-        ],
-        [
-          "2026-04-23",
-          427.03
-        ],
         [
           "2026-04-24",
           419.81
@@ -856,6 +832,22 @@
         [
           "2026-10-16",
           421.05
+        ],
+        [
+          "2026-10-19",
+          418.75
+        ],
+        [
+          "2026-10-21",
+          417.5
+        ],
+        [
+          "2026-10-22",
+          414.25
+        ],
+        [
+          "2026-10-23",
+          396.0
         ]
       ],
       "1Y": [
@@ -1056,8 +1048,12 @@
           410.3
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           421.05
+        ],
+        [
+          "2026-10-23",
+          396.0
         ]
       ],
       "ALL": [
@@ -1258,8 +1254,12 @@
           410.3
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           421.05
+        ],
+        [
+          "2026-10-23",
+          396.0
         ]
       ]
     },
@@ -1462,8 +1462,12 @@
           125.95
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           129.25
+        ],
+        [
+          "2026-10-23",
+          121.56
         ]
       ],
       "Nifty": [
@@ -1664,8 +1668,12 @@
           87.03
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           89.45
+        ],
+        [
+          "2026-10-23",
+          87.34
         ]
       ],
       "Peer": [
@@ -1866,8 +1874,12 @@
           104.21
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           106.98
+        ],
+        [
+          "2026-10-23",
+          104.13
         ]
       ]
     }
