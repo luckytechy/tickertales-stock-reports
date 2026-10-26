@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-26T05:13:24+00:00",
+  "updated_at": "2026-10-26T13:31:07+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -96,19 +96,19 @@
     {
       "ticker": "ADANIPOWER",
       "slug": "adanipower",
-      "one_liner": "Adani Power is India's largest private thermal power generator, running coal-based plants across several states and recently adding capacity through the Jaiprakash Associates insolvency acquisition.",
+      "one_liner": "Adani Power is India's largest private thermal power generator, selling electricity to state utilities under long-term PPAs and to the merchant/exchange market.",
       "tags": [
-        "P/E ~27-31x",
-        "Never paid a dividend",
-        "Net debt up 45% YoY",
-        "Stock +198% in 3Y",
-        "Promoter holding 74.96%"
+        "P/E ~26x (premium to peers)",
+        "Down 25% from May 2026 peak",
+        "Debt up 15% in 6 months",
+        "Promoter holding 75%, pledge 1.8%",
+        "5Y return +731% vs Nifty +25%"
       ],
-      "last_close": 196.5,
-      "return_1y_pct": 24.75,
+      "last_close": 186.55,
+      "return_1y_pct": 14.48,
       "dividend_yield_pct": null,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-16T21:51:22+00:00",
+      "data_as_of": "2026-10-26",
+      "generated_at": "2026-10-26T13:31:07+00:00",
       "has_narrative": true
     },
     {
