@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-27T05:32:22+00:00",
+  "updated_at": "2026-10-27T12:38:25+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1014,19 +1014,19 @@
     {
       "ticker": "KOTAKBANK",
       "slug": "kotakbank",
-      "one_liner": "Kotak Mahindra Bank is a private-sector lender that, with its banking and non-banking subsidiaries, runs loans, deposits, insurance distribution, asset management and broking across India.",
+      "one_liner": "Kotak Mahindra Bank is a large private-sector Indian bank offering retail and corporate lending, deposits, credit cards, and (through subsidiaries) life insurance, asset management and broking.",
       "tags": [
-        "P/E ~20-21x",
-        "Results due Oct 24",
-        "New CEO from Jan 2027",
-        "Loan growth outpacing NII",
-        "Near 52-wk high"
+        "P/E ~21-22x TTM",
+        "ROE ~11.4%",
+        "GNPA down to 1.04%",
+        "CEO change Jan 2027",
+        "5Y return badly lagged peers"
       ],
-      "last_close": 439.0,
-      "return_1y_pct": 2.17,
+      "last_close": 442.5,
+      "return_1y_pct": 3.15,
       "dividend_yield_pct": 0.15,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T22:43:37+00:00",
+      "data_as_of": "2026-10-27",
+      "generated_at": "2026-10-27T12:38:25+00:00",
       "has_narrative": true
     },
     {
