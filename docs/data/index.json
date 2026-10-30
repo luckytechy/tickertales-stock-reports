@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-30T13:25:59+00:00",
+  "updated_at": "2026-10-30T13:28:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -186,19 +186,19 @@
     {
       "ticker": "BAJAJ-AUTO",
       "slug": "bajaj-auto",
-      "one_liner": "Bajaj Auto makes two-wheelers (Pulsar, Chetak electric scooter) and three-wheelers in India, and since late 2025 has taken majority control of Austria's KTM through its European subsidiary.",
+      "one_liner": "Bajaj Auto makes and exports two-wheelers and three-wheelers (Pulsar, Dominar, CT/Platina, Chetak electric scooters, auto-rickshaws) and holds a 74.9% majority stake in Austria's KTM through its Pierer Mobility structure.",
       "tags": [
-        "P/E ~24x",
-        "ROE ~29%",
-        "Promoter pledge ~0%",
-        "Results due Oct 27",
-        "KTM now consolidated"
+        "P/E ~28x",
+        "ROE/ROCE ~29%",
+        "Standalone net cash",
+        "EV now margin-accretive",
+        "-16% from Sept peak"
       ],
-      "last_close": 10318.0,
-      "return_1y_pct": 15.41,
+      "last_close": 10350.0,
+      "return_1y_pct": 17.62,
       "dividend_yield_pct": 1.45,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-13T11:21:15+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-30T13:28:18+00:00",
       "has_narrative": true
     },
     {
