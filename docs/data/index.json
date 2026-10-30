@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-29T13:35:08+00:00",
+  "updated_at": "2026-10-30T13:25:59+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -438,19 +438,19 @@
     {
       "ticker": "CIPLA",
       "slug": "cipla",
-      "one_liner": "Cipla is an Indian pharmaceutical company making generic medicines, branded formulations and APIs, with a sizeable respiratory and peptide pipeline sold across India, the US, South Africa and other emerging markets.",
+      "one_liner": "Cipla makes and sells generic and branded medicines - respiratory, chronic-disease and specialty drugs mainly - across India, the US, South Africa and other markets.",
       "tags": [
-        "P/E ~31x",
-        "Zero debt",
-        "Down ~20% from 52-wk high",
-        "Q2 results Oct 27",
-        "Pithampur FDA flag"
+        "P/E ~32x",
+        "Net profit -35% YoY (Q2FY27)",
+        "Debt-free, net cash ~\u20b910,526 cr",
+        "Promoter 29.2%, zero pledge",
+        "Down 16% from Oct'25 peak"
       ],
-      "last_close": 1325.1,
-      "return_1y_pct": -14.77,
-      "dividend_yield_pct": 0.98,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T17:01:09+00:00",
+      "last_close": 1378.9,
+      "return_1y_pct": -9.63,
+      "dividend_yield_pct": 0.94,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-30T13:25:58+00:00",
       "has_narrative": true
     },
     {
