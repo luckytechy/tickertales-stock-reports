@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-30T13:35:19+00:00",
+  "updated_at": "2026-10-30T22:39:06+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1356,19 +1356,19 @@
     {
       "ticker": "SBILIFE",
       "slug": "sbilife",
-      "one_liner": "SBI Life Insurance sells life insurance, savings, protection, pension and group policies across India, distributing mainly through SBI's bank branches and its own agency force.",
+      "one_liner": "SBI Life Insurance is India's largest private-sector life insurer, selling savings, protection and pension policies mainly through State Bank of India's branch network.",
       "tags": [
-        "P/E ~66x",
-        "P/B ~8.5x",
-        "At 52-week low",
-        "VNB margin 26-28% (slipping)",
-        "Zero promoter pledge"
+        "P/E ~64x",
+        "At 52-wk low",
+        "VNB margin ~29%",
+        "GST hit to Q2 PAT",
+        "No pledge, 55% promoter"
       ],
-      "last_close": 1656.8,
-      "return_1y_pct": -9.62,
+      "last_close": 1652.0,
+      "return_1y_pct": -16.04,
       "dividend_yield_pct": 0.16,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T10:23:41+00:00",
+      "data_as_of": "2026-10-29",
+      "generated_at": "2026-10-30T22:39:05+00:00",
       "has_narrative": true
     },
     {
