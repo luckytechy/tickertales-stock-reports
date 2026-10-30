@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-30T13:28:18+00:00",
+  "updated_at": "2026-10-30T13:30:09+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1122,19 +1122,19 @@
     {
       "ticker": "MAZDOCK",
       "slug": "mazdock",
-      "one_liner": "Mazagon Dock Shipbuilders is a Mumbai-based, government-owned shipyard that builds warships and submarines for the Indian Navy under long-term defence contracts.",
+      "one_liner": "Mazagon Dock Shipbuilders is a Mumbai-based defence PSU shipyard that builds and repairs warships and conventional submarines (including the Kalvari-class) almost entirely for the Indian Navy.",
       "tags": [
-        "P/E ~29x",
-        "Debt-free",
-        "ROCE ~36%",
-        "Down 44% from May 2025 peak",
-        "Promoter (Govt) 81%"
+        "P/E ~28x",
+        "Down 54% from May'25 peak",
+        "PAT -54% YoY (Q2FY27)",
+        "Zero promoter pledge",
+        "ROE ~29%"
       ],
-      "last_close": 2092.0,
-      "return_1y_pct": -25.6,
-      "dividend_yield_pct": 0.87,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T21:04:30+00:00",
+      "last_close": 1705.3,
+      "return_1y_pct": -37.4,
+      "dividend_yield_pct": 1.06,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-30T13:30:09+00:00",
       "has_narrative": true
     },
     {
