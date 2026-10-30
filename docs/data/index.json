@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-30T13:30:09+00:00",
+  "updated_at": "2026-10-30T13:32:12+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1086,19 +1086,19 @@
     {
       "ticker": "MARUTI",
       "slug": "maruti",
-      "one_liner": "Maruti Suzuki is India's largest passenger car maker, majority owned by Japan's Suzuki Motor Corporation, making small cars, SUVs and CNG vehicles for the domestic market and export.",
+      "one_liner": "Maruti Suzuki is India's largest passenger car maker, selling small and mid-size cars domestically and through exports, with its parent Suzuki Motor Corporation also using India as a manufacturing and export hub.",
       "tags": [
-        "P/E ~25x",
-        "Stock at 52-wk low",
-        "Margin ~8% vs ~12%",
-        "Debt-free, net cash",
-        "No promoter pledge"
+        "P/E ~27x",
+        "Profit fell 3 quarters running",
+        "Record volumes, margins squeezed",
+        "Pledge: 0%",
+        "Debt-free, cash-rich"
       ],
-      "last_close": 11245.0,
-      "return_1y_pct": -30.42,
-      "dividend_yield_pct": 1.24,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T19:57:54+00:00",
+      "last_close": 11397.0,
+      "return_1y_pct": -28.97,
+      "dividend_yield_pct": 1.23,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-30T13:32:12+00:00",
       "has_narrative": true
     },
     {
