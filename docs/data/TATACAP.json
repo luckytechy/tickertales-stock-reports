@@ -2,43 +2,43 @@
   "schema_version": 1,
   "ticker": "TATACAP",
   "slug": "tatacap",
-  "generated_at": "2026-10-19T14:04:01+00:00",
-  "data_as_of": "2026-10-19",
+  "generated_at": "2026-10-30T13:35:19+00:00",
+  "data_as_of": "2026-10-30",
   "has_narrative": true,
   "facts": {
     "ticker": "TATACAP",
-    "last_close": 314.25,
-    "last_date": "2026-10-19",
+    "last_close": 319.9,
+    "last_date": "2026-10-30",
     "listed_from": "2025-10-13",
-    "years_listed": 1.02,
+    "years_listed": 1.05,
     "short_history_mode": true,
     "peak": 382.7,
     "peak_date": "2026-08-06",
-    "drawdown_from_peak_pct": -17.9,
+    "drawdown_from_peak_pct": -16.4,
     "low_52w": 297.3,
     "high_52w": 382.7,
     "at_52w_low": false,
     "at_52w_high": false,
     "returns_pct": {
       "3M": {
-        "stock": -10.83,
-        "nifty": -5.57,
-        "peer": -10.02
+        "stock": -12.45,
+        "nifty": -5.46,
+        "peer": -17.71
       },
       "6M": {
-        "stock": -6.04,
-        "nifty": -6.06,
-        "peer": 4.96
+        "stock": -2.38,
+        "nifty": -4.42,
+        "peer": -0.56
       },
       "1Y": {
-        "stock": -3.25,
-        "nifty": -11.43,
-        "peer": -10.89
+        "stock": -1.99,
+        "nifty": -10.92,
+        "peer": -10.21
       },
       "ALL": {
-        "stock": -4.76,
-        "nifty": -9.27,
-        "peer": -7.09
+        "stock": -3.05,
+        "nifty": -8.62,
+        "peer": -8.86
       }
     },
     "dividend_ttm": 0.57,
@@ -54,84 +54,47 @@
     "peer": "BAJFINANCE",
     "peer_dropped_from_chart": false,
     "rebased_end_values": {
-      "Stock": 95.2,
-      "Nifty": 90.7,
-      "Peer": 92.9
+      "Stock": 97.0,
+      "Nifty": 91.4,
+      "Peer": 91.1
     }
   },
   "analysis": {
-    "one_liner": "Tata Capital is the Tata Group's diversified non-bank lender, financing retail, SME, corporate, housing and vehicle loans, and now entering gold loans.",
+    "one_liner": "Tata Capital is the Tata Group's NBFC, lending to retail, SME and corporate customers plus a vehicle-finance and housing-finance book, under the Tata Sons umbrella.",
     "tags": [
-      "P/E ~25x",
-      "ROE 10.6%",
-      "Promoter 85%",
-      "Listed <1yr",
-      "Results due Oct 27"
+      "Listed Oct 2025",
+      "AUM crossed \u20b93 lakh cr",
+      "ROE ~14%",
+      "Promoter 85.4%",
+      "17% off August peak"
     ],
-    "whats_happening": "The board meets on 27 October 2026 (about a week away) to approve Q2 FY27 (July-September 2026) results, so that print is the next real data point. The last reported quarter, Q1 FY27 (April-June 2026), showed consolidated PAT of \u20b91,547 crore, up 56% year-on-year, with AUM up 22% to about \u20b92.9 lakh crore. Separately, the company is entering gold loans by acquiring an 88.6% stake in Yogloans, pending RBI approval targeted by end-CY2026.",
-    "plain_terms": "This is a lending business - it borrows money and re-lends it at a margin across home loans, vehicle loans, business loans and now gold loans. The tension: the stock trades at a premium-sounding P/E of about 25x and P/B of about 2.9x, but the actual return on equity is a middling 10.6% and return on capital employed just 8.1% - numbers that look more 'average NBFC' than 'premium franchise'. One tracker (MarketsMojo) has flagged the valuation as stretched and cut its rating. Within the book, the motor-finance piece is noticeably weaker than the rest.",
-    "quarters": "Q1 FY27 (Apr-Jun 2026): consolidated PAT \u20b91,547 crore, up 56% YoY; AUM \u20b92,90,502 crore, up 22% YoY (up 28% excluding motor finance). Annualised credit cost fell to 1.0% from 1.6% a year earlier - a meaningful chunk of the profit jump came from lower provisioning rather than pure volume growth, so the 56% PAT growth is not purely scale-driven and may not repeat every quarter if credit costs normalise. Consolidated GNPA improved quarter-on-quarter to about 2.45%, but motor finance alone carried gross stage-3 assets of 7.9% and net stage-3 of 5.1% as of June 2026 - a clearly weaker pocket. Some sources cite standalone PAT growth as high as ~76% versus ~56% consolidated; these are not strictly comparable given different consolidation scopes, so the consolidated figure is the more reliable one. Q2 FY27 results are due 27 October 2026 - not yet out as of this report.",
-    "performance_read": "This stock only began trading on 13 October 2025, so there is barely a year of price history (about 1.02 years) - there is no long-horizon evidence of how it behaves through a credit cycle, and none should be assumed. There have been no splits or demergers, so the price move below is a genuine market reassessment, not a corporate-action artifact. The stock is down 17.9% from its 6 August 2026 peak of \u20b9382.7, and currently sits at \u20b9314.25, closer to its 52-week low (\u20b9297.3) than its high. Despite that drawdown, since listing the stock's total return (-4.76%) has actually held up better than the Nifty (-9.27%) and peer Bajaj Finance (-7.09%) over the same window, and it has also beaten both over the last year.",
-    "valuation_read": "At a P/E of roughly 24.8x (down from about 27.6x earlier) and P/B of about 2.9x, the market is pricing in a higher-return lending franchise than the numbers currently show - ROE is 10.6% and ROCE just 8.1%, both lagging more established NBFC peers. Why it might still carry a premium: Tata Group parentage, scale (AUM near \u20b92.9 lakh crore), and a new growth lever in gold loans. Whether it is actually cheap is a separate question - on current returns it isn't; at least one independent tracker (MarketsMojo) downgraded it to a 'Sell' valuation grade on 13 October 2026, citing the ROE/ROCE gap versus peers even after the multiple compression from its post-listing peak.",
-    "growth_read": "Growth is volume-led: AUM is up 22% YoY overall and 28% YoY excluding motor finance, i.e., the loan book itself is expanding. However, the profit growth (56% YoY) outran the volume growth, largely because credit costs fell from 1.6% to 1.0% - a cost/provisioning tailwind layered on top of volume growth, not purely organic margin expansion. That tailwind is less durable than straightforward volume growth and bears watching in coming quarters.",
-    "health_read": "As an NBFC, the relevant health question is asset quality and capital buffers rather than cash conversion. Capital adequacy is comfortable - CRAR of 18.5% against a 15% regulatory minimum, with Tier I at 15.6%. Consolidated debt-to-equity of about 5.3x is high in absolute terms but is the normal funding model for a lender of this scale, not by itself a red flag given the capital buffer. The concentrated risk sits in the motor finance segment specifically (gross stage-3 7.9%, net stage-3 5.1%), making this more a business/credit-quality issue in one segment than a company-wide financial risk.",
-    "ownership_read": "Tata Sons and affiliated Tata entities together hold 85.41% of the company, unchanged across recent quarters, with no promoter pledging reported. That leaves a small free float - FIIs about 5.18%, DIIs about 3.56%, and public roughly 5.19%. There is no well-known individual marquee investor visible on the shareholding register; this is a promoter-dominated Tata Group holding rather than one with a notable outside individual stakeholder.",
+    "whats_happening": "Q2 FY27 (quarter to Sept 2026) results came out on 27 October 2026: consolidated PAT of roughly \u20b91,660 crore, up about 51% year-on-year, and total AUM crossing \u20b93 lakh crore, up roughly 26% year-on-year. The stock rose about 5% on the results day. Separately, RBI's Governor said in late October 2026 that parent Tata Sons, if it stays on the Upper-Layer NBFC list, would be required to list separately - an unresolved overhang for the group, not for Tata Capital itself, since Tata Capital already listed in October 2025.",
+    "plain_terms": "This is a lending business - it borrows money cheaply (helped by the Tata name and AAA ratings) and lends it out at a higher rate across personal loans, SME loans, corporate loans, vehicle loans and housing loans. The loan book and profit are both growing at a healthy clip and bad loans are falling, which is good. The tension: it's a very recently listed stock (just over a year of trading history), its profitability (return on equity, ~14%) is still well below an established peer like Bajaj Finance (~20%), and one part of its book - vehicle/motor finance - is being deliberately shrunk because of past bad-loan problems there. Reliable valuation numbers (P/E, price-to-book) could not be pinned down from available sources, so whether the stock is cheap or expensive relative to that growth is genuinely unclear right now.",
+    "quarters": "Q1 FY27 (June quarter): consolidated PAT around \u20b91,547-1,628 crore (sources vary slightly), up ~56% YoY; AUM \u20b92.9 lakh crore, up 22% YoY. Q2 FY27 (September quarter, reported 27 Oct 2026): NII \u20b93,696 crore (+23% YoY), PAT around \u20b91,660 crore (+51% YoY) - one outlet reported \u20b91,832 crore/+64%, but five independent sources corroborate the \u20b91,660 crore figure, so that is the more reliable number. AUM \u20b93,08,030 crore, +26% YoY, +6% quarter-on-quarter. Cost-to-income improved 438 bps YoY to 35.3%, and gross/net NPA improved to 1.9%/0.8% (consolidated) from 2.2%/1.1% a year earlier. Management kept FY27 AUM growth guidance at 23-25%, said festive retail/vehicle demand was buoyant, but is deliberately prioritising profitability over volume in motor finance - that book is shrinking and growth there isn't expected to resume before Q4 FY27.",
+    "performance_read": "There is no real long-term track record here - the stock listed only in October 2025, just over a year ago, so claims about multi-year compounding or drawdowns cannot be supported yet. Within that short window: the stock is down 16.4% from its 6 August 2026 peak of \u20b9382.7, trading near \u20b9319.9, with a 52-week range of \u20b9297.3-\u20b9382.7. Since listing, the stock is down about 3% in absolute terms, but that is actually better than the Nifty (-8.6%) and peer Bajaj Finance (-8.9%) over the same period - so on a relative basis it has held up better than the market even while falling. There have been no splits, demergers or other corporate actions to adjust for.",
+    "valuation_read": "Not verified - check on Screener. Different sources quoted P/E anywhere from roughly 23x to 44x and price-to-book anywhere from roughly 2.8x to 4.2x, with no reliable consensus found, so none of those numbers should be treated as settled. Qualitatively: the business commands a growth-stock-type rating (one brokerage frames a fair value around 3.4x FY28 estimated book) despite an ROE (~14%) well below Bajaj Finance's (~20.6%), which would mean the market is paying up for the Tata parentage, AAA credit ratings and expected AUM growth rather than for current profitability. Whether that premium is justified or already fully priced in cannot be judged without a verified current multiple.",
+    "growth_read": "Growth here is both volume- and margin-led, which is the healthier combination: AUM grew 26% YoY to over \u20b93 lakh crore (32% YoY excluding motor finance), while margins also improved - cost-to-income fell 438 bps YoY and credit costs fell to 0.9% annualised from 1.3% a year ago. The one exception is motor finance, where management is explicitly choosing to shrink the book to fix profitability rather than chase volume, with growth there not expected to return until Q4 FY27.",
+    "health_read": "As an NBFC, the relevant health check is asset quality and capital, not operating cash flow. On that front the picture is improving: consolidated gross NPA fell to 1.9% and net NPA to 0.8% (from 2.2%/1.1% a year ago), provision coverage improved to 59%, and capital adequacy stands at 17.3% (Tier-I 14.7%), comfortably above the 15% regulatory minimum. Leverage (debt-to-equity around 5.5x) is high but normal for an NBFC of this scale and is backed by AAA ratings. The main residual risk is business risk - specifically the legacy motor-finance NPA problem being worked through - rather than financial/solvency risk, given the comfortable capital cushion.",
+    "ownership_read": "Promoters - Tata Sons (78.8%), TMF Holdings (4.4%) and Tata Investment Corporation (1.95%) - together hold 85.41% of the company, unchanged across the last three reported quarters, with no pledging of promoter shares identified in available sources. FIIs hold about 5.1% and DIIs about 3.9%. No specific marquee outside investor (sovereign wealth fund, large global fund, etc.) could be identified on the register from available sources - if you were expecting a well-known name here, it does not appear to be present based on what could be verified.",
     "strengths": [
-      "AUM grew 22% YoY to about \u20b92.9 lakh crore in Q1 FY27 (28% YoY excluding motor finance)",
-      "Credit cost improved to 1.0% from 1.6% a year earlier, helping PAT rise 56% YoY to \u20b91,547 crore",
-      "Capital adequacy comfortable at 18.5% CRAR versus a 15% regulatory minimum",
-      "Zero promoter pledging with Tata Sons and group entities holding 85.41%, signalling continued commitment"
+      "AUM crossed \u20b93,08,030 crore in Q2 FY27, up 26% YoY, with the ex-motor-finance book growing faster at ~32% YoY",
+      "Consolidated gross and net NPA improved to 1.9% and 0.8% respectively, down from 2.2%/1.1% a year earlier",
+      "Capital adequacy ratio of 17.3% (Tier-I 14.7%) is comfortably above the regulatory 15% minimum",
+      "Cost-to-income ratio improved 438 bps YoY to 35.3%, alongside AAA/A1+ credit ratings from CRISIL and ICRA"
     ],
     "watchpoints": [
-      "Motor finance remains the weak link: gross stage-3 assets at 7.9% and net stage-3 at 5.1% as of June 2026",
-      "Valuation looks rich relative to current returns - P/E ~25x, P/B ~2.9x against ROE 10.6% and ROCE 8.1%; one tracker downgraded it to 'Sell' on valuation on 13 October 2026",
-      "Stock is 17.9% below its August 2026 peak and dividend yield is negligible at 0.18%",
-      "Gold loan entry via the Yogloans acquisition is still pending RBI approval, adding integration/execution risk",
-      "Only about one year of trading history exists; there is no track record through a full credit cycle yet"
+      "Motor finance book is being deliberately shrunk due to elevated legacy NPAs, with growth there not expected to resume before Q4 FY27",
+      "ROE of roughly 14% remains well below established peer Bajaj Finance's ~20.6%, despite a premium growth-stock style rating",
+      "P/E and price-to-book figures conflict sharply across sources (P/E 23x-44x, P/B 2.8x-4.2x) - not reliably verified, so valuation comfort cannot be confirmed either way",
+      "Parent Tata Sons remains on RBI's Upper-Layer NBFC list, with RBI's governor indicating in late October 2026 that this could eventually require Tata Sons itself to list - an unresolved group-level regulatory overhang"
     ],
-    "one_thing": "The Q2 FY27 results due 27 October 2026 - specifically whether AUM growth and the lower credit-cost trend from Q1 continue, and whether motor finance stage-3 stress stabilises or worsens.",
+    "one_thing": "Whether the motor-finance book stabilises and resumes growth from Q4 FY27 as management has guided, and whether ROE closes the gap toward Bajaj Finance's level - that will show whether this is a maturing, de-risked lender or still working through its weakest segment.",
     "data_confidence": "Moderate",
-    "data_notes": "Q1 FY27 (Apr-Jun 2026) consolidated PAT (\u20b91,547 crore, +56% YoY), AUM (\u20b92.9 lakh crore, +22% YoY), credit cost and GNPA figures were cross-checked across BusinessToday, FreePressJournal, ScanX and Investing.com and are consistent. A standalone PAT growth figure (~76%) appeared in one source and was set aside as not comparable to the consolidated number. Shareholding (promoter 85.41%, no pledge) is sourced from post-listing exchange filings via Choice/StockSena. P/E, P/B, ROE and ROCE were sourced from MarketsMojo/Eulerpool as of early-to-mid October 2026 and were not independently cross-verified against Screener - treat as approximate. Q2 FY27 (quarter ended September 2026) results had not been released as of this report; the figures above are the last available (Q1 FY27)."
+    "data_notes": "Q2 FY27 revenue, AUM, NII and asset-quality figures were cross-checked across multiple independent sources (company investor presentation, Business Standard, Kotak Neo, GuruFocus, MarketScreener) and are consistent; one outlier PAT figure (\u20b91,832 crore vs the corroborated \u20b91,660 crore) was set aside. Price and return figures are from the verified market data supplied. P/E, price-to-book and book-value-per-share could not be reconciled across sources and should be checked directly on Screener before use. ROA/ROCE and specific IPO anchor investor names could not be verified. Because the stock has traded for just over a year, no long-horizon (multi-year) performance history exists yet."
   },
   "charts": {
     "timeframes": {
       "3M": [
-        [
-          "2026-07-20",
-          352.41
-        ],
-        [
-          "2026-07-21",
-          349.97
-        ],
-        [
-          "2026-07-22",
-          346.77
-        ],
-        [
-          "2026-07-23",
-          340.88
-        ],
-        [
-          "2026-07-24",
-          341.33
-        ],
-        [
-          "2026-07-27",
-          350.55
-        ],
-        [
-          "2026-07-28",
-          354.95
-        ],
-        [
-          "2026-07-29",
-          361.8
-        ],
-        [
-          "2026-07-30",
-          360.9
-        ],
         [
           "2026-07-31",
           365.4
@@ -351,45 +314,41 @@
         [
           "2026-10-19",
           314.25
+        ],
+        [
+          "2026-10-21",
+          311.95
+        ],
+        [
+          "2026-10-22",
+          308.1
+        ],
+        [
+          "2026-10-23",
+          306.75
+        ],
+        [
+          "2026-10-26",
+          299.55
+        ],
+        [
+          "2026-10-27",
+          300.45
+        ],
+        [
+          "2026-10-28",
+          309.3
+        ],
+        [
+          "2026-10-29",
+          326.35
+        ],
+        [
+          "2026-10-30",
+          319.9
         ]
       ],
       "6M": [
-        [
-          "2026-04-20",
-          334.44
-        ],
-        [
-          "2026-04-21",
-          333.89
-        ],
-        [
-          "2026-04-22",
-          336.79
-        ],
-        [
-          "2026-04-23",
-          340.03
-        ],
-        [
-          "2026-04-24",
-          336.64
-        ],
-        [
-          "2026-04-27",
-          332.94
-        ],
-        [
-          "2026-04-28",
-          325.26
-        ],
-        [
-          "2026-04-29",
-          324.56
-        ],
-        [
-          "2026-04-30",
-          332.59
-        ],
         [
           "2026-05-04",
           327.7
@@ -857,16 +816,44 @@
         [
           "2026-10-19",
           314.25
+        ],
+        [
+          "2026-10-21",
+          311.95
+        ],
+        [
+          "2026-10-22",
+          308.1
+        ],
+        [
+          "2026-10-23",
+          306.75
+        ],
+        [
+          "2026-10-26",
+          299.55
+        ],
+        [
+          "2026-10-27",
+          300.45
+        ],
+        [
+          "2026-10-28",
+          309.3
+        ],
+        [
+          "2026-10-29",
+          326.35
+        ],
+        [
+          "2026-10-30",
+          319.9
         ]
       ],
       "1Y": [
         [
-          "2025-10-20",
-          324.81
-        ],
-        [
-          "2025-10-26",
-          323.61
+          "2025-10-30",
+          326.4
         ],
         [
           "2025-11-02",
@@ -1073,8 +1060,12 @@
           322.8
         ],
         [
-          "2026-10-19",
-          314.25
+          "2026-10-25",
+          306.75
+        ],
+        [
+          "2026-10-30",
+          319.9
         ]
       ],
       "ALL": [
@@ -1295,8 +1286,12 @@
           322.8
         ],
         [
-          "2026-10-19",
-          314.25
+          "2026-10-25",
+          306.75
+        ],
+        [
+          "2026-10-30",
+          319.9
         ]
       ]
     },
@@ -1519,8 +1514,12 @@
           97.83
         ],
         [
-          "2026-10-19",
-          95.24
+          "2026-10-25",
+          92.97
+        ],
+        [
+          "2026-10-30",
+          96.95
         ]
       ],
       "Nifty": [
@@ -1741,8 +1740,12 @@
           91.75
         ],
         [
-          "2026-10-19",
-          90.73
+          "2026-10-25",
+          89.59
+        ],
+        [
+          "2026-10-30",
+          91.38
         ]
       ],
       "Peer": [
@@ -1963,8 +1966,12 @@
           95.31
         ],
         [
-          "2026-10-19",
-          92.91
+          "2026-10-25",
+          90.15
+        ],
+        [
+          "2026-10-30",
+          91.14
         ]
       ]
     }
