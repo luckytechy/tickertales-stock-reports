@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T06:14:37+00:00",
+  "updated_at": "2026-10-31T13:02:15+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -420,19 +420,19 @@
     {
       "ticker": "CHOLAFIN",
       "slug": "cholafin",
-      "one_liner": "Cholamandalam Investment and Finance (Murugappa Group) is a diversified NBFC that lends against vehicles, homes/property and small businesses, and also runs a general insurance joint venture.",
+      "one_liner": "Cholamandalam Investment and Finance (Chola), part of the Murugappa Group, is a non-bank lender financing commercial and passenger vehicles, SMEs, home loans and, increasingly, consumer loans.",
       "tags": [
-        "P/B ~4.4x",
-        "Stock -19% from Aug peak",
-        "AUM +23% YoY",
-        "GNPA ticking up",
-        "Promoter stake drifting down"
+        "P/E ~24x (near own median)",
+        "AUM up 25% YoY",
+        "GNPA improving to 4.44%",
+        "Down 18% from Aug peak",
+        "Zero promoter pledge"
       ],
-      "last_close": 1574.4,
-      "return_1y_pct": -5.51,
+      "last_close": 1586.0,
+      "return_1y_pct": -7.24,
       "dividend_yield_pct": 0.13,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T05:09:37+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T13:02:14+00:00",
       "has_narrative": true
     },
     {
