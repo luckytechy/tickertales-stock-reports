@@ -2,47 +2,47 @@
   "schema_version": 1,
   "ticker": "VAML",
   "slug": "vaml",
-  "generated_at": "2026-10-19T22:43:54+00:00",
-  "data_as_of": "2026-10-16",
+  "generated_at": "2026-10-31T22:06:01+00:00",
+  "data_as_of": "2026-10-30",
   "has_narrative": true,
   "facts": {
     "ticker": "VAML",
-    "last_close": 371.85,
-    "last_date": "2026-10-16",
+    "last_close": 356.45,
+    "last_date": "2026-10-30",
     "listed_from": "2026-06-15",
-    "years_listed": 0.34,
+    "years_listed": 0.38,
     "short_history_mode": true,
     "peak": 487.42,
     "peak_date": "2026-06-15",
-    "drawdown_from_peak_pct": -23.7,
-    "low_52w": 359.55,
+    "drawdown_from_peak_pct": -26.9,
+    "low_52w": 344.35,
     "high_52w": 487.42,
     "at_52w_low": false,
     "at_52w_high": false,
     "returns_pct": {
       "3M": {
-        "stock": -14.41,
-        "nifty": -4.88,
-        "peer": -3.83
+        "stock": -20.16,
+        "nifty": -5.46,
+        "peer": -9.21
       },
       "6M": {
-        "stock": -23.71,
-        "nifty": -4.96,
-        "peer": -12.15
+        "stock": -26.87,
+        "nifty": -4.42,
+        "peer": -14.71
       },
       "1Y": {
-        "stock": -23.71,
-        "nifty": -9.53,
-        "peer": 17.0
+        "stock": -26.87,
+        "nifty": -10.92,
+        "peer": 3.25
       },
       "ALL": {
-        "stock": -23.71,
-        "nifty": -2.97,
-        "peer": -9.98
+        "stock": -26.87,
+        "nifty": -3.36,
+        "peer": -12.29
       }
     },
     "dividend_ttm": 8.0,
-    "dividend_yield_pct": 2.15,
+    "dividend_yield_pct": 2.24,
     "recent_dividends": [
       {
         "date": "2026-08-05",
@@ -54,88 +54,47 @@
     "peer": "HINDALCO",
     "peer_dropped_from_chart": false,
     "rebased_end_values": {
-      "Stock": 76.3,
-      "Nifty": 97.0,
-      "Peer": 90.0
+      "Stock": 73.1,
+      "Nifty": 96.6,
+      "Peer": 87.7
     }
   },
   "analysis": {
-    "one_liner": "Vedanta Aluminium Metal Limited (VAML) runs India's largest integrated aluminium business - the Lanjigarh alumina refinery, the giant Jharsuguda smelter, and a 51% stake in BALCO - after being demerged out of Vedanta Ltd and listed separately in June 2026.",
+    "one_liner": "VAML is Vedanta Group's dedicated aluminium business - integrated smelting at Jharsuguda (Odisha) and BALCO (Chhattisgarh) and alumina refining at Lanjigarh - carved out of Vedanta Ltd and listed as a standalone company in June 2026.",
     "tags": [
-      "P/E ~9x",
-      "99.99% of promoter shares pledged",
-      "Down 24% since June listing",
-      "Div. yield 2.15%",
-      "World's largest single-site Al smelter"
+      "Down 27% since June 2026 debut",
+      "Record Q2 output, stock fell anyway",
+      "P/E ~9x (short history, treat cautiously)",
+      "Promoter 56%, ~54-56% technically encumbered",
+      "Net debt/EBITDA 0.7x, improving"
     ],
-    "whats_happening": "On 18 Sep 2026 VAML disclosed that effectively all of its promoter group's shareholding (99.99%) is encumbered against financing facilities - a significant disclosure for a company listed barely three months earlier. On 3 Oct 2026 it reported record Q2 FY27 production (aluminium 649 KT, +5% YoY; alumina 895 KT, +37% YoY), but the Q2 financial results themselves have not yet been released and no confirmed date is available - check BSE/NSE filings. The stock touched a post-listing low of \u20b9359.55-366.85 in mid-October before closing at \u20b9371.85 on 16 Oct 2026.",
-    "plain_terms": "VAML is a brand-new standalone listing - it was carved out of Vedanta Ltd and only started trading on its own in June 2026, so there is no multi-year track record to judge it by yet. The business itself (bauxite-to-alumina-to-aluminium, plus part-ownership of BALCO) reported strong first-quarter profits, but the stock has fallen about 24% since listing and almost all the promoter's shares are pledged. The tension is this: operationally the numbers look good, but a heavily leveraged/pledged promoter holding and a falling share price in the same few months is not a comfortable combination for new shareholders.",
-    "quarters": "Q1 FY27 (June quarter, VAML's first standalone results, announced 30 Jul 2026): revenue \u20b921,393 Cr (+46% YoY), EBITDA \u20b910,299 Cr (+135% YoY, ~48% margin), PAT \u20b96,597 Cr (+205% YoY), EPS \u20b914.39. Management attributed the jump to record volumes and favourable LME aluminium/alumina spreads. Because this is the company's first quarter as a standalone demerged entity, the YoY comparison is against carve-out/pro-forma numbers from when VAML was part of Vedanta Ltd, not a like-for-like standalone prior year - treat the growth percentages as directionally useful but not strictly comparable. Q2 FY27 (Sept quarter): only production data is out so far (record aluminium and alumina output, filed 3 Oct 2026); financial results (revenue/EBITDA/PAT) have not been published - Not verified, check Screener/BSE for the actual release date.",
-    "performance_read": "VAML has been listed for only about four months (since 15 Jun 2026), so there is no genuine long-term return history to assess - short_history_mode applies and any '1-year' or 'all-time' figure here is really just this same four-month window. In that window the stock has fallen from a peak of \u20b9487.42 to \u20b9371.85, a 23.7% drawdown, and has underperformed both the Nifty (-4.9% to -9.5% over the same periods) and peer Hindalco (which was up 17% over one year) across every horizon measured. There is no corporate-action price adjustment needed here (no splits, and the demerger pricing is already reflected in the start of this series) - the decline is a straight market re-rating since listing, not a chart artifact.",
-    "valuation_read": "At a P/E of roughly 9x, VAML looks statistically cheap for a company posting ~48% EBITDA margins. But why it looks cheap matters more than whether it is cheap: aluminium is a cyclical, LME-price-linked commodity business, VAML has no standalone earnings history to extrapolate from, and the 99.99% promoter pledge creates an ownership overhang that markets typically discount for. Clean ROE/ROCE figures could not be verified - some data sources show 0% (almost certainly a data artifact from the company's newness as a listed entity rather than a true reflection of returns) - Not verified, check on Screener once a full trailing-twelve-month standalone history exists.",
-    "growth_read": "Both margin and volume moved up together in Q1 FY27 - EBITDA margin expanded sharply alongside a 46% revenue increase, and the Q2 production update (aluminium +5% YoY, alumina +37% YoY) shows volumes still rising. This is not a case of flat volumes propped up by margin alone; however, since aluminium/alumina prices are LME-linked and currently favourable, a chunk of the margin gain is cyclical rather than purely operational, and that is worth separating out once more standalone quarters are available.",
-    "health_read": "Whether Q1's strong EBITDA converted into free cash flow could not be verified from available sources - Not verified, check on Screener. Debt-to-equity is reported by some trackers as negative (implying a net cash position), but this conflicts with the unreliable ROE/ROCE figures from the same sources, so the clean balance-sheet picture is not yet verifiable. The more concrete and immediate risk is not VAML's own business economics (which look healthy on reported margins) but an ownership/financing-structure risk: the promoter group has pledged virtually all of its stake, which is a red flag around parent-level leverage rather than the operating company's own health.",
-    "ownership_read": "Promoters hold about 56.4% of VAML, entirely through foreign Vedanta entities (Twin Star Holdings ~40%, Vedanta Holdings Mauritius II ~12.6%, Vedanta Holdings Mauritius ~2.75%) - there is no Indian promoter entity on the register. As of 18 Sep 2026, 99.99% of this promoter shareholding was disclosed as encumbered against financing facilities, which is a significant governance watchpoint for a newly listed company. Institutional holding is roughly 11% FII and 15% DII, with ~17% public float; the government holds a residual 0.07% stake (left over from the demerger structure). No well-known individual investor or marquee fund was found to hold a notable stake - Not verified beyond the institutional aggregate figures above.",
+    "whats_happening": "Q2 FY27 results (quarter to 30 Sept 2026) were reported on 28 Oct 2026: revenue of Rs 22,066 crore (+41% YoY), EBITDA of Rs 10,192 crore (+83% YoY, ~46% margin), and record production of 649 kilotonnes of aluminium and 895 kilotonnes of alumina. Net profit is reported inconsistently across sources - Rs 6,187 crore in the company's earnings-call transcript versus Rs 5,167 crore in some news headlines - this is not reconciled here; check VAML's own exchange filing. Net debt fell Rs 3,090 crore to Rs 26,442 crore. Despite the strong operating numbers, the stock fell on results day and management flagged that Q3 costs are expected ~4% higher sequentially with softer H2 realisations.",
+    "plain_terms": "VAML isn't an old company finding its footing - it exists only because Vedanta Ltd split into five separate companies in mid-2026, and every Vedanta Ltd shareholder got one free VAML share for each Vedanta Ltd share they held. So the 27% fall from its debut peak is a new stock settling into a trading price, not an existing business cratering; some of the selling may simply be shareholders who got the shares for free. The real tension: the aluminium business itself looks healthy - record output, profit up sharply, debt coming down - yet the stock has underperformed both the Nifty and its closest listed peer, Hindalco, by a wide margin over every period measured. That gap between strong results and weak share price is the thing to watch, not the headline fall itself.",
+    "quarters": "VAML has reported results as a standalone listed company for only two quarters (Q1 and Q2 FY27), so there is no multi-year quarterly trend to show yet. In Q2 FY27, revenue grew 41% YoY and EBITDA grew faster at 83% YoY, pushing the EBITDA margin to roughly 46% - margin expansion outpacing revenue is a healthy sign rather than an accounting artifact, since both EBITDA and the (disputed) PAT figure moved in the same direction. The PAT number itself is not clean: outlets report either Rs 6,187 crore or Rs 5,167 crore for the same quarter, an unreconciled discrepancy - not verified, check the company's own filing before relying on it. Management's own commentary stressed record production (aluminium +5% YoY, alumina +37% YoY, value-added product mix +31% YoY) and said it expects to exit FY27 at roughly a $5 billion annualised EBITDA run-rate, while cautioning that Q3 costs are seen rising about 4% sequentially on planned shutdowns and input inflation, with realisations roughly $50/tonne lower in H2 than Q2.",
+    "performance_read": "Only 0.38 years of trading history exist, so there is no genuine long-run return record to assess - the 6M, 1Y and ALL return figures are all identical (-26.87%) simply because the stock has only been listed for about four and a half months, not because performance has been static for a year. Within that short window the stock has fallen harder than the market and harder than its sector: -20.16% over 3 months versus Nifty's -5.46% and peer Hindalco's -9.21%, and over the full listed life Hindalco (the comparison peer) is actually up 3.25% on a 1-year view while VAML is down 26.87%. This points to something specific to VAML - rather than a sector-wide aluminium slump - weighing on the price. It is also worth remembering this price series captures only one of five pieces that former Vedanta Ltd shareholders received in the demerger; it is not representative of their total return from the original holding.",
+    "valuation_read": "On the surface the stock looks cheap - a P/E of roughly 9x is low versus large diversified metal producers - but this needs a caveat: the multiple is built on an earnings and equity base that is only one to two quarters old, carved out via demerger accounting, so it isn't directly comparable to a peer with a decade of reported earnings. Some aggregator metrics look like artifacts of that unusual opening balance sheet rather than real operating signals - an ROE near 89% and a reported negative debt-to-equity are not plausible as genuine, sustainable figures for a capital-intensive smelter business and should not be read as a sign of exceptional efficiency. The more trustworthy leverage number, taken directly from the earnings release, is net debt/EBITDA of 0.7x (improved from 0.9x the prior quarter) - comfortably low. Net: whether VAML is cheap cannot be answered with confidence yet; the apparent cheapness may simply reflect metrics that haven't settled.",
+    "growth_read": "Growth this quarter was both volume-led and margin-led. Volumes: record aluminium output of 649 kilotonnes (+5% YoY) and record alumina output of 895 kilotonnes (+37% YoY), with value-added product mix up 31% YoY as BALCO's new potline ramps. Margins: EBITDA margin near 46%, helped by a realised price of $3,510/tonne (LME price plus hedging gains plus premiums). That combination is more durable than a margin-only story in a commodity business - but management itself has flagged that part of the margin tailwind is cyclical: costs are guided up ~4% sequentially in Q3 and realisations are expected to soften by about $50/tonne in H2, so some of this quarter's margin strength may not repeat.",
+    "health_read": "Profits are converting into real deleveraging, not just an accounting gain: net debt was cut by Rs 3,090 crore in a single quarter to Rs 26,442 crore, and net debt/EBITDA improved from 0.9x to 0.7x - a comfortably low level for a smelter business. Financial risk therefore looks manageable for now. The bigger risk is business/cyclical risk: the current margin and deleveraging are being funded by favourable aluminium pricing and premiums, and management has itself pointed to new smelter capacity coming online in the Middle East and Indonesia as a risk to global prices later in FY27 - that is the lever that could pressure cash generation, not the balance sheet.",
+    "ownership_read": "Promoter holding (Vedanta group entities, chiefly Twin Star Holdings) stands at 56.38%, unchanged this quarter, with no formal share pledge disclosed. However, roughly 53.6-56% of the promoter stake carries a disclosed 'technical encumbrance' tied to covenants on a $1 billion bridge facility and bonds raised by promoter-group entities - the company states this is distinct from a pledge, but it still restricts the promoter's ability to sell or further encumber shares without lender consent, and is worth monitoring given how central promoter leverage has been to problems at other groups in the past. FII holding slipped from 12.55% to 11.04% (and the number of distinct FII entities fell from 848 to 735), while mutual fund holding rose from 7.20% to 9.18%. No specific marquee or well-known individual/institutional investor was found on the register in the sources checked - this is stated plainly rather than assumed, and should be treated as not verified beyond the aggregate FII/DII/mutual-fund categories.",
     "strengths": [
-      "Owns the world's largest single-location aluminium smelter (Jharsuguda, 1.85 MTPA capacity) plus a captive alumina refinery at Lanjigarh (5 MTPA) - full backward integration",
-      "Q1 FY27 EBITDA margin of ~48% (EBITDA \u20b910,299 Cr on revenue \u20b921,393 Cr), among the strongest in the domestic aluminium sector",
-      "Record Q2 FY27 production - aluminium output 649 KT (+5% YoY) and alumina output 895 KT (+37% YoY) - shows volumes still expanding",
-      "Already paid an \u20b98/share interim dividend (record date 5 Aug 2026), giving a 2.15% trailing yield just months after listing"
+      "Record production in Q2 FY27: 649 kilotonnes of aluminium (+5% YoY) and 895 kilotonnes of alumina (+37% YoY)",
+      "EBITDA grew 83% YoY to Rs 10,192 crore, lifting margin to roughly 46%, outpacing 41% revenue growth",
+      "Net debt cut by Rs 3,090 crore in one quarter, with net debt/EBITDA improving from 0.9x to 0.7x",
+      "World's largest single-location aluminium smelter complex at Jharsuguda (1.85 MTPA) backed by captive power, giving a structural cost edge"
     ],
     "watchpoints": [
-      "99.99% of promoter group shares reported encumbered/pledged as of 18 Sep 2026 - a major ownership-risk flag so soon after listing",
-      "Stock down 23.7% from its June 2026 peak and has underperformed both the Nifty and peer Hindalco across every period measured since listing",
-      "Only one quarter of standalone financial results exists (Q1 FY27), and its YoY comparison uses carve-out/demerger-era figures rather than a clean like-for-like base",
-      "ROE, ROCE and net debt figures from public trackers are inconsistent/unreliable this early in the company's standalone life - genuine balance-sheet health is Not yet verifiable",
-      "Earnings are heavily tied to LME aluminium prices and alumina spreads, making margins cyclical rather than guaranteed"
+      "Stock down roughly 27% from its June 2026 listing peak and underperforming peer Hindalco by a wide margin across every measured period, despite strong operating results",
+      "Management itself guides Q3 costs up ~4% sequentially and H2 realisations ~$50/tonne lower - the H1 margin strength may not fully repeat",
+      "Roughly 53.6-56% of the promoter's 56.38% stake carries a technical encumbrance tied to a $1 billion bridge facility - not a pledge, but a constraint worth tracking",
+      "Q2 FY27 net profit is reported inconsistently across sources (Rs 6,187 crore vs Rs 5,167 crore) and is not reconciled here - verify against the company's own exchange filing before relying on a single figure"
     ],
-    "one_thing": "The Q2 FY27 financial results (date not yet confirmed - check BSE/NSE filings, likely November 2026) will be the first quarter with a genuinely comparable standalone base and will show whether the 48% EBITDA margin holds; any update on the promoter pledge situation would be the other event that resolves the current ownership overhang.",
+    "one_thing": "Q3 FY27 results (expected around late January 2027, exact date not yet confirmed) - these will show whether the ~4% sequential cost increase and ~$50/tonne lower realisation management has already flagged erode the current ~46% EBITDA margin, or whether rising value-added product mix and ramping captive bauxite/coal supply (Sijimali, Kuroloi) offset it.",
     "data_confidence": "Moderate",
-    "data_notes": "Price, return, dividend and drawdown figures are taken as given (verified) and not recomputed. Q1 FY27 results (revenue, EBITDA, PAT, EPS) and the 99.99% promoter pledge disclosure were cross-checked across the company's own press release and multiple independent market-news sources and are consistent. Q2 FY27 production figures are from the company's BSE filing/press coverage; Q2 financial results and the next results date could not be confirmed - flagged as Not verified. ROE, ROCE, and net debt figures shown by some data aggregators conflict with each other (0% ROE/ROCE alongside a reported net-cash position) and are likely artifacts of VAML's very short listed history; these are explicitly flagged as not independently verifiable rather than reported as fact."
+    "data_notes": "Cross-checked across multiple outlets: revenue, EBITDA, production volumes, and net debt figures for Q2 FY27 agree consistently. Could not verify or reconcile: the exact Q2 FY27 PAT figure (two conflicting numbers in circulation), ROCE and debt-to-equity shown on screener sites (these look distorted by the unusual post-demerger opening balance sheet rather than reflecting real operating metrics), the exact first-interim dividend declaration details beyond the Rs 8/share already confirmed in the supplied market data, the Q3 FY27 results date, the AGM date, and whether any named marquee investor holds a position beyond aggregate FII/DII/mutual-fund disclosures."
   },
   "charts": {
     "timeframes": {
       "3M": [
-        [
-          "2026-07-17",
-          434.44
-        ],
-        [
-          "2026-07-20",
-          429.13
-        ],
-        [
-          "2026-07-21",
-          434.0
-        ],
-        [
-          "2026-07-22",
-          423.82
-        ],
-        [
-          "2026-07-23",
-          429.38
-        ],
-        [
-          "2026-07-24",
-          428.15
-        ],
-        [
-          "2026-07-27",
-          429.67
-        ],
-        [
-          "2026-07-28",
-          424.71
-        ],
-        [
-          "2026-07-29",
-          432.08
-        ],
-        [
-          "2026-07-30",
-          449.23
-        ],
         [
           "2026-07-31",
           446.43
@@ -351,6 +310,42 @@
         [
           "2026-10-16",
           371.85
+        ],
+        [
+          "2026-10-19",
+          371.45
+        ],
+        [
+          "2026-10-21",
+          355.8
+        ],
+        [
+          "2026-10-22",
+          359.4
+        ],
+        [
+          "2026-10-23",
+          344.35
+        ],
+        [
+          "2026-10-26",
+          350.2
+        ],
+        [
+          "2026-10-27",
+          354.1
+        ],
+        [
+          "2026-10-28",
+          359.2
+        ],
+        [
+          "2026-10-29",
+          348.95
+        ],
+        [
+          "2026-10-30",
+          356.45
         ]
       ],
       "6M": [
@@ -701,6 +696,42 @@
         [
           "2026-10-16",
           371.85
+        ],
+        [
+          "2026-10-19",
+          371.45
+        ],
+        [
+          "2026-10-21",
+          355.8
+        ],
+        [
+          "2026-10-22",
+          359.4
+        ],
+        [
+          "2026-10-23",
+          344.35
+        ],
+        [
+          "2026-10-26",
+          350.2
+        ],
+        [
+          "2026-10-27",
+          354.1
+        ],
+        [
+          "2026-10-28",
+          359.2
+        ],
+        [
+          "2026-10-29",
+          348.95
+        ],
+        [
+          "2026-10-30",
+          356.45
         ]
       ],
       "1Y": [
@@ -777,8 +808,16 @@
           371.65
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           371.85
+        ],
+        [
+          "2026-10-25",
+          344.35
+        ],
+        [
+          "2026-10-30",
+          356.45
         ]
       ],
       "ALL": [
@@ -855,8 +894,16 @@
           371.65
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           371.85
+        ],
+        [
+          "2026-10-25",
+          344.35
+        ],
+        [
+          "2026-10-30",
+          356.45
         ]
       ]
     },
@@ -935,8 +982,16 @@
           76.25
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           76.29
+        ],
+        [
+          "2026-10-25",
+          70.65
+        ],
+        [
+          "2026-10-30",
+          73.13
         ]
       ],
       "Nifty": [
@@ -1013,8 +1068,16 @@
           94.41
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           97.03
+        ],
+        [
+          "2026-10-25",
+          94.74
+        ],
+        [
+          "2026-10-30",
+          96.64
         ]
       ],
       "Peer": [
@@ -1091,8 +1154,16 @@
           89.26
         ],
         [
-          "2026-10-16",
+          "2026-10-18",
           90.02
+        ],
+        [
+          "2026-10-25",
+          86.24
+        ],
+        [
+          "2026-10-30",
+          87.71
         ]
       ]
     }
