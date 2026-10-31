@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T21:54:10+00:00",
+  "updated_at": "2026-10-31T21:57:02+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -42,19 +42,19 @@
     {
       "ticker": "ADANIENT",
       "slug": "adanient",
-      "one_liner": "Adani Enterprises is the Adani Group's incubator company - it builds new businesses (airports, roads, green/new energy, data centres, mining services) and spins them off once they mature.",
+      "one_liner": "Adani Enterprises is the Adani Group's incubator company - it builds new, capital-intensive businesses (solar/green energy manufacturing, airports, data centers, roads, mining services, copper) to scale before they are spun out or separately funded.",
       "tags": [
-        "EBITDA +49% YoY",
-        "Q1FY27 net loss (OFAC charge)",
-        "Debt/EBITDA ~7.6x",
-        "GQG stake nearly exited",
-        "34% below Dec'22 peak"
+        "P/E ~66x, ROE ~7%",
+        "Stock -38% from 2022 peak",
+        "Promoter pledge 0.79% (low)",
+        "Q1 FY27 net loss on US settlement charge",
+        "GQG trimmed stake"
       ],
-      "last_close": 2722.6,
-      "return_1y_pct": 8.22,
+      "last_close": 2579.4,
+      "return_1y_pct": 2.12,
       "dividend_yield_pct": 0.05,
-      "data_as_of": "2026-10-14",
-      "generated_at": "2026-10-15T21:42:28+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T21:57:02+00:00",
       "has_narrative": true
     },
     {
