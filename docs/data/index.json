@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T13:06:45+00:00",
+  "updated_at": "2026-10-31T21:52:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1032,19 +1032,19 @@
     {
       "ticker": "LT",
       "slug": "lt",
-      "one_liner": "L&T is India's largest engineering & construction conglomerate, executing large infrastructure, power, defence and hydrocarbon projects, while also holding stakes in separately listed IT services (LTIMindtree, L&T Technology Services) and financial services (L&T Finance) businesses.",
+      "one_liner": "L&T is India's largest engineering, construction and infrastructure conglomerate, executing large domestic and international EPC projects (power, hydrocarbons, infrastructure) alongside manufacturing and technology services run through subsidiaries.",
       "tags": [
-        "P/E ~31x",
-        "ROE ~18.6%",
-        "Order book \u20b97.8L cr",
-        "Down 16% from Feb peak",
-        "No promoter, 0% pledge"
+        "P/E ~28-30x",
+        "Record order book \u20b98.5 lakh cr",
+        "Margins compressing",
+        "No single promoter (0%)",
+        "ROE ~16%"
       ],
-      "last_close": 3675.0,
-      "return_1y_pct": -1.55,
-      "dividend_yield_pct": 1.03,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-14T19:34:48+00:00",
+      "last_close": 3871.7,
+      "return_1y_pct": -1.96,
+      "dividend_yield_pct": 0.98,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T21:52:18+00:00",
       "has_narrative": true
     },
     {
