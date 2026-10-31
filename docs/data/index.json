@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-30T22:39:06+00:00",
+  "updated_at": "2026-10-31T06:12:22+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -600,19 +600,19 @@
     {
       "ticker": "ETERNAL",
       "slug": "eternal",
-      "one_liner": "Eternal Limited (renamed from Zomato) runs online food delivery (Zomato), quick-commerce grocery delivery (Blinkit), a going-out/bookings app (District) and a B2B food-supply business (Hyperpure) under one listed entity.",
+      "one_liner": "Eternal Limited (formerly Zomato) runs online food delivery under the Zomato brand, quick-commerce grocery delivery under Blinkit, B2B restaurant supply under Hyperpure, and a dining-out/events platform under District.",
       "tags": [
-        "P/E in the hundreds",
-        "ROE ~1.2%",
-        "Blinkit now 77% of revenue",
-        "Zero promoter holding",
-        "Results due Oct 21"
+        "P/E ~500-700x",
+        "Near all-time high",
+        "0% promoter holding",
+        "Blinkit EBITDA turned positive",
+        "Revenue growth partly accounting-driven"
       ],
-      "last_close": 317.35,
-      "return_1y_pct": -10.44,
+      "last_close": 343.65,
+      "return_1y_pct": 4.34,
       "dividend_yield_pct": null,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T04:38:12+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T06:12:21+00:00",
       "has_narrative": true
     },
     {
