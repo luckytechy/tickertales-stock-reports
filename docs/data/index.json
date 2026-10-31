@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T21:52:18+00:00",
+  "updated_at": "2026-10-31T21:54:10+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -78,19 +78,19 @@
     {
       "ticker": "ADANIPORTS",
       "slug": "adaniports",
-      "one_liner": "Adani Ports & SEZ builds and operates a network of ports, terminals, logistics parks and a Special Economic Zone across India and select overseas sites (Colombo, Haifa, Tanzania and others), earning fees from cargo and container handling.",
+      "one_liner": "Adani Ports and Special Economic Zone (APSEZ) runs India's largest private port network and is building out adjacent logistics, marine/shipping, and international port businesses (Israel, Sri Lanka, Tanzania, Oman).",
       "tags": [
         "P/E ~31x",
-        "ROE ~16% / ROCE ~12.5%",
-        "Pledge: Nil (FY26)",
-        "Results due 28 Oct 2026",
-        "H1 FY27 cargo +15% YoY"
+        "Near 52-wk high",
+        "Net debt/EBITDA 1.8x",
+        "PAT lagging EBITDA growth",
+        "No pledge"
       ],
-      "last_close": 1734.4,
-      "return_1y_pct": 19.86,
-      "dividend_yield_pct": 0.43,
-      "data_as_of": "2026-10-22",
-      "generated_at": "2026-10-22T05:19:46+00:00",
+      "last_close": 1850.0,
+      "return_1y_pct": 27.43,
+      "dividend_yield_pct": 0.41,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T21:54:10+00:00",
       "has_narrative": true
     },
     {
