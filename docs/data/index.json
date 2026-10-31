@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T21:57:02+00:00",
+  "updated_at": "2026-10-31T22:01:38+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1662,19 +1662,19 @@
     {
       "ticker": "TVSMOTOR",
       "slug": "tvsmotor",
-      "one_liner": "TVS Motor makes and sells two-wheelers, three-wheelers and electric two-wheelers in India and over 80 export markets, with an in-house NBFC (TVS Credit) that finances a large chunk of its retail sales.",
+      "one_liner": "TVS Motor makes two-wheelers (motorcycles, scooters, mopeds) and three-wheelers, with a fast-growing electric scooter range (iQube), a large export business, a premium bet via Norton Motorcycles, and a consumer-finance arm (TVS Credit) it is now splitting off.",
       "tags": [
-        "P/E ~54x",
-        "ROE ~34%, ROCE ~18%",
-        "EV 2W sales +133% YoY",
+        "P/E ~52-56x",
         "Promoter 50.3%, zero pledge",
-        "Consol. D/E 3.4x (NBFC-skewed)"
+        "PAT +52% YoY (GST-cut boosted)",
+        "EV units +133% YoY",
+        "Near 52-week high"
       ],
-      "last_close": 4095.1,
-      "return_1y_pct": 14.9,
+      "last_close": 4195.2,
+      "return_1y_pct": 20.57,
       "dividend_yield_pct": 0.29,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-17T15:53:06+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T22:01:37+00:00",
       "has_narrative": true
     },
     {
