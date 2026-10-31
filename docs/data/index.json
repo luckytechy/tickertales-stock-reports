@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-10-31T13:02:15+00:00",
+  "updated_at": "2026-10-31T13:06:45+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -816,19 +816,19 @@
     {
       "ticker": "HYUNDAI",
       "slug": "hyundai",
-      "one_liner": "Hyundai Motor India designs, makes and sells passenger vehicles (SUVs like Creta and Venue lead the range) domestically and exports to around 85 countries, as the Indian listed arm of South Korea's Hyundai Motor Company.",
+      "one_liner": "Hyundai Motor India manufactures and sells passenger vehicles, SUVs and EVs in India and exports them from its Chennai plant, as the India-listed arm of Korea's Hyundai Motor Company.",
       "tags": [
-        "P/E ~30x vs Maruti ~25x",
-        "Margin 14%\u21929.3% in 4 qtrs",
-        "Mkt share ~11.6%, down from 13.8%",
-        "Zero debt, ROE ~30%",
-        "Q2 FY27 results Oct 28"
+        "P/E ~34x",
+        "ROE ~30%, ROCE ~38%",
+        "Net cash balance sheet",
+        "Promoter 82.5%, zero pledge",
+        "Q2 margin fell to 9.5%"
       ],
-      "last_close": 1850.0,
-      "return_1y_pct": -18.53,
-      "dividend_yield_pct": 1.14,
-      "data_as_of": "2026-10-23",
-      "generated_at": "2026-10-24T05:00:10+00:00",
+      "last_close": 1911.0,
+      "return_1y_pct": -20.07,
+      "dividend_yield_pct": 1.1,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-10-31T13:06:44+00:00",
       "has_narrative": true
     },
     {

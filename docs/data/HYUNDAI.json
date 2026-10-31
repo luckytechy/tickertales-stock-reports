@@ -2,47 +2,47 @@
   "schema_version": 1,
   "ticker": "HYUNDAI",
   "slug": "hyundai",
-  "generated_at": "2026-10-24T05:00:10+00:00",
-  "data_as_of": "2026-10-23",
+  "generated_at": "2026-10-31T13:06:44+00:00",
+  "data_as_of": "2026-10-30",
   "has_narrative": true,
   "facts": {
     "ticker": "HYUNDAI",
-    "last_close": 1850.0,
-    "last_date": "2026-10-23",
+    "last_close": 1911.0,
+    "last_date": "2026-10-30",
     "listed_from": "2024-10-22",
-    "years_listed": 2.0,
+    "years_listed": 2.02,
     "short_history_mode": true,
     "peak": 2782.73,
     "peak_date": "2025-09-19",
-    "drawdown_from_peak_pct": -33.5,
+    "drawdown_from_peak_pct": -31.3,
     "low_52w": 1675.4,
     "high_52w": 2415.63,
     "at_52w_low": false,
     "at_52w_high": false,
     "returns_pct": {
       "3M": {
-        "stock": -4.35,
-        "nifty": -4.91,
-        "peer": -15.62
+        "stock": -11.53,
+        "nifty": -5.46,
+        "peer": -19.13
       },
       "6M": {
-        "stock": 4.71,
-        "nifty": -5.43,
-        "peer": -13.07
+        "stock": 4.59,
+        "nifty": -4.42,
+        "peer": -15.23
       },
       "1Y": {
-        "stock": -18.53,
-        "nifty": -12.71,
-        "peer": -30.81
+        "stock": -20.07,
+        "nifty": -10.92,
+        "peer": -28.97
       },
       "ALL": {
-        "stock": 3.64,
-        "nifty": -7.65,
-        "peer": -3.84
+        "stock": 7.05,
+        "nifty": -5.8,
+        "peer": -2.41
       }
     },
     "dividend_ttm": 21.0,
-    "dividend_yield_pct": 1.14,
+    "dividend_yield_pct": 1.1,
     "recent_dividends": [
       {
         "date": "2026-08-05",
@@ -58,67 +58,47 @@
     "peer": "MARUTI",
     "peer_dropped_from_chart": false,
     "rebased_end_values": {
-      "Stock": 103.6,
-      "Nifty": 92.4,
-      "Peer": 96.2
+      "Stock": 107.1,
+      "Nifty": 94.2,
+      "Peer": 97.6
     }
   },
   "analysis": {
-    "one_liner": "Hyundai Motor India designs, makes and sells passenger vehicles (SUVs like Creta and Venue lead the range) domestically and exports to around 85 countries, as the Indian listed arm of South Korea's Hyundai Motor Company.",
+    "one_liner": "Hyundai Motor India manufactures and sells passenger vehicles, SUVs and EVs in India and exports them from its Chennai plant, as the India-listed arm of Korea's Hyundai Motor Company.",
     "tags": [
-      "P/E ~30x vs Maruti ~25x",
-      "Margin 14%\u21929.3% in 4 qtrs",
-      "Mkt share ~11.6%, down from 13.8%",
-      "Zero debt, ROE ~30%",
-      "Q2 FY27 results Oct 28"
+      "P/E ~34x",
+      "ROE ~30%, ROCE ~38%",
+      "Net cash balance sheet",
+      "Promoter 82.5%, zero pledge",
+      "Q2 margin fell to 9.5%"
     ],
-    "whats_happening": "Hyundai's board meets on 28 October 2026 to approve Q2 FY27 (Jul-Sep 2026) results, just four days from today. The last reported quarter, Q1 FY27 (Apr-Jun 2026), saw profit fall 35% year-on-year to \u20b9889 crore as EBITDA margin slipped to 9.3%, hurt by a supplier-fire-linked production loss (roughly 13,900 units) and a 19.6% drop in export volumes tied to the West Asia conflict. Separately, Tamil Nadu tax authorities raised a \u20b9517 crore GST demand for FY18-20 SUV sales, which the company intends to contest.",
-    "plain_terms": "Hyundai India makes cars most people recognise - Creta, Venue, Verna - and for four quarters in a row its operating margin has shrunk, from 14% down to 9.3%. That's a trend, not a one-off blip, and it's happening alongside the company losing market share to Tata and Maruti. Meanwhile the stock is priced at roughly 30 times earnings, a richer multiple than market leader Maruti. The tension to watch: you're paying a premium for a 'quality' story while the last four quarters of numbers have been moving in the wrong direction.",
-    "quarters": "EBITDA margin has fallen every quarter over the past year: 14.0% in Q2 FY26 (Jul-Sep 2025), 11.0% in Q3 FY26, 10.4% in Q4 FY26, and 9.3% in Q1 FY27 (Apr-Jun 2026), with PAT down from \u20b91,572 crore to \u20b9889 crore over that span. Management attributes the latest hit to a supplier fire and export disruption from the West Asia conflict, not an accounting change, and has reaffirmed FY27 guidance of 8-10% volume growth and an 11-14% EBITDA margin band - meaning the company itself expects the current quarter to sit below its own target range. A GST rate cut (28% to 18%) on cars in 2026 also changed on-road pricing mid-year, so quarter-on-quarter revenue and average selling price comparisons around that period should be read with that tax change in mind rather than as pure demand strength.",
-    "performance_read": "Since listing on 22 October 2024, the stock is up only 3.64% in total - essentially flat over two years - though that beats the Nifty (-7.65%) and peer Maruti (-3.84%), both of which fell over the same stretch. The stock has already dropped 33.5% from its all-time high of \u20b92,782.73 (September 2025); there has been no split, bonus or demerger, so this fall is a genuine market reassessment of earnings and margin trends, not a corporate-action artifact. With only two years of trading history (short_history_mode), there simply isn't enough of a track record yet to judge long-run compounding - that evidence doesn't exist yet.",
-    "valuation_read": "At roughly 30-31x trailing earnings, Hyundai trades above Maruti (~25x) and Mahindra (~17x), though below Tata Motors (~36x). The premium is explained by strong return ratios - ROE near 30%, ROCE 35-39%, a debt-free balance sheet - and a richer SUV mix than some peers. Whether that premium is deserved is a separate question from why it exists: margins have compressed for four straight quarters and market share has slipped from 13.8% to 11.6% over the same period, so the market is currently paying a growth/quality price for a business whose recent numbers haven't supported that story.",
-    "growth_read": "Revenue has been uneven rather than steadily rising, and critically, profit has grown slower than revenue - margin compression means each rupee of sales is converting into less profit every quarter. Falling market share (13.8% to ~11.6%) means this is not volume-led growth; if anything, Hyundai is losing volume share while trying to hold margins through pricing and mix. A GST-driven price cut spurred stronger festive-season bookings in late 2026, but that is a tax-timing effect, not yet evidence of a structural turnaround.",
-    "health_read": "Financial risk is minimal: Hyundai India is close to debt-free, with debt-to-equity around 0.056. The real concern is business risk - four consecutive quarters of margin erosion, shrinking market share, and event risk from disruptions like the supplier fire and export delays. The asset-light, low-debt model means profits should convert reasonably well into cash, but the underlying quality of the profit pool itself is what's under pressure, not the balance sheet.",
-    "ownership_read": "Promoter Hyundai Motor Company (Korea) has held a steady 82.5% stake since listing with zero pledging - no governance red flag there. Foreign institutional holding has nearly halved since listing (7.4% down to about 3.2%), while domestic institutions - LIC, HDFC AMC, ICICI Prudential MF among them - have been buying, taking DII holding from roughly 7% to about 11.9% and absorbing the FII selling. There is no marquee individual 'star investor' on the shareholder register; this is an institution-only cap table. Separately, under SEBI's minimum public float rule, the promoter is expected to dilute a further ~7.5% stake over the coming years, which is a known future supply overhang on the stock.",
+    "whats_happening": "Hyundai Motor India reported Q2 FY27 results on October 28, 2026 - just three days ago. Consolidated revenue crossed \u20b920,000 crore for the first time (\u20b920,696 crore, up 18.5% YoY) on record volumes of 219,072 units, but EBITDA margin fell to 9.5% from 13.9% a year earlier on raw-material cost inflation, and net profit fell 23.9% YoY to about \u20b91,196 crore. The stock reportedly rose after the print as investors focused on the volume record and management's reiterated full-year margin guidance rather than the profit decline.",
+    "plain_terms": "Hyundai sold more cars than ever this quarter, but kept less profit out of every rupee of revenue than it did a year ago because raw material costs rose faster than prices - that is a margin story, not a demand problem. The business is genuinely growing in volume while profitability lags behind it, and management is promising the gap closes in the second half. The tension to watch: the stock already trades at a premium multiple that assumes that promise comes true.",
+    "quarters": "Q2 FY27 (quarter ended Sept 2026, reported Oct 28, 2026): consolidated revenue \u20b920,696 crore, up 18.5% YoY - the company's first quarter above \u20b920,000 crore. Volumes were 219,072 units, up 14.7% YoY and 23% QoQ, led by SUVs and exports. EBITDA margin compressed to 9.5% from 13.9% a year earlier - management attributed roughly 400 basis points of this to commodity/raw-material cost inflation plus higher employee costs. Consolidated net profit fell 23.9% YoY to about \u20b91,196 crore (standalone profit \u20b91,189 crore, down 24%). No tax or revenue-recognition reclassification was flagged by the company this quarter, so the margin fall looks like a genuine cost story rather than an accounting artifact. Management held full-year EBITDA margin guidance at 11-14%, saying H2 margin needs to run slightly above 12% to hit roughly the 11% full-year mark, citing a Tamil Nadu incentive, export growth, price hikes, and new launches (Bayon, a dedicated EV) as the levers for recovery.",
+    "performance_read": "The stock is down 31.3% from its September 2025 peak of \u20b92,782.73, last at \u20b91,911, inside a 52-week range of \u20b91,675-2,415. There are no stock splits, bonus issues, or demergers in the corporate-action record, so this is a plain price decline - not a case where a spin-off understates returns. That said, the company has only been listed since October 2024 (about 2 years), so there is no meaningful long-term track record to draw conclusions from. The reported 'all-time' return of +7.05% versus the Nifty's -5.8% largely reflects a weak IPO-era entry price rather than demonstrated multi-year compounding; over 1 year the stock has lagged the Nifty (-20.1% vs -10.9%), while over 6 months it has outperformed (+4.6% vs -4.4%).",
+    "valuation_read": "The stock trades around 33-34x trailing earnings per the most commonly cited figures, versus a broader auto-sector average closer to 27x - though different data providers show meaningfully different P/E figures (some as low as ~24-28x) depending on which trailing period and share count they use, so treat the exact multiple with some caution. It is expensive relative to a quarter in which profit just fell 24% YoY - the premium is being paid for an expected margin recovery and export/SUV mix improvement, not current earnings. Why it might deserve a premium: ROE near 30% and ROCE near 38% both sit well above sector medians, and the balance sheet carries no net debt. Whether that premium is justified hinges entirely on whether H2 margins actually land in management's guided 11-14% range.",
+    "growth_read": "This is volume-led growth running into a margin squeeze, not a margin illusion over flat volumes. Q2 FY27 revenue grew 18.5% YoY and units sold grew 14.7% YoY to a record 219,072 - genuine demand growth, backed by record SUV mix and strong exports. But EBITDA margin fell about 440 basis points YoY to 9.5%, so profit growth is lagging volume growth for now. The business is expanding; profitability has not kept pace this quarter.",
+    "health_read": "Profits are converting to cash reasonably well - FY26 operating cash flow was about \u20b97,321 crore against free cash flow of about \u20b92,996 crore. As of March 2026 the company held about \u20b910,042 crore of cash against only about \u20b91,082 crore of debt, i.e. a net cash position. The present pressure is a business-risk issue - commodity cost inflation and pricing/mix - not a financial-risk one; there is no leverage or liquidity concern to worry about here.",
+    "ownership_read": "Promoter Hyundai Motor Company (Korea) holds 82.5%, unchanged, with zero shares pledged. Free float is thin at roughly 2% public holding; mutual funds hold about 8% (rising through 2026) and other domestic institutions hold the bulk of the remainder, while FII holding has fallen sharply across 2026 - from about 6.4% in December 2025 to roughly 3.2% in September 2026, a notable run of foreign-investor selling. No globally known value investor appears on the shareholder register - this is an institution- and promoter-held stock rather than one with marquee individual backing. Worth flagging structurally: the October 2024 listing was entirely an offer-for-sale by the Korean parent, so no fresh capital came into the company itself at IPO.",
     "strengths": [
-      "Near debt-free balance sheet (debt-to-equity ~0.056), freeing cash for dividends",
-      "High capital efficiency even after margin compression: ROE ~30%, ROCE 35-39%",
-      "Export momentum (July 2026 exports +31.4% YoY) and new Talegaon plant (inaugurated 14 Oct 2026, \u20b911,000 crore investment) adding capacity toward 2030",
-      "Outperformed both the Nifty and peer Maruti over 3M, 6M, 1Y and since-listing periods, even though its own absolute return has been weak"
+      "Record quarterly revenue of \u20b920,696 crore in Q2 FY27, up 18.5% YoY - first quarter ever above \u20b920,000 crore.",
+      "ROE near 30% and ROCE near 38%, both comfortably above sector medians.",
+      "Net cash balance sheet: about \u20b910,042 crore cash versus about \u20b91,082 crore debt as of March 2026.",
+      "Record volumes of 219,072 units in the quarter, up 14.7% YoY, led by a highest-ever SUV mix and strong export growth."
     ],
     "watchpoints": [
-      "EBITDA margin has fallen every quarter for a year: 14.0% (Q2 FY26) to 9.3% (Q1 FY27), below management's own 11-14% FY27 guidance band",
-      "Market share down from 13.8% (FY25) to ~11.6% (H1 FY27) as Tata Motors overtakes Mahindra for #2 position",
-      "\u20b9517 crore GST demand (FY18-20 SUV sales) from Tamil Nadu authorities, currently being contested",
-      "FII holding nearly halved since listing (7.4% to 3.2%), and a further ~7.5% promoter stake sale is expected under SEBI public-float rules - a known future supply overhang"
+      "EBITDA margin fell to 9.5% from 13.9% YoY in Q2 FY27 - management must claw back roughly 400bps to meet its own 11-14% full-year guidance.",
+      "Consolidated net profit fell 23.9% YoY to about \u20b91,196 crore even as revenue grew - profit growth is lagging volume growth.",
+      "FII holding has dropped from about 6.4% to about 3.2% of the register through 2026 - sustained foreign-investor selling.",
+      "Stock is 31.3% below its September 2025 peak with only about 2 years of trading history - too short to judge a genuine long-term track record either way."
     ],
-    "one_thing": "The Q2 FY27 results on 28 October 2026 - specifically whether EBITDA margin stabilises or recovers toward management's 11-14% FY27 target, or extends its four-quarter decline - will show whether the margin pressure is temporary (fire, export disruption) or structural (market share loss).",
+    "one_thing": "Whether H2 FY27 EBITDA margin actually climbs above the roughly 12% level management says is needed to hit its full-year 11-14% guidance - that single data point will show whether the current cost pressure is temporary or a structural reset in profitability.",
     "data_confidence": "Moderate",
-    "data_notes": "Quarterly financials cross-checked across Screener.in, Business Standard and Upstox; the Q3 FY26 EBITDA margin figure is a rounded estimate. Valuation multiples (P/E, market cap) vary roughly 5-7% across Screener, Tickertape and Trendlyne due to timing differences, so ranges are given rather than single-point figures. Shareholding, dividend and price/return data are taken from the verified dataset supplied. News on exports, capacity, the GST demand and the management change is sourced from secondary outlets (Autocar Pro, Business Standard, Team-BHP) and could not be re-verified against primary NSE/BSE filing PDFs, which returned access errors during research."
+    "data_notes": "Q2 FY27 revenue, volume, EBITDA margin and net profit figures are cross-checked across multiple independent reports (Business Standard, Business Upturn, GuruFocus/Yahoo earnings-call highlights) and agree closely. P/E figures diverge meaningfully across sources (roughly 24x to 34x depending on provider and period) - treat the exact multiple as indicative, not precise; Screener's ~33.9x was used as the primary reference given consistency with ROE/ROCE figures from the same source. Shareholding and pledge data (82.5% promoter, 0% pledge) is consistent across sources. FY26 debt and cash-flow figures are from aggregator sites (Alpha Spread, stockanalysis.com) and were not cross-checked against the company's own annual report - treat as reasonably reliable but not primary-source verified. No upcoming results date or record date falls within the next two weeks as of October 31, 2026; the most recent dividend (\u20b921, paid August 2026) is already reflected in the supplied data."
   },
   "charts": {
     "timeframes": {
       "3M": [
-        [
-          "2026-07-24",
-          1934.13
-        ],
-        [
-          "2026-07-27",
-          1965.83
-        ],
-        [
-          "2026-07-28",
-          1982.96
-        ],
-        [
-          "2026-07-29",
-          1974.05
-        ],
-        [
-          "2026-07-30",
-          1999.11
-        ],
         [
           "2026-07-31",
           2160.07
@@ -350,29 +330,29 @@
         [
           "2026-10-23",
           1850.0
+        ],
+        [
+          "2026-10-26",
+          1868.0
+        ],
+        [
+          "2026-10-27",
+          1861.3
+        ],
+        [
+          "2026-10-28",
+          1866.9
+        ],
+        [
+          "2026-10-29",
+          1922.0
+        ],
+        [
+          "2026-10-30",
+          1911.0
         ]
       ],
       "6M": [
-        [
-          "2026-04-24",
-          1766.73
-        ],
-        [
-          "2026-04-27",
-          1820.22
-        ],
-        [
-          "2026-04-28",
-          1807.93
-        ],
-        [
-          "2026-04-29",
-          1800.21
-        ],
-        [
-          "2026-04-30",
-          1800.41
-        ],
         [
           "2026-05-04",
           1827.05
@@ -852,16 +832,32 @@
         [
           "2026-10-23",
           1850.0
+        ],
+        [
+          "2026-10-26",
+          1868.0
+        ],
+        [
+          "2026-10-27",
+          1861.3
+        ],
+        [
+          "2026-10-28",
+          1866.9
+        ],
+        [
+          "2026-10-29",
+          1922.0
+        ],
+        [
+          "2026-10-30",
+          1911.0
         ]
       ],
       "1Y": [
         [
-          "2025-10-23",
-          2270.72
-        ],
-        [
-          "2025-10-26",
-          2245.26
+          "2025-10-30",
+          2390.87
         ],
         [
           "2025-11-02",
@@ -1068,8 +1064,12 @@
           1987.0
         ],
         [
-          "2026-10-23",
+          "2026-10-25",
           1850.0
+        ],
+        [
+          "2026-10-30",
+          1911.0
         ]
       ],
       "ALL": [
@@ -1494,8 +1494,12 @@
           1987.0
         ],
         [
-          "2026-10-23",
+          "2026-10-25",
           1850.0
+        ],
+        [
+          "2026-10-30",
+          1911.0
         ]
       ]
     },
@@ -1922,8 +1926,12 @@
           111.31
         ],
         [
-          "2026-10-23",
+          "2026-10-25",
           103.64
+        ],
+        [
+          "2026-10-30",
+          107.05
         ]
       ],
       "Nifty": [
@@ -2348,8 +2356,12 @@
           94.58
         ],
         [
-          "2026-10-23",
+          "2026-10-25",
           92.35
+        ],
+        [
+          "2026-10-30",
+          94.2
         ]
       ],
       "Peer": [
@@ -2774,8 +2786,12 @@
           98.38
         ],
         [
-          "2026-10-23",
+          "2026-10-25",
           96.16
+        ],
+        [
+          "2026-10-30",
+          97.59
         ]
       ]
     }
