@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-01T06:53:17+00:00",
+  "updated_at": "2026-11-01T18:05:33+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -150,19 +150,19 @@
     {
       "ticker": "ASIANPAINT",
       "slug": "asianpaint",
-      "one_liner": "Asian Paints makes and sells decorative and industrial paints, coatings and related home-improvement products, and is India's largest paint company by sales.",
+      "one_liner": "Asian Paints is India's largest paint company, making decorative and industrial paints plus home-decor and waterproofing products, now facing its most serious competitive challenge in decades.",
       "tags": [
-        "P/E ~46x",
-        "Down 31% from 2023 peak",
-        "Market share 59%\u219252%",
-        "CCI probe ongoing",
-        "ROCE ~26%, near-zero debt"
+        "P/E ~45x",
+        "Down 32% from 2023 peak",
+        "EBITDA margin fell to 15.6% from 18%",
+        "Birla Opus taking share",
+        "Promoter pledge ~10%"
       ],
-      "last_close": 2376.0,
-      "return_1y_pct": 2.47,
-      "dividend_yield_pct": 1.16,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-13T11:02:27+00:00",
+      "last_close": 2320.0,
+      "return_1y_pct": -7.12,
+      "dividend_yield_pct": 1.19,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-01T18:05:32+00:00",
       "has_narrative": true
     },
     {
