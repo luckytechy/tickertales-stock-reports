@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-01T18:15:30+00:00",
+  "updated_at": "2026-11-01T18:19:40+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1644,19 +1644,19 @@
     {
       "ticker": "TRENT",
       "slug": "trent",
-      "one_liner": "Trent runs Tata Group's fashion and retail chains in India - the budget-fashion chain Zudio, the mid-premium Westside, and grocery/beauty formats like Star Bazaar and Zudio-adjacent Samoh/Misbu.",
+      "one_liner": "Trent runs Tata Group's retail chains - Westside (fashion department stores), Zudio (value fashion) and Star Bazaar (grocery) - and is best known for Zudio's rapid store rollout.",
       "tags": [
-        "Down 64% from Oct'24 peak",
-        "P/E ~86x",
-        "Revenue +20%+ YoY",
-        "No promoter pledge",
-        "LFL sales declining"
+        "P/E ~85x",
+        "63% off Oct-2024 peak",
+        "Zudio past 1,000 stores",
+        "ROE ~28%, net cash",
+        "Promoter 37%, no pledge"
       ],
-      "last_close": 2971.0,
-      "return_1y_pct": -35.56,
+      "last_close": 3017.3,
+      "return_1y_pct": -36.31,
       "dividend_yield_pct": 0.13,
-      "data_as_of": "2026-10-14",
-      "generated_at": "2026-10-15T21:55:44+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-01T18:19:39+00:00",
       "has_narrative": true
     },
     {
