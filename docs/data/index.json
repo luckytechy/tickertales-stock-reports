@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-01T06:46:48+00:00",
+  "updated_at": "2026-11-01T06:53:17+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -870,19 +870,19 @@
     {
       "ticker": "INDIGO",
       "slug": "indigo",
-      "one_liner": "IndiGo (InterGlobe Aviation) is India's largest airline by passengers carried, running a low-cost domestic and international flight network.",
+      "one_liner": "India's largest airline by domestic market share, flying an almost entirely leased Airbus narrow-body fleet, now adding Airbus A350 wide-bodies from 2027 to build an international long-haul network.",
       "tags": [
-        "P/E not meaningful (loss-making)",
-        "P/B ~29x",
-        "FY26 net loss \u20b92,393 cr",
-        "Stock -24% from Aug'25 peak",
-        "Zero promoter pledge"
+        "Net loss, last 2 qtrs",
+        "P/B ~47x (thin book)",
+        "Promoter 41.6%, 0% pledge",
+        "Engine grounding unresolved",
+        "1yr -15% vs 5yr +124%"
       ],
-      "last_close": 4686.9,
-      "return_1y_pct": -20.3,
+      "last_close": 4877.6,
+      "return_1y_pct": -14.8,
       "dividend_yield_pct": null,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T16:55:58+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-01T06:53:17+00:00",
       "has_narrative": true
     },
     {
