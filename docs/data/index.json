@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-01T18:19:40+00:00",
+  "updated_at": "2026-11-01T22:18:45+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -456,19 +456,19 @@
     {
       "ticker": "COALINDIA",
       "slug": "coalindia",
-      "one_liner": "Coal India is the world's largest coal miner, a government-controlled company that digs and sells thermal coal mostly to Indian power plants.",
+      "one_liner": "Coal India is the world's largest coal mining company, a Government of India-controlled near-monopoly that mines and sells coal mostly to power plants under long-term Fuel Supply Agreements (FSA) plus open e-auctions.",
       "tags": [
-        "P/E ~8.3x",
-        "Div yield 6.35%",
-        "Near debt-free",
-        "ROE ~28% / ROCE ~35%",
-        "Govt stake ~61%"
+        "P/E ~7-8x",
+        "Div yield ~6.8%",
+        "ROE ~28%",
+        "Profit swung on base effect",
+        "Govt-owned, no pledge"
       ],
-      "last_close": 417.0,
-      "return_1y_pct": 16.9,
-      "dividend_yield_pct": 6.35,
-      "data_as_of": "2026-10-14",
-      "generated_at": "2026-10-15T21:51:06+00:00",
+      "last_close": 389.0,
+      "return_1y_pct": 7.15,
+      "dividend_yield_pct": 6.81,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-01T22:18:45+00:00",
       "has_narrative": true
     },
     {
