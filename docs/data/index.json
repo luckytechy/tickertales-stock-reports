@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-02T22:02:54+00:00",
+  "updated_at": "2026-11-02T22:04:41+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -276,19 +276,19 @@
     {
       "ticker": "BEL",
       "slug": "bel",
-      "one_liner": "Bharat Electronics is a Government of India-owned defence electronics company that builds radar, communication, avionics, weapon-control and cybersecurity systems mainly for India's armed forces.",
+      "one_liner": "Bharat Electronics is a state-owned (Navratna PSU) defence electronics company that builds radars, communication systems, electronic warfare equipment and missile/weapon systems mainly for the Indian armed forces.",
       "tags": [
-        "P/E ~45x",
-        "Debt-free, ROCE 36%",
-        "Govt promoter, no pledge",
-        "Down 19% from peak",
-        "Q1 FY27 margin dipped"
+        "P/E ~44-48x",
+        "Debt-free, ROCE ~37%",
+        "Order book \u20b968,717 cr",
+        "Order inflows down 44% YoY YTD",
+        "Down 21% from Mar-26 peak"
       ],
-      "last_close": 380.4,
-      "return_1y_pct": -6.26,
-      "dividend_yield_pct": 0.66,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T14:45:56+00:00",
+      "last_close": 369.9,
+      "return_1y_pct": -9.25,
+      "dividend_yield_pct": 0.68,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-02T22:04:41+00:00",
       "has_narrative": true
     },
     {
