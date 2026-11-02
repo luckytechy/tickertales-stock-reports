@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-01T22:18:45+00:00",
+  "updated_at": "2026-11-02T06:44:19+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -996,19 +996,19 @@
     {
       "ticker": "JSWSTEEL",
       "slug": "jswsteel",
-      "one_liner": "JSW Steel is one of India's largest integrated steel makers, producing flat and long steel products from plants in Karnataka, Maharashtra, Odisha and overseas (US, with JV capacity in India too).",
+      "one_liner": "JSW Steel is India's largest steel producer, making flat and long steel products from integrated plants in Karnataka (Vijayanagar), Odisha, and overseas units including the US.",
       "tags": [
-        "P/E ~12x vs sector ~20x",
-        "Net debt/EBITDA 1.81x",
-        "Results due 23 Oct 2026",
-        "Q4 FY26 profit inflated by one-off",
-        "Promoter pledge 11.6%"
+        "Record output, margins up",
+        "Net debt/EBITDA 1.28x, falling",
+        "Promoter stake 44.3%, down YoY",
+        "P/E disputed across sources",
+        "Moody's upgrade to IG"
       ],
-      "last_close": 1200.4,
-      "return_1y_pct": 4.01,
-      "dividend_yield_pct": 0.59,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T14:51:46+00:00",
+      "last_close": 1268.9,
+      "return_1y_pct": 6.79,
+      "dividend_yield_pct": 0.56,
+      "data_as_of": "2026-11-02",
+      "generated_at": "2026-11-02T06:44:18+00:00",
       "has_narrative": true
     },
     {
