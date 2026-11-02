@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-02T21:58:34+00:00",
+  "updated_at": "2026-11-02T22:00:42+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1104,19 +1104,19 @@
     {
       "ticker": "MAXHEALTH",
       "slug": "maxhealth",
-      "one_liner": "Max Healthcare Institute runs a network of multi-specialty hospitals concentrated in Delhi-NCR and North India, offering tertiary and quaternary care in areas like oncology, cardiac sciences and transplants.",
+      "one_liner": "Max Healthcare Institute runs a network of premium hospitals concentrated in Delhi NCR and North India, under sole promoter Abhay Soi.",
       "tags": [
-        "P/E ~55x",
-        "At 52-week low",
-        "Cancer-drug margin-cap risk",
-        "ROE/ROCE ~15%",
-        "No promoter pledge"
+        "P/E ~60-70x",
+        "Stock -34% from peak",
+        "PAT fall is a tax base-effect",
+        "NPPA oncology margin cap overhang",
+        "Zero promoter pledge"
       ],
-      "last_close": 858.0,
-      "return_1y_pct": -25.63,
+      "last_close": 860.0,
+      "return_1y_pct": -26.9,
       "dividend_yield_pct": 0.23,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-16T21:38:25+00:00",
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-02T22:00:42+00:00",
       "has_narrative": true
     },
     {
