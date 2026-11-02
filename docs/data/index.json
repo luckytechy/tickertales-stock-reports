@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-02T22:00:42+00:00",
+  "updated_at": "2026-11-02T22:02:54+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -906,19 +906,19 @@
     {
       "ticker": "IOC",
       "slug": "ioc",
-      "one_liner": "Indian Oil Corporation is India's largest state-run oil company, refining crude oil and marketing petrol, diesel, LPG and other fuels across the country.",
+      "one_liner": "India's largest oil refiner and fuel retailer, running 10 refineries (about 31% of the country's refining capacity) and selling petrol, diesel, LPG and other fuels through a nationwide network, majority-owned by the Government of India.",
       "tags": [
-        "P/E ~5.5x",
+        "P/E ~4-6x",
         "Div yield 6.3%",
-        "Q1 FY27 loss",
-        "Govt holds 51.5%",
-        "Results Oct 30"
+        "29% below Feb 2026 peak",
+        "Q1 loss \u2192 Q2 profit swing",
+        "Govt owns 51.5%"
       ],
-      "last_close": 130.38,
-      "return_1y_pct": -10.66,
-      "dividend_yield_pct": 6.33,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-17T05:01:58+00:00",
+      "last_close": 130.15,
+      "return_1y_pct": -16.19,
+      "dividend_yield_pct": 6.34,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-02T22:02:54+00:00",
       "has_narrative": true
     },
     {
