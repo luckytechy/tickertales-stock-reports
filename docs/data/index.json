@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-02T06:44:19+00:00",
+  "updated_at": "2026-11-02T21:58:34+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -618,19 +618,19 @@
     {
       "ticker": "GAIL",
       "slug": "gail",
-      "one_liner": "GAIL (India) Ltd runs the country's largest natural gas transmission pipeline network and trades gas, while also running petrochemical, LPG, and LNG businesses.",
+      "one_liner": "GAIL (India) is a government-owned company that dominates India's natural gas pipeline network and gas trading, and also makes petrochemicals, LPG and related products from that gas.",
       "tags": [
-        "P/E ~11x",
-        "Govt owns ~52%",
-        "Div yield 3.3%",
-        "ROE/ROCE below 10-yr avg",
-        "Petrochem losses narrowing"
+        "P/E ~9-11x",
+        "PSU, zero pledge",
+        "Profit swung sharply in FY27",
+        "Div yield ~3.3%",
+        "Petchem near breakeven"
       ],
-      "last_close": 168.1,
-      "return_1y_pct": -2.97,
-      "dividend_yield_pct": 3.27,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T16:20:10+00:00",
+      "last_close": 167.91,
+      "return_1y_pct": -5.16,
+      "dividend_yield_pct": 3.28,
+      "data_as_of": "2026-10-30",
+      "generated_at": "2026-11-02T21:58:33+00:00",
       "has_narrative": true
     },
     {
