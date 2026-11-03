@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-02T22:04:41+00:00",
+  "updated_at": "2026-11-03T07:15:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -888,19 +888,19 @@
     {
       "ticker": "INFY",
       "slug": "infy",
-      "one_liner": "Infosys is an Indian IT services and consulting company that runs technology operations, software development and maintenance for global clients, and is now pushing AI-driven automation into that work.",
+      "one_liner": "Infosys is one of India's largest IT services companies, providing software development, consulting and outsourcing to large global corporations, mainly billed in US dollars and euros.",
       "tags": [
-        "P/E ~14x",
-        "Stock -41% from 2024 peak",
-        "Div yield 4.3%",
-        "Results Oct 22-23",
-        "CEO exits Apr 2027"
+        "P/E ~15.6x",
+        "Stock -38.8% from 2024 peak",
+        "FY27 growth guidance cut to 1-2%",
+        "Debt-free, ROE ~32%",
+        "Div yield ~4.5%"
       ],
-      "last_close": 1116.05,
-      "return_1y_pct": -21.48,
-      "dividend_yield_pct": 4.3,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T04:18:37+00:00",
+      "last_close": 1137.0,
+      "return_1y_pct": -20.01,
+      "dividend_yield_pct": 4.49,
+      "data_as_of": "2026-11-03",
+      "generated_at": "2026-11-03T07:15:17+00:00",
       "has_narrative": true
     },
     {
