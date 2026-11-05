@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-03T19:54:59+00:00",
+  "updated_at": "2026-11-05T07:16:39+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1302,19 +1302,19 @@
     {
       "ticker": "POWERGRID",
       "slug": "powergrid",
-      "one_liner": "Power Grid Corporation is the Indian government-owned monopoly that builds and operates most of India's inter-state electricity transmission network, earning regulated tariffs on its asset base.",
+      "one_liner": "Power Grid Corporation (government-owned) builds and operates India's interstate electricity transmission network under a CERC-regulated, cost-plus-return tariff model.",
       "tags": [
-        "P/E ~14.6-16x",
-        "Govt-owned, zero pledge",
-        "ROE/ROCE falling 3 yrs",
-        "Div yield 3.6%",
-        "27% off Sep-24 peak"
+        "P/E ~16x",
+        "Govt owns 51%",
+        "Record date Nov 6",
+        "Down 24% from 2024 peak",
+        "Div yield 3.46%"
       ],
-      "last_close": 249.85,
-      "return_1y_pct": -11.29,
-      "dividend_yield_pct": 3.6,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T14:49:49+00:00",
+      "last_close": 260.45,
+      "return_1y_pct": -0.42,
+      "dividend_yield_pct": 3.46,
+      "data_as_of": "2026-11-05",
+      "generated_at": "2026-11-05T07:16:38+00:00",
       "has_narrative": true
     },
     {
