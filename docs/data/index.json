@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-05T07:16:39+00:00",
+  "updated_at": "2026-11-06T07:20:47+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -204,19 +204,19 @@
     {
       "ticker": "BAJAJFINSV",
       "slug": "bajajfinsv",
-      "one_liner": "Bajaj Finserv is the Bajaj Group's financial-services holding company, whose value comes mainly from its ~52% stake in Bajaj Finance (consumer lending) plus now-wholly-owned general and life insurance arms.",
+      "one_liner": "Bajaj Finserv is a holding company that owns the controlling stakes in the Bajaj Group's financial businesses - lending (Bajaj Finance, Bajaj Housing Finance), life insurance and general insurance - so its earnings are really the sum of those subsidiaries' results.",
       "tags": [
-        "P/E ~28-31x",
-        "1Y return -17.6%",
-        "Lending PAT +27-28%",
-        "Life insurance hit by GST",
-        "Now 100% owns insurance JVs"
+        "P/E ~30x",
+        "5Y stock return ~flat (+0.3%)",
+        "Allianz JV fully exited",
+        "RBI flexi-loan rule risk",
+        "General insurance profit fell YoY"
       ],
-      "last_close": 1716.3,
-      "return_1y_pct": -17.58,
-      "dividend_yield_pct": 0.09,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T04:30:34+00:00",
+      "last_close": 1832.6,
+      "return_1y_pct": -11.1,
+      "dividend_yield_pct": 0.08,
+      "data_as_of": "2026-11-06",
+      "generated_at": "2026-11-06T07:20:47+00:00",
       "has_narrative": true
     },
     {
