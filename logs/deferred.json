@@ -3,5 +3,10 @@
     "last": "2026-11-06",
     "reason": "stopped at $5.71 - over the $3.00 cap",
     "times": 1
+  },
+  "SBIN": {
+    "last": "2026-11-06",
+    "reason": "stopped at $3.03 - over the $3.00 cap",
+    "times": 1
   }
 }
