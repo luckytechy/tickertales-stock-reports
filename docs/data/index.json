@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-07T13:31:18+00:00",
+  "updated_at": "2026-11-07T13:33:22+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1230,19 +1230,19 @@
     {
       "ticker": "PFC",
       "slug": "pfc",
-      "one_liner": "PFC is a government-owned (Navratna) NBFC that provides long-term project finance to power generation, transmission and distribution companies across India, and now also owns and consolidates REC Limited as its subsidiary.",
+      "one_liner": "PFC is a Maharatna, government-owned NBFC that borrows in bulk and lends mainly to India's power sector - generation, transmission, distribution and increasingly renewable energy projects.",
       "tags": [
-        "P/E ~4.3x",
-        "Div yield 5.6%",
-        "Down 36% from 2024 peak",
+        "P/E ~4x",
+        "Div yield ~5.7%",
+        "Down 36% from Jul-2024 peak",
         "PFC-REC merger pending",
-        "Net NPA ~0.15%"
+        "Net NPA at multi-year low"
       ],
-      "last_close": 333.25,
-      "return_1y_pct": -12.93,
-      "dividend_yield_pct": 5.63,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-17T11:13:21+00:00",
+      "last_close": 328.8,
+      "return_1y_pct": -10.66,
+      "dividend_yield_pct": 5.7,
+      "data_as_of": "2026-11-06",
+      "generated_at": "2026-11-07T13:33:22+00:00",
       "has_narrative": true
     },
     {
