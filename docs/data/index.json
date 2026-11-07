@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-07T13:33:22+00:00",
+  "updated_at": "2026-11-07T13:37:12+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -132,19 +132,19 @@
     {
       "ticker": "APOLLOHOSP",
       "slug": "apollohosp",
-      "one_liner": "Apollo Hospitals runs a network of hospitals across India, plus pharmacy distribution, diagnostic clinics (AHLL) and a digital health platform (Apollo 24|7) that is being prepared for a separate stock-market listing.",
+      "one_liner": "Apollo Hospitals runs one of India's largest hospital chains along with a pharmacy network, diagnostics business and a digital health platform (Apollo 24/7).",
       "tags": [
-        "P/E ~52x",
-        "Stock down 16% from Sep peak",
-        "Pledge cut 13%\u21922.5%",
-        "Drug-price-cap overhang",
-        "Results due 4 Nov"
+        "P/E ~54x",
+        "Digital arm turned cash-positive",
+        "Demerger of digital biz pending (Q4 FY27)",
+        "Promoter pledge cut 13%\u2192~2.5%",
+        "Near 52-wk high"
       ],
-      "last_close": 7596.0,
-      "return_1y_pct": -4.44,
-      "dividend_yield_pct": 0.26,
-      "data_as_of": "2026-10-23",
-      "generated_at": "2026-10-23T05:27:50+00:00",
+      "last_close": 8446.0,
+      "return_1y_pct": 8.8,
+      "dividend_yield_pct": 0.24,
+      "data_as_of": "2026-11-06",
+      "generated_at": "2026-11-07T13:37:11+00:00",
       "has_narrative": true
     },
     {
