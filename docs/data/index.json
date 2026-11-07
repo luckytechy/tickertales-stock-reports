@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-06T19:47:46+00:00",
+  "updated_at": "2026-11-07T13:31:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1788,19 +1788,19 @@
     {
       "ticker": "ZYDUSLIFE",
       "slug": "zyduslife",
-      "one_liner": "Zydus Lifesciences makes generic and branded medicines for the US and Indian markets, plus consumer wellness products and specialty/biosimilar drugs.",
+      "one_liner": "Zydus Lifesciences is a diversified Indian pharma company that makes generic and branded medicines, consumer wellness products and biosimilars, and is now trying to get its own in-house drug (saroglitazar) approved and sold in the US.",
       "tags": [
-        "P/E ~23x TTM",
-        "Q1 FY27 PAT -35% YoY",
-        "Promoter 75%, unpledged",
-        "Results due ~early Nov 2026",
-        "ROE ~21%"
+        "P/E ~26x",
+        "Q2 profit fell 27% YoY",
+        "Zero promoter pledge",
+        "FDA call due 27 Nov",
+        "Net debt/equity 0.16x"
       ],
-      "last_close": 1113.9,
-      "return_1y_pct": 11.23,
-      "dividend_yield_pct": 0.09,
-      "data_as_of": "2026-10-19",
-      "generated_at": "2026-10-19T13:56:44+00:00",
+      "last_close": 1197.9,
+      "return_1y_pct": 28.0,
+      "dividend_yield_pct": 0.08,
+      "data_as_of": "2026-11-06",
+      "generated_at": "2026-11-07T13:31:17+00:00",
       "has_narrative": true
     }
   ]
