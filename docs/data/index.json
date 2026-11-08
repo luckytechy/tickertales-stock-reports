@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-08T18:10:03+00:00",
+  "updated_at": "2026-11-08T18:16:50+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1212,19 +1212,19 @@
     {
       "ticker": "ONGC",
       "slug": "ongc",
-      "one_liner": "ONGC is India's largest oil and gas exploration and production company, a government-controlled PSU that extracts crude oil and natural gas domestically and holds stakes in refining/petrochemical arms like MRPL, HPCL and OPaL.",
+      "one_liner": "ONGC is India's largest crude oil and natural gas exploration and production company, a Government of India-controlled PSU that also holds large stakes in refiners MRPL and HPCL.",
       "tags": [
-        "P/E ~6.4x",
-        "Div yield ~5.9%",
-        "At 52-week low",
-        "Govt holds ~59%",
-        "Q1 profit +112% YoY"
+        "P/E ~5.9x",
+        "Div yield 5.6%+",
+        "Govt owns 58.9%, 0% pledge",
+        "Output down ~3% YoY",
+        "Record H1 profit"
       ],
-      "last_close": 223.94,
-      "return_1y_pct": -4.8,
-      "dividend_yield_pct": 5.92,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T04:35:42+00:00",
+      "last_close": 234.8,
+      "return_1y_pct": -1.65,
+      "dividend_yield_pct": 5.64,
+      "data_as_of": "2026-11-08",
+      "generated_at": "2026-11-08T18:16:49+00:00",
       "has_narrative": true
     },
     {
