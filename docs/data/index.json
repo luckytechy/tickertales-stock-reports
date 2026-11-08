@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-08T06:36:09+00:00",
+  "updated_at": "2026-11-08T18:05:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1140,19 +1140,19 @@
     {
       "ticker": "MOTHERSON",
       "slug": "motherson",
-      "one_liner": "Samvardhana Motherson makes auto parts for carmakers worldwide - wiring harnesses, mirrors, plastic modules - and is now pushing into aerospace and consumer electronics through acquisitions.",
+      "one_liner": "Samvardhana Motherson International is a global auto-component maker that builds wiring harnesses, mirrors, plastics, modules and other parts for carmakers worldwide, grown via both internal expansion and a long string of acquisitions.",
       "tags": [
-        "P/E ~37-40x",
-        "Q1 FY26 profit fell 45% on tariff lag",
-        "Net leverage 0.8x, record low",
-        "Promoter pledge 2.34%",
-        "9 stock splits since 2005"
+        "P/E ~35x",
+        "Results out Nov 5",
+        "Stock -9% on results day",
+        "Pledge ~2.3%",
+        "D/E ~0.4x"
       ],
-      "last_close": 160.0,
-      "return_1y_pct": 49.88,
+      "last_close": 159.4,
+      "return_1y_pct": 56.19,
       "dividend_yield_pct": 0.38,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-19T22:37:05+00:00",
+      "data_as_of": "2026-11-08",
+      "generated_at": "2026-11-08T18:05:18+00:00",
       "has_narrative": true
     },
     {
