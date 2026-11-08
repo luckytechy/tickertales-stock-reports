@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-07T22:16:30+00:00",
+  "updated_at": "2026-11-08T06:36:09+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -366,19 +366,19 @@
     {
       "ticker": "BSE",
       "slug": "bse",
-      "one_liner": "BSE Ltd runs India's oldest stock exchange, earning fees on equity and derivatives trading, new company listings, and market data/technology services.",
+      "one_liner": "BSE Ltd operates India's oldest stock exchange plus clearing, data and mutual-fund distribution platforms, earning fees on cash and derivatives trading, listings and IPOs.",
       "tags": [
-        "P/E ~49x TTM",
-        "Debt-free, ROE ~37%",
-        "Profit up 88% in FY26",
-        "Down 23% from May-2026 peak",
-        "SEBI derivatives rules in flux"
+        "P/E ~50x",
+        "Profit +45% YoY (Q2FY27)",
+        "No promoter - LIC largest holder",
+        "F&O expiry-rule risk",
+        "13.5% off peak"
       ],
-      "last_close": 3363.0,
-      "return_1y_pct": 34.38,
-      "dividend_yield_pct": 0.3,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T16:59:01+00:00",
+      "last_close": 3800.0,
+      "return_1y_pct": 55.16,
+      "dividend_yield_pct": 0.26,
+      "data_as_of": "2026-11-06",
+      "generated_at": "2026-11-08T06:36:08+00:00",
       "has_narrative": true
     },
     {
