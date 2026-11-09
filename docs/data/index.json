@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-09T22:43:51+00:00",
+  "updated_at": "2026-11-09T22:46:05+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -312,19 +312,19 @@
     {
       "ticker": "BOSCHLTD",
       "slug": "boschltd",
-      "one_liner": "Bosch Limited is the Indian listed arm of Germany's Bosch Group, making fuel-injection, powertrain and other mobility components for cars, two-wheelers and commercial vehicles, plus an auto-parts aftermarket business.",
+      "one_liner": "Bosch Ltd makes automotive components (fuel-injection and power-train systems, sensors, two-wheeler electronics) in India and is majority owned by Germany's Robert Bosch group.",
       "tags": [
-        "P/E ~54x, rich",
-        "Debt-free, large net cash",
-        "Promoter 70.5%, no pledge",
-        "Q2 results due Nov 6",
-        "Dividend cut 512\u2192270"
+        "P/E ~56x vs sector ~31x",
+        "Promoter 70.5%, zero pledge",
+        "1:5 split + 3:1 bonus pending",
+        "Q1 profit had a one-off gain",
+        "ROCE 25.6%"
       ],
-      "last_close": 45460.0,
-      "return_1y_pct": 16.69,
-      "dividend_yield_pct": 0.59,
-      "data_as_of": "2026-10-19",
-      "generated_at": "2026-10-19T05:13:10+00:00",
+      "last_close": 49550.0,
+      "return_1y_pct": 33.79,
+      "dividend_yield_pct": 0.54,
+      "data_as_of": "2026-11-09",
+      "generated_at": "2026-11-09T22:46:05+00:00",
       "has_narrative": true
     },
     {
