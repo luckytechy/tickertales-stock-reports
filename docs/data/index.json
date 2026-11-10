@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-09T22:46:05+00:00",
+  "updated_at": "2026-11-10T07:41:49+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -492,19 +492,19 @@
     {
       "ticker": "DIVISLAB",
       "slug": "divislab",
-      "one_liner": "Divi's Laboratories makes active pharmaceutical ingredients, custom-synthesis (CDMO) intermediates for global pharma and agrochemical companies, and nutraceuticals, selling mostly to customers outside India.",
+      "one_liner": "Divi's Laboratories manufactures and exports active pharmaceutical ingredients, pharma intermediates and custom-synthesised molecules for global pharma and agrochemical companies, operating mainly as a contract development and manufacturing organisation (CDMO).",
       "tags": [
-        "P/E ~67-84x (sources differ)",
-        "Debt-free, ROCE ~22%",
-        "5% off all-time high",
-        "Promoter stake ~52%, no pledge",
-        "Custom synthesis now 60% of mix"
+        "P/E ~90x",
+        "ROE 16.5%, ROCE 22%",
+        "Near debt-free",
+        "All-time high, \u20b93 lakh cr mcap",
+        "Zero promoter pledge"
       ],
-      "last_close": 9144.5,
-      "return_1y_pct": 39.11,
-      "dividend_yield_pct": 0.33,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-17T05:03:37+00:00",
+      "last_close": 11565.5,
+      "return_1y_pct": 73.55,
+      "dividend_yield_pct": 0.26,
+      "data_as_of": "2026-11-09",
+      "generated_at": "2026-11-10T07:41:49+00:00",
       "has_narrative": true
     },
     {
