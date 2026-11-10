@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-10T07:41:49+00:00",
+  "updated_at": "2026-11-10T07:43:30+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1518,19 +1518,19 @@
     {
       "ticker": "TATASTEEL",
       "slug": "tatasteel",
-      "one_liner": "Tata Steel is an integrated steel producer with large operations in India (Kalinganagar, Jamshedpur) and in Europe (Netherlands, UK), selling steel to construction, auto, infrastructure and retail customers.",
+      "one_liner": "Tata Steel makes and sells steel at scale across India, the UK and the Netherlands, with the Indian business carrying the group while the European operations continue to lose money.",
       "tags": [
-        "P/E ~19.7x",
-        "Net debt ~\u20b980,144cr",
-        "Europe restructuring ongoing",
-        "Down 18.6% from May'26 peak",
-        "Zero promoter pledge"
+        "P/E ~22x",
+        "Net debt \u20b991,423 cr",
+        "Europe still loss-making",
+        "Lagged peer 5Y",
+        "No promoter pledge"
       ],
-      "last_close": 176.4,
-      "return_1y_pct": 3.92,
-      "dividend_yield_pct": 2.27,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T14:53:57+00:00",
+      "last_close": 184.85,
+      "return_1y_pct": 3.96,
+      "dividend_yield_pct": 2.16,
+      "data_as_of": "2026-11-09",
+      "generated_at": "2026-11-10T07:43:30+00:00",
       "has_narrative": true
     },
     {
