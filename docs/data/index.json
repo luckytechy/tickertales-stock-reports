@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-13T07:09:20+00:00",
+  "updated_at": "2026-11-13T07:12:06+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1374,19 +1374,19 @@
     {
       "ticker": "SBIN",
       "slug": "sbin",
-      "one_liner": "SBI is India's largest bank by assets, a majority government-owned lender offering retail and corporate banking, deposits and credit, alongside subsidiaries in life insurance, cards and asset management.",
+      "one_liner": "State Bank of India is the country's largest bank by assets, majority-owned by the Government of India, running retail and corporate banking alongside stakes in insurance, cards and mutual fund subsidiaries.",
       "tags": [
-        "P/E ~10.2x",
-        "P/B ~1.4x",
-        "Down 21% from Feb 2026 peak",
-        "ROE ~16-17%",
-        "Gross NPA at multi-year low ~1.47%"
+        "P/E ~10.8x",
+        "P/B ~1.5x",
+        "GNPA 1.39% (20-yr low)",
+        "PAT +14% YoY",
+        "Govt stake 55.45%"
       ],
-      "last_close": 949.0,
-      "return_1y_pct": 9.03,
-      "dividend_yield_pct": 1.83,
-      "data_as_of": "2026-10-15",
-      "generated_at": "2026-10-15T04:16:28+00:00",
+      "last_close": 1085.35,
+      "return_1y_pct": 15.82,
+      "dividend_yield_pct": 1.6,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-13T07:12:06+00:00",
       "has_narrative": true
     },
     {
