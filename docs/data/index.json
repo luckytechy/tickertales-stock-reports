@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-10T07:43:30+00:00",
+  "updated_at": "2026-11-13T07:09:20+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -942,19 +942,19 @@
     {
       "ticker": "ITC",
       "slug": "itc",
-      "one_liner": "ITC is a diversified Indian conglomerate whose profit is still dominated by cigarettes, alongside a fast-growing packaged foods and personal care business, paperboard/packaging, and agri-trading; it demerged its hotels business into a separately listed company in January 2025.",
+      "one_liner": "ITC is a diversified Indian conglomerate best known for cigarettes (still its biggest profit pool), alongside a growing packaged foods and personal care FMCG business, paperboards/packaging, and agri-trading; it demerged its hotels business into a separately listed ITC Hotels in January 2025.",
       "tags": [
-        "P/E ~16x",
-        "Div yield 5.6%",
-        "Down 44% from peak",
-        "Cigarette tax hit Feb 2026",
-        "Near-zero debt"
+        "P/E ~16-17x",
+        "Div yield ~5.1%",
+        "Profit down 20% YoY",
+        "Cigarette tax shock Feb 2026",
+        "Net cash balance sheet"
       ],
-      "last_close": 259.35,
-      "return_1y_pct": -31.87,
-      "dividend_yield_pct": 5.59,
-      "data_as_of": "2026-10-13",
-      "generated_at": "2026-10-13T08:40:29+00:00",
+      "last_close": 283.9,
+      "return_1y_pct": -26.61,
+      "dividend_yield_pct": 5.11,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-13T07:09:20+00:00",
       "has_narrative": true
     },
     {
