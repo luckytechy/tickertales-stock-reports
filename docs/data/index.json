@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-13T07:12:06+00:00",
+  "updated_at": "2026-11-14T18:28:50+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1500,19 +1500,19 @@
     {
       "ticker": "TATAPOWER",
       "slug": "tatapower",
-      "one_liner": "Tata Power is an integrated power company that generates (coal, hydro, renewables), transmits and distributes electricity, and is now expanding into EV charging and grid infrastructure for data centres.",
+      "one_liner": "Tata Power is the Tata Group's listed power utility, running coal and renewable generation, power transmission and distribution, and solar/EPC businesses across India, alongside legacy overseas coal assets tied to a long-running Indonesia dispute.",
       "tags": [
-        "P/E ~30x",
-        "Net debt \u20b956,122cr",
-        "No promoter pledge",
-        "26% off Sep'24 peak",
-        "Mundra on govt directive"
+        "P/E ~25-30x",
+        "Net debt/equity ~1.27x",
+        "-27.5% from Sep'24 peak",
+        "5Y return 1/4 of peer NTPC",
+        "Singapore court enforcement risk"
       ],
-      "last_close": 353.85,
-      "return_1y_pct": -10.77,
-      "dividend_yield_pct": 0.71,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T05:02:08+00:00",
+      "last_close": 348.0,
+      "return_1y_pct": -9.94,
+      "dividend_yield_pct": 0.72,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-14T18:28:49+00:00",
       "has_narrative": true
     },
     {
