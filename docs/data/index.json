@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-15T19:08:52+00:00",
+  "updated_at": "2026-11-15T19:12:15+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -852,19 +852,19 @@
     {
       "ticker": "IDEA",
       "slug": "idea",
-      "one_liner": "Vodafone Idea is India's third-largest mobile telecom operator, a joint venture of UK's Vodafone Group and India's Aditya Birla Group, now majority-owned by the Government of India after unpaid licence dues were converted into equity.",
+      "one_liner": "Vodafone Idea (Vi) is India's third-largest mobile telecom operator, formed by the 2018 Vodafone-Idea merger and now majority-influenced by the Indian government, which converted unpaid spectrum/AGR dues into a roughly 49% equity stake.",
       "tags": [
-        "P/E: not meaningful",
-        "Govt owns ~49% stake",
-        "Net worth still negative",
-        "Subscribers growing again",
+        "Net worth negative",
+        "P/E not meaningful",
+        "No dividend since 2016",
+        "Govt holds ~49%",
         "89.6% below 2015 peak"
       ],
-      "last_close": 12.59,
-      "return_1y_pct": 42.26,
+      "last_close": 12.57,
+      "return_1y_pct": 20.06,
       "dividend_yield_pct": null,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-19T22:50:15+00:00",
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-15T19:12:14+00:00",
       "has_narrative": true
     },
     {
