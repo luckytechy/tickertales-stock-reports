@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-14T18:28:50+00:00",
+  "updated_at": "2026-11-15T19:04:45+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -672,19 +672,19 @@
     {
       "ticker": "HAL",
       "slug": "hal",
-      "one_liner": "Hindustan Aeronautics (HAL) is the state-owned monopoly designer, manufacturer and maintainer of fighter jets (Tejas, Sukhoi), helicopters (LCH, ALH) and aero-engines for India's armed forces.",
+      "one_liner": "HAL is the government-owned company that designs, builds and repairs fighter aircraft, helicopters and aero-engines for India's armed forces.",
       "tags": [
-        "P/E ~35x",
-        "Govt owns 71.6%, zero debt",
-        "Order book ~7-8x revenue",
-        "1Y return flat (+0.25%)",
-        "Engine supply delays Tejas"
+        "P/E ~34x",
+        "ROCE 32%, debt-free",
+        "Govt holds 71.6%, zero pledge",
+        "Order book ~\u20b92.5 lakh cr",
+        "Tejas delivery delays"
       ],
-      "last_close": 4773.0,
-      "return_1y_pct": 0.25,
+      "last_close": 4809.8,
+      "return_1y_pct": 2.29,
       "dividend_yield_pct": 0.94,
-      "data_as_of": "2026-10-23",
-      "generated_at": "2026-10-23T05:30:15+00:00",
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-15T19:04:45+00:00",
       "has_narrative": true
     },
     {
