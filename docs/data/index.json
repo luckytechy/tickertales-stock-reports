@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-16T22:34:56+00:00",
+  "updated_at": "2026-11-16T22:37:27+00:00",
   "reports": [
     {
       "ticker": "ABB",
       "slug": "abb",
-      "one_liner": "ABB India makes and sells electrification gear (switchgear, panels, power distribution equipment) and industrial automation/motion systems for factories, infrastructure, utilities and data centres; it is 75%-owned by the Swiss-Swedish ABB Group and exited its robotics business in 2026.",
+      "one_liner": "ABB India makes electrification equipment and industrial automation gear (motors, drives, control systems) used in factories, utilities and infrastructure, and is majority owned by its Swiss parent ABB.",
       "tags": [
-        "P/E ~48x (EPS inflated by one-off gain)",
-        "Orders +50% YoY",
-        "Zero net debt",
-        "Robotics unit sold to group co.",
-        "22.7% below 2024 peak"
+        "P/E ~93x",
+        "Debt-free, ROCE ~30%",
+        "Order book \u20b913,000cr, +36% YoY",
+        "Robotics business sold to parent in 2026",
+        "Promoter 75%, zero pledge"
       ],
-      "last_close": 6801.0,
-      "return_1y_pct": 32.56,
-      "dividend_yield_pct": 1.76,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-18T05:04:42+00:00",
+      "last_close": 7054.5,
+      "return_1y_pct": 45.87,
+      "dividend_yield_pct": 1.7,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-16T22:37:26+00:00",
       "has_narrative": true
     },
     {
