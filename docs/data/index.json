@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-16T22:29:36+00:00",
+  "updated_at": "2026-11-16T22:33:18+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -1608,19 +1608,19 @@
     {
       "ticker": "TMPV",
       "slug": "tmpv",
-      "one_liner": "Makes and sells Tata-brand cars, EVs and CNG vehicles in India and owns Jaguar Land Rover in the UK, after demerging its commercial-vehicle business into a separately listed company in October 2025.",
+      "one_liner": "TMPV is Tata Motors' car and SUV business, including Jaguar Land Rover (JLR) and a majority stake in Tata Technologies, split off in October 2025 from the commercial-vehicle business that now trades separately as Tata Motors Ltd (TMLCV).",
       "tags": [
-        "P/B ~0.9-1x",
-        "FY26 'profit' is a one-off gain",
-        "Dividend halved to Rs 3",
-        "JLR margin guided <4%",
-        "Promoter 42.5%, zero pledge"
+        "Demerged Oct 2025",
+        "JLR drives P&L swings",
+        "Net loss this quarter",
+        "Net debt up sharply",
+        "P/E ~1.3x (distorted)"
       ],
-      "last_close": 286.85,
-      "return_1y_pct": -27.11,
-      "dividend_yield_pct": 1.05,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-16T17:04:31+00:00",
+      "last_close": 287.4,
+      "return_1y_pct": -27.18,
+      "dividend_yield_pct": 1.04,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-16T22:33:18+00:00",
       "has_narrative": true
     },
     {
