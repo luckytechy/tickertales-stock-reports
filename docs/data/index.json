@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-16T22:33:18+00:00",
+  "updated_at": "2026-11-16T22:34:56+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -564,19 +564,19 @@
     {
       "ticker": "EICHERMOT",
       "slug": "eichermot",
-      "one_liner": "Eicher Motors makes premium motorcycles under the Royal Enfield brand and co-owns VECV, a commercial vehicle joint venture with Volvo.",
+      "one_liner": "Eicher Motors makes Royal Enfield motorcycles and, through its VE Commercial Vehicles joint venture with Volvo, medium and heavy commercial vehicles.",
       "tags": [
-        "P/E ~33-36x",
-        "Q1 FY27 PAT +21% YoY",
-        "Results due Oct 28, 2026",
-        "0% promoter pledge",
-        "Trails TVS peer over 5Y"
+        "P/E ~35x",
+        "Zero debt, net cash",
+        "Margin dipped to 23.7%",
+        "Promoter 49%, no pledge",
+        "Badly lags TVS over 5Y"
       ],
-      "last_close": 6959.5,
-      "return_1y_pct": 2.15,
-      "dividend_yield_pct": 1.18,
-      "data_as_of": "2026-10-23",
-      "generated_at": "2026-10-23T05:23:22+00:00",
+      "last_close": 7650.0,
+      "return_1y_pct": 12.77,
+      "dividend_yield_pct": 1.07,
+      "data_as_of": "2026-11-13",
+      "generated_at": "2026-11-16T22:34:55+00:00",
       "has_narrative": true
     },
     {
