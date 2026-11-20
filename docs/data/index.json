@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "count": 100,
-  "updated_at": "2026-11-18T07:55:12+00:00",
+  "updated_at": "2026-11-20T07:43:02+00:00",
   "reports": [
     {
       "ticker": "ABB",
@@ -258,19 +258,19 @@
     {
       "ticker": "BANKBARODA",
       "slug": "bankbaroda",
-      "one_liner": "Bank of Baroda is a government-owned (PSU) commercial bank that takes deposits and lends to retail, agriculture, MSME and corporate customers across India and roughly 17 other countries.",
+      "one_liner": "Bank of Baroda is a government-owned public sector bank, one of India's top three PSU banks by balance sheet size, serving retail, corporate and international banking customers.",
       "tags": [
-        "P/E ~6.5x",
-        "P/B ~0.73x",
-        "At 52-week low",
-        "Yield ~3.7%",
-        "$15bn lawsuit pending"
+        "P/E ~6-7x",
+        "P/B 0.83x",
+        "Govt stake 63.97%",
+        "GNPA 1.78% (improving)",
+        "Cyber breach Jul'26"
       ],
-      "last_close": 230.4,
-      "return_1y_pct": -10.63,
-      "dividend_yield_pct": 3.69,
-      "data_as_of": "2026-10-16",
-      "generated_at": "2026-10-17T11:15:26+00:00",
+      "last_close": 286.48,
+      "return_1y_pct": 2.6,
+      "dividend_yield_pct": 2.97,
+      "data_as_of": "2026-11-20",
+      "generated_at": "2026-11-20T07:43:02+00:00",
       "has_narrative": true
     },
     {
